@@ -1,0 +1,21 @@
+<view class="background_view">
+  <view class='wave'></view>
+  <view class='wave_1'></view>
+  <view class='wave_2'></view>
+</view>
+
+<view class='profile'>
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="profile-name"></open-data>
+</view>
+    
+<view class="background"></view>
+<view class="allButton">
+  <view bindtap="gotoWord" hover-class="view_hover" class="button">单词列表\nꁱꂷꅑꀜ</view>
+  <view bindtap="gotoDialogue" hover-class="view_hover" class="button">日常对话\nꂿꑍꅇꄜ</view>
+  <view bindtap="gotoArticle" hover-class="view_hover" class="button">经典选段\nꂓꅑꌋꊱ</view>
+  <view bindtap="gotoCalender" hover-class="view_hover" class="button">每日打卡\nꃅꑍꌬꈧ</view>
+  
+</view>

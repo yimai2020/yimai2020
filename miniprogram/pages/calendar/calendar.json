@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab",
+      "van-tabs": "@vant/weapp/tabs",
+      "van-panel": "@vant/weapp/panel",
+      "van-card": "@vant/weapp/card",
+      "van-row": "@vant/weapp/row",
+      "van-col": "@vant/weapp/col",
+      "van-button":"@vant/weapp/button"
+    
+  },
+  "navigationBarTitleText": "来报个到"
+}

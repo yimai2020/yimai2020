@@ -1,0 +1,6 @@
+<!--components/Array/Array.wxml-->
+<view class="Array">
+<text class="text">下一级</text>
+<image class="ArrayImage" src="../../images/xiangyoujiantou.png" />
+
+</view>

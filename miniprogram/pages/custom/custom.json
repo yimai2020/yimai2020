@@ -1,0 +1,16 @@
+{
+    "usingComponents": {
+        "van-tab": "@vant/weapp/tab",
+        "van-tabs": "@vant/weapp/tabs",
+        "van-button": "@vant/weapp/button",
+        "van-divider": "@vant/weapp/divider",
+        "van-panel": "@vant/weapp/panel",
+        "van-card": "@vant/weapp/card",
+        "van-row": "@vant/weapp/row",
+        "van-col": "@vant/weapp/col"
+
+    },
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "民风民俗"
+}

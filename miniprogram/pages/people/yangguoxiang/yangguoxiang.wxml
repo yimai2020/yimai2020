@@ -1,0 +1,31 @@
+
+<view class="page">
+    <view class="intro" style="height:550rpx">
+        <view class="intro_picture" style="width:50%;height:420rpx">
+            <image src="{{intro}}" style="width:100%;height:480rpx" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">杨国祥</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" >
+            生卒：1929年——
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:small" >
+            出生于云南省玉溪市红塔区洛河乡小六垄(现称“小活村”）
+            </text>
+            <text space="true" decode="true" style="font-size:small">
+            中国人民解放军 空军少将 
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：\n1948年春考入峨山地下党领导的峨山中学，1948年10月加入党的外围组织“云南民主青年同盟”，1949年12月加入中国共产党并任命为团部骡马队指导员，1950年3月玉溪军分区成立后仍担任骡马队指导员，1950年6月被保送航校学习，成为新中国资助培养的第一代空军飞行员；1971年12月30日中午，根据中央命令杨国祥投掷氢弹，飞机在12点20分起飞，氢弹在下午1点正应准时0，但是，这次氢弹投掷未成功，杨国祥以超常胆略和精湛的飞行技艺，冒险带弹顺利返回基地； 1972年1月7日北京时间15点正，杨国祥再次驾机投掷氢弹，这次，我国第一颗氢弹投掷0成功，举国欢腾，世界震惊！1975被任命为空五师副师长；1978年，对越自卫还击战中任代理师长，带部队开赴广西前线；1980年，-任命杨国祥为昆明军区空军副参谋长，主管作战和训练任务。现退休居住昆明。
+　　被称之为“彝族雄鹰”。</text>
+    </view>
+</view>

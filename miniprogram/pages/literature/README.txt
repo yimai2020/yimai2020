@@ -1,0 +1,5 @@
+ashima、axidexianji、huanxiaodejinshajiang、leeteyi、liecundehaizi、
+modaitusi、poxiaodeshanye、saibomo、taohundeguniang、zaolaidechuntian文件夹
+	每个文学作品的详情介绍界面的框架页面文件
+literature.js、literature.json、literature.less、literature.wxml、literature.wxss
+	文学介绍界面的框架页面文件

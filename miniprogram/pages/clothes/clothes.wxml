@@ -1,0 +1,196 @@
+<van-tabs animated swipeable>
+  <van-tab title="绚丽多彩的彝族服饰">
+  <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+    <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:420rpx;">
+      <swiper-item wx:for="{{background_1}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" class="swiper"></image>
+      </swiper-item>
+    </swiper>
+
+    <view class="view">
+      <text space="emsp">  彝族服饰种类繁多，色彩纷呈，是彝族传统文化和审美意识的具体体现。在漫长的历史发展过程中，生活在不同地区的彝族人民创造和形成了各自不同的服饰习俗。彝族服饰。不仅有性别、年龄、盛装、常装之别，还有婚服、丧服、祭司服、成服等各种专用服饰。彝族的服饰具有非常独特的民族风格，其形成与发展是彝民族在长期的社会实践中依据所处环境的自然条件，以及经济生产的便利程度和人们的审美心理、习俗文化所决定的。它既有历史传承性，又是随社会发展而不断演进变化的一种特质文化。\n  彝族的服饰具有地域差异性，川、黔、滇、桂四省匹不同方言区的彝族在服饰上不尽相同，即使同一方言区不同居住地的彝族，在服饰的质地、式样、穿着讲究等方面亦有所差异。过去，这种差异是区别彝族不同支系的标志之一。随着社会经济的发展，彝族人民在保留本民族传统服饰特征的基础上，吸收了其他民族的一些服饰因素，在服饰的质地、款式、民族特性等方面改进和创新，形成了当代彝族绚丽多姿的服饰文化。根据彝族现有服饰的地域传统、色彩、质地、式样、着装习惯、服饰工艺等，可将彝族服饰分为凉山型、乌蒙山型、红河型、滇东南型、滇西型、楚雄型等六种类型。</text>
+    </view>
+
+    <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:450rpx;">
+      <swiper-item wx:for="{{background_2}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" class="swiper"></image>
+      </swiper-item>
+    </swiper>
+
+    <text space="emsp"> \n \n</text>
+  </scroll-view>
+  </van-tab>
+  
+  <van-tab title="典型服饰">
+  <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+
+    <view class="title" style="top:30rpx;">凉山型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  主要流行于四川凉山彝族自治州和毗邻各县，以及云南省长江流域。这类服饰古朴、独特，较完整地保持了传统服饰的文化特征。男女老幼皆披擦尔瓦、披毡，裹绑腿，套毡袜。\n  其衣饰的传统衣料以自织自染的毛麻织品为主，喜用黑、红、黄等色，其工艺可用挑、绣、镶、滚等多种技法，火镰、羊角、蕨芨草等图案是其传统纹样。\n  这类服饰又分依诺、圣乍、所底三个样式。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ liangshan }}" wx:key="index">
+          <image mode="widthFix"  style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview"/>
+          <van-collapse value="{{ activeNames }}" bind:change="collapse">
+            <van-collapse-item title="        " name="1" >
+                  {{item.text}}
+            </van-collapse-item>
+          </van-collapse>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="依诺式" name="2">
+            流行于四川美姑、雷波、甘洛、马边、峨边等县和昭觉以及云南巧家、永美等县的部分地区，即操依诺土语，俗称大裤脚的彝族地区。
+        </van-collapse-item>
+        <van-collapse-item title="所底式" name="3">
+          主要流行于四川布拖、普格县及金阳、宁南、会理、会东、德昌、西昌、昭觉、盐源、米易等县和云南元谋、华坪等县的部分地区，即操所底土语，俗称小裤脚彝族地区。
+        </van-collapse-item>
+        <van-collapse-item title="圣乍式" name="4">
+          主要流行于越西、盐源、布拖、冕宁等地
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+
+    <van-divider />
+
+    <view class="title" style="top:30rpx;">乌蒙山型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  乌蒙山自古以来就是西南彝族文化的发祥地，过去山地彝族服饰与凉山服饰大同小异，明、清以来，服装款式发生了较大的变化，乌蒙型服饰过去多以毛、麻织品为主，现多用布料，色尚黑，多为青、蓝色。其基本款式为大襟右衽长衫、长裤。女服盘肩，领口、襟边、裙沿有花饰。\n  乌蒙型服饰分威宁式和盘龙式。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ wumengshan }}" wx:key="index">
+          <image mode="widthFix" style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview_1"/>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="威宁式" name="5">
+            主要流行于贵州毕节的八个县和六盘水市的六枝、水城和云南昭通的镇雄、彝良、威信，及四川叙永，古蔺等县。男女服饰，通常为青、蓝色大襟右衽长衫、长裤，缠黑色或白色头帕，多系白布腰带，着绣花高钉鹞子鞋。男子服装无花纹，出门常披羊毛披毡；妇女服装领口、袖口、襟国、下摆及裙脚均饰彩色花纹组合图案，汉语俗称反托肩大镶滚吊四柱，头缠青帕作人字形，并勒子、耳环、手镯，戒指等银饰，婚后则以耳坠取代耳环。系白色或绣花围腰，身后垂花飘带；
+        </van-collapse-item>
+        <van-collapse-item title="盘龙式" name="6">
+          主要流行于贵州盘县以南至广西隆林一带。本式男女服装款式多为青蓝色大襟右衽长衫，与威宁式大同小异。唯头帕多为白色。女装花饰较少，系黑色围腰，两条花飘带垂于身前。而隆林女装则为大襟右衽镶边短上衣，配黑色短围腰，下空深色长裤或四幅长裙，仅在衣衩、裙脚绣少许花纹，较威宁式女装更为素净淡雅。头缠青帕，戴耳环手镯，穿绣花鹰头鞋。
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+
+    <van-divider />
+
+    <view class="title" style="top:30rpx;">红河型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  主要流行于沿哀牢山流径滇南的红河水系区域。\n  红河型服饰为元阳式、建水式及石屏式。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ honghe }}" wx:key="index">
+          <image mode="widthFix" style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview_2"/>
+          <van-collapse value="{{ activeNames }}" bind:change="collapse">
+            <van-collapse-item title="        " name="7" >
+                  {{item.text}}
+            </van-collapse-item>
+          </van-collapse>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="元阳式" name="8">
+            元阳式主要流行于云南元阳、新平、红河、金平、绿春，江城、黑江等县山区。本式服饰以女装最具特色。主要特点是多以蓝、绿、红、黄等色布为料，配以银泡、银索等饰物，造成明艳富丽的装饰效果。
+        </van-collapse-item>
+        <van-collapse-item title="建水式" name="9">
+          主要流行于建水、石屏、新平、峨山、蒙自、个旧、开远、通海、江川、玉溪、易门、双柏、元江等县的半山区和坝区以及部分山区。是本型中穿着最为广泛的一个种。
+        </van-collapse-item>
+        <van-collapse-item title="石屏式" name="10">
+          主要流行于石屏、峨山、蒙自、开远、个旧、砚山、屏边、金平、元阳、红河等县的山区。
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+    <van-divider />
+
+    <view class="title" style="top:30rpx;">滇东型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  主要流行于滇东南彝区及广西那坡等地。\n  广西那坡、云南麻栗坡部分彝族还保留着贯头方袍的古老款式，这种服装仅在节日或举行仪式时妇女穿用。本型衣装多以白蓝、黑为底色，多饰动植物花纹和几何图案。工艺有刺绣、镶补、蜡染等多种技法。\n  分路南、弥勒、文西三式。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ diandong }}" wx:key="index">
+          <image mode="widthFix" style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview_3"/>
+          <van-collapse value="{{ activeNames }}" bind:change="collapse">
+            <van-collapse-item title="        " name="11" >
+                  {{item.text}}
+            </van-collapse-item>
+          </van-collapse>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="路南式" name="12">
+            主要流行于云南省路南、弥勒、丘北、昆明等地区。男装多以布为料，传统的火草、麻布衣民间亦有穿用。款式为对襟上衣，外套坎肩，下着宽裆裤。女装以前短后长的右襟衣、中长裤、系腰裙、饰背披为主要款式，服装色调多为白、浅蓝等色。弥勒女青年则喜穿用黑白两色大面积镶拼而成的上衣。妇女头饰有地区差别，昆明市郊女青年戴鸡冠帽，弥勒女青年则以双辫缠头并包黑巾，路南、圭山妇女的头饰布箍则为本式服装的突出典型。布箍的色调及装饰因年龄、地区而有差异，路南年老妇女用黑、红二色的箍围，青年妇女则用多色。姑娘的布箍在双耳部位立有一对三角绣花布片，脑后吊一束串珠垂向胸前。传说这种布箍头饰是仿天上的彩虹制作的，用以纪念一位投火殉情的姑娘。足饰多为尖鼻绣花鞋；佩饰有铃纹挂包、麻线挂包、挑花挎包、挑花腰带等。
+        </van-collapse-item>
+        <van-collapse-item title="弥勒式" name="13">
+          主要流行于云南省弥勒、毕宁、宜良、沪西、文山、砚山、丘北等地区。女装突出，其基本款式是上为右襟或对襟衣，下为长裤，挂遮胸式围腰，系腰带。其色调、装饰及头饰均有较大的地区差别。
+        </van-collapse-item>
+        <van-collapse-item title="文西式" name="14">
+          主要流行于云南省的文山、西畴、麻栗坡、富宁及广西的那坡等地。文山式服装的显著特点是在服饰上保留了较浓厚的传统色彩，古老的贯头衣仍在沿用。服饰工艺以蜡染、镶补为主，麻要坡的蜡染纹样以圆圈圆点为主，风格细腻；富宁和那坡的蜡染，以大块的几何纹为主，粗犷大方。
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+    <van-divider />
+
+    <view class="title" style="top:30rpx;">滇西型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  滇西是古代南诏发详地，也是彝族重要聚居区之一。\n  近200年来，滇西大理一带的彝族服饰发生了很大变化。滇西服饰分巍山式和景东式两种。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ dianxi }}" wx:key="index">
+          <image mode="widthFix" style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview_4"/>
+          <van-collapse value="{{ activeNames }}" bind:change="collapse">
+            <van-collapse-item title="        " name="15" >
+                  {{item.text}}
+            </van-collapse-item>
+          </van-collapse>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="巍山式" name="16">
+            主要流行于巍山、弥渡、南涧等县以及大理市的部分地区。妇女多着前短后长的圆领大襟衣，外套深色坎肩，系围腰。
+        </van-collapse-item>
+        <van-collapse-item title="景东式" name="17">
+          主要流行于思茅的景东、景谷，楚雄的南华及临沧，保山的部分地区。
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+    <van-divider />
+
+    <view class="title" style="top:30rpx;">楚雄型</view>
+    <van-divider />
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" >  楚雄地处滇池与洱海之间，东接乌蒙，北依金沙、南临哀牢，是古代各部彝族辗转迁徙之地，为彝语几大方言的交汇地带，故服饰也纷繁多姿。\n  楚雄型服饰分龙川江、大姚、武定三个样式。</text></view>
+      <van-grid column-num="2" border="{{ false }}" gutter="{{ 10 }}"  >
+        <van-grid-item use-slot wx:for="{{ chuxiong }}" wx:key="index">
+          <image mode="widthFix" style='width: 90%; height: 330rpx;'  src="{{item.image}}" bindtap="preview_5"/>
+          <van-collapse value="{{ activeNames }}" bind:change="collapse">
+            <van-collapse-item title="        " name="18" >
+                  {{item.text}}
+            </van-collapse-item>
+          </van-collapse>
+        </van-grid-item>
+      </van-grid>
+
+      <van-collapse value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+        <van-collapse-item title="龙川江式" name="19">
+            主要流行于楚雄州境内龙川江两岩的牟定、楚雄、南华及双柏等县、市。女装上衣较短，多为浅色；外套黑色坎肩，下着长裤，佩胸围腰。围腰绣饰各种花卉或几何图案，是全身的主要饰点。妇女大都以青巾缠头，形如圆盘状。各地头饰又小有差异，或挽髻于脑后，绕青帕，饰银簪、银链于髻上；或在头帕上装点数朵五彩绒花；或戴缀满银花、银泡的头箍等。着绣花鞋。男子服装基本款式为短衣长裤，上衣有少许绣饰。传统的着装有羊毛披毡、大襟短衣、绣花兜肚等，仍不同程度地保留在部分中老年之中。古老的羊皮褂、色彩鲜艳的绣花凉鞋，则为青年所喜爱。
+        </van-collapse-item>
+        <van-collapse-item title="大姚式" name="20">
+          主要流行于楚雄州西北部 的大姚、姚安、永仁等县。女装款式不一，既有大襟衣、长裤，又有对襟衣、中长裙。大姚昙华、三台等地的女装色彩艳丽，上衣多用红、蓝色绸缎，喜镶黑、黄、红等色花边。同时系三层花围腰，头罩彩穗绣花帕。中、老年妇女，盛装时亦穿花衣；常装则多为青衣，且喜披羊皮褂。姑娘戴银耳坠。
+        </van-collapse-item>
+        <van-collapse-item title="武定式" name="21">
+          主要流行于楚雄州东部的武定、禄丰、永江、元谋、双相以及市的禄劝、富民，曲靖的导甸等县。女装基本款式为右大襟式、长裤，系围腰；女青年盛装，绣花颇多，上衣环肩多装饰一排彩须或银穗。裤脚有近60厘米宽的花饰段，其中以精致的挑药人形纹图案最富特色。各地女装绣饰风格各异，而姑娘们的各种绣花帽则成为各地女装的重要标志。如武定等县的鹦嘴帽，禄丰等县的蝴蝶帽，元谋等县的樱花帽等。
+        </van-collapse-item>
+      </van-collapse>
+    </view>
+    <van-divider />
+    
+  </scroll-view>
+  </van-tab>
+
+</van-tabs>
+

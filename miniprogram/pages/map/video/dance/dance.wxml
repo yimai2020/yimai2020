@@ -1,0 +1,31 @@
+<!--pages/map/video/dance/dance.wxml-->
+<view class="top" bindtap="navigateToWenzi">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/caozuoshouce.png?sign=62915dc8f72e40f5eae5092b99f563ae&t=1592732531"
+  mode='widthFix'  
+  style="width: 50rpx;align-self:center;margin-left:30rpx;"
+  ></image>
+  <view style="align-self:center;font-size:30rpx;margin-left:20rpx;">查看文字介绍</view>
+</view>
+
+<view wx:for="{{videoList}}" wx:key="index" style="background-color: #fff;margin-bottom: 20rpx;">
+  <video
+    display:block
+    id="{{item._id}}"
+    src="{{item.url}}"
+    binderror="videoErrorCallback"
+    bindplay="bindPlay"
+    bindtimeupdate="bindTime"
+    danmu-list="{{danmuList}}"
+    show-center-play-btn='{{false}}'
+    show-play-btn="{{true}}"
+    controls
+    title="{{item.title}}"
+    style="width:100%;"
+    data-item="{{item}}"
+  ></video>
+  <view class="column">
+    <view class="title">{{item.title}}</view>
+    <view class="laiyuan">来源：{{item.laiyuan}}</view>
+  </view>
+</view>

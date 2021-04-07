@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "SearchInput": "../../components/SearchInput/SearchInput",
+    "Left": "../../components/Array/Left",
+    "Right": "../../components/Array/Right"
+  },
+  "navigationBarTitleText": "节日"
+  
+}

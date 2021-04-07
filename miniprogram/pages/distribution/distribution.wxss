@@ -1,0 +1,49 @@
+.swiper{
+  width: 710rpx;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}
+
+.view{
+  width:650rpx;
+  margin: 10rpx auto;
+  color: white;
+  background: #bde6b8;
+  line-height: 50rpx;
+  font-size: 35rpx;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  font-weight: 700;
+}
+
+.oneline{
+  display: flex;
+  height:190rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+}
+
+.line{
+  margin: 0 auto;
+  width: 1rpx;
+  height: 150rpx;
+  background-color: #D8D8D8;
+  align-self: center;
+} 
+
+.left{
+  flex:1;
+  align-self: center;
+  display: flex;
+}
+
+.right{
+  flex:1;
+  align-self: center;
+  display: flex;
+}
+
+button::after {
+  border: none
+}

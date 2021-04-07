@@ -1,0 +1,32 @@
+
+<view class="page">
+    <view class="intro" style="height:550rpx">
+        <view class="intro_picture" style="width:50%;height:420rpx">
+            <image src="{{intro}}" style="width:100%;height:480rpx" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">龙云</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" >
+            生卒：1884年—1962年  
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:small" >
+            彝名纳吉岬岬，字志舟，原名登云，彝族，云南恩安（今云南昭通）人 
+            </text>
+            <text space="true" decode="true" style="font-size:small">
+            抗日爱国将领，云南省政府主席
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：\n1914年，龙云毕业于云南陆军讲武学堂第四期步兵科。任云南都督唐继尧侍从副官。1922年被唐委为第五军军长。1927年发动政变，逼唐下台，独掌云南军政大权，至1945年，共主政云南18年之久。  
+1949年8月13日，龙云在香港发表《我们对现阶段中国革命的认识与主张》的声明，正式宣布起义，拥护中国共产党的领导，历任中央人民政府委员，国防委员会副主席等职。1962年在6月27日，因急性心肌梗塞在北京去世。  
+龙云主政云南期间，保持了云南相对稳定的局势，在军事、经济、文化、教育等方面进行了一些整顿和改革，对东南亚各国采取开放政策，收到一定成效，云南实力增强，被称为“云南王 ”。</text>
+    </view>
+</view>

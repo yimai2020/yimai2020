@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-divider": "@vant/weapp/divider",
+    "SearchInput": "../../components/SearchInput/SearchInput",
+    "van-cell": "@vant/weapp/cell"
+  }
+}

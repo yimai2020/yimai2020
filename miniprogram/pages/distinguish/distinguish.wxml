@@ -1,0 +1,19 @@
+<view class="introduction" >
+  <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:900rpx;">
+    <swiper-item wx:for="{{background_1}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix" class="swiper1"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distinguish/paizhao.png?sign=fa164da3aa135764bedb0c2048f321e9&t=1603277422"
+  bindtap="pic"
+  class="paizhao"
+  mode='widthFix'  
+  style="width: 110rpx;"
+  hover-class="button-hover"
+  animation="{{animationMiddleHeaderItem}}"
+></image>
+
+<view class="tip">拍一拍了解更多彝族物件</view>

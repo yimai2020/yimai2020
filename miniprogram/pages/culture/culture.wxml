@@ -1,0 +1,43 @@
+<SearchInput></SearchInput>
+<view bindtap="gotoHistory" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/history-button.jpg?sign=d4824d26c82bc43eb8a8dd53b2446596&t=1581744334);">
+  <text class="content">历史\nꐩꋊ</text>
+</view>
+<view bindtap="gotoLanguage_introduction" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/button-yiwen.jpg?sign=c8001365ae2d66e02f9a16654d13d3a5&t=1589337135);">
+  <text class="content">文字\nꁱꂷ</text>
+</view>
+<view bindtap="gotoDiet" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-food.jpg?sign=07daec79642916bd1aa159a42b1b9d0e&t=1582445315);">
+  <text class="content">饮食\nꋚꒉ</text>
+</view>
+<view  bindtap="gotoMusic" class="button" hover-class="button-hover" style="  background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/u%3D5699381%2C58709578%26fm%3D26%26gp%3D0.jpg?sign=88856d2624ee0ead55b98d634d3a050b&t=1611799878);">
+  <text class="content">歌曲\nꑵꉙ</text>
+</view>
+<view bindtap="gotoDance" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/wudao.jpg?sign=63669b622e2950ab7ddb10eb63f75080&t=1611638695)">
+  <text class="content">舞蹈\nꀛꐂ</text>
+</view>
+<view bindtap="gotoDistribution" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/distribution-button.jpg?sign=95535c76d97497c89c1f1d8abfdc6f60&t=1581744392);">
+  <text class="content">分布\nꋦꁍ</text>
+</view>
+<view bindtap="gotoClothes" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/clothes-button.jpg?sign=a7c93e7023e07eb065a6100247175633&t=1582445300);">
+  <text class="content">服饰\nꃢꈜ</text>
+</view>
+<view bindtap="gotoArchitecture" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-building.jpg?sign=0d8f60d63fd56c81ee9aeb3dda280f0d&t=1582448254);">
+  <text class="content">建筑\nꑳꇤ </text>
+</view>
+<view bindtap="gotoCustom" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-custom.jpg?sign=7c96be4591415ea484c1526d3f6bc235&t=1582445362);">
+  <text class="content">民俗\nꇍꆗ</text>
+</view>
+<view bindtap="gotoFestivals" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-festival.jpg?sign=712fa86c5ddb9b1c5b3968e9b984d61c&t=1582448239);">
+  <text class="content">节日\nꋩꑍ</text>
+</view>
+
+<view bindtap="gotoLiterature" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-literary.jpg?sign=8928866477b57dedea579563bf08beda&t=1582448227);">
+  <text class="content">文学\nꁰꁱ</text>
+</view>
+<view bindtap="gotoPeople" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/button-person.jpg?sign=e345fe0a465885a814485686cb1aa2d7&t=1589336977);">
+  <text class="content">人物\nꊿ</text>
+</view>
+  
+<van-divider contentPosition="center" animation="{{slide_up11}}" bindtap="navigateshengmin" hover-class="button-hover" style="position: relative;top:400rpx">版权声明</van-divider>
+
+
+  

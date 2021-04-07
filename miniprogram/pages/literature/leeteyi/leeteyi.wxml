@@ -1,0 +1,37 @@
+
+<view class="page">
+    <view class="intro" style="height:550rpx">
+        <view class="intro_picture" style="width:50%;height:420rpx">
+            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">勒俄特依</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" >
+            作者：群众
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:small" >    
+            副标题: 无
+               
+            出版年: 无
+            </text>
+            <text space="true" decode="true" style="font-size:small">
+            类别：创世史诗
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：
+       《勒俄特依》是彝族创世史诗。流传于四川省凉山彝族自治州境内。“勒俄特依”系彝语音译﹐意为“传说历史书”。作品异文很多﹐长短不一﹐除口头流传外﹐民间还有不少彝族手抄本。各种异文可大致分为详本与略本两类﹐详本习称《勒俄阿补
+       勒俄特依》包括“开天辟地”﹑“创造生物”﹑“支格阿龙系谱”﹑“射日月”﹑“洪水潮天”﹑“选住地”等十几个部分。它曲折形像地反映了彝族先民对大自然及其变化规律的探索和认识。史诗前一部分塑造了天神恩特古滋和支格阿龙等艺术形像﹐描述了他们在创造天地万物中的神奇功绩﹐想象奇特。后一部分幻想成分较少﹐更接近于现实生活﹐记叙了彝族先民进入凉山的迁徙路线和家支间的争讼。有的手抄本直接纳入家族谱系﹐对研究彝族社会历史有一定参考价值。</text>
+        
+    </view>
+</view>
+
+

@@ -1,0 +1,61 @@
+.background{
+  position: absolute;
+  z-index: -10;
+}
+
+.lishi{
+  position: absolute;
+  width: 250rpx;
+  top:10%;
+  left:300rpx;
+  display: flex;
+}
+
+.wenxue{
+  position: absolute;
+  width: 250rpx;
+  top:40%;
+  left:200rpx;
+  display: flex;
+}
+
+.renwu{
+  position: absolute;
+  width: 250rpx;
+  top:65%;
+  left:150rpx;
+  display: flex;
+}
+
+.flag{
+  flex: 2;
+  height: 45rpx;
+  border: 2px solid #fff;
+  border-radius: 25rpx;
+  background-color: rgba(0, 0, 0, 0.397);
+  color: white;
+  text-align: center;
+  line-height: 45rpx;
+  align-self: center;
+}
+
+.point{
+  flex: 1;
+  display: flex;
+}
+
+.line{
+  flex: 3;
+  position: relative;
+  z-index: -5;
+}
+
+.up{
+  position:absolute;
+  left: 20rpx;
+  width: 400rpx;
+  bottom: 30rpx;
+  display: flex;
+  color: white;
+  font-size: 40rpx;
+} 

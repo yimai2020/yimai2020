@@ -1,0 +1,25 @@
+<!--pages/dance/dance.wxml-->
+    <view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" > 彝族舞蹈有五种类型，分为打歌、跳弦、罗作、跳三弦、披毡舞。前四类舞蹈源于彝族古代生活，第五类模仿鹰、熊的舞蹈，与彝族古代的多神和图腾崇拜有关。这类动物模拟舞蹈，动作优美，在长期的历史进程中，逐步从祭祀仪式中分离出来，并不断添加着各个时代的审美意识，使之成为专供人们欣赏的表演舞蹈。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">打歌</view>
+        <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/1.jpg?sign=9e34c8e281bdabfef32a0a5f3400cb6b&t=1611893373'   class="swiper"></image>
+      <view class="content1"><text space="emsp" > 打歌包括“打跳”、“跳脚”等圆圈舞，流行于云南省西部与四川省凉山交界地区、云南省西南部的彝族和相邻的其他少数民族之中。每当节日和喜庆之时，人们挽手围圈，载歌载舞或随乐而舞，舞蹈始终以下肢动作为主。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">跳弦</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/2.jpg?sign=2cf43a8575f23f3a64a7f0d5e1695ad7&t=1611893662'  mode="widthFix" class="swiper"></image>
+      <view class="content1"><text space="emsp" >跳弦因舞者双手持“烟盒”边敲边舞，故也被称为《烟盒舞》。流行于云南省中部和南部红河等地彝族支系居住地区。舞蹈分为“正弦”和“杂弦”两类。“正弦”融双人自娱性舞蹈与表演性舞蹈为一体，而“杂弦”则是在“正弦”的基础上进一步发展而来的，是一种表现人物、具有故事情节的歌舞小品。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">罗作</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/3.jpg?sign=99c209f48a3b852ea83abb24f06577a7&t=1611893792'  mode="widthFix" class="swiper"></image>
+      <view class="content1"><text space="emsp" >罗作也称“罗索”，是流行于云南省红河南岸彝族支系尼苏人中的另一种圆圈舞。曲调欢愉跳跃，节奏鲜明而强烈，伴之以快速摆手、错步、踏脚等舞蹈动作，特别受到青年们的喜爱</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">跳三弦</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/4.jpg?sign=1c8fe66b0534b745fe756bd81bd4da39&t=1611893894'   class="swiper"></image>
+      <view class="content1"><text space="emsp" >跳三弦也称大三弦、跳月，是云南省中部地区彝族支系阿细人、撒尼人喜爱的自娱性舞蹈。在大、中、小三弦和高、中、低不同音色的竹笛伴奏下的《跳三弦》，是“火把节”不可缺少的舞蹈。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">披毡舞</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/5.jpg?sign=d212e53a31e4012cc6f038245725ad7a&t=1611894096'  class="swiper"></image>
+      <view class="content1"><text space="emsp" >披毡舞是四川省凉山地区彝族所特有的舞蹈形式。舞者以披毡为道具，通过双臂的伸展、收拢、摆动与身体旋转，来模仿鹰、熊的姿态。该舞现已成为彝族的代表性表演舞蹈。</text></view>
+    </view>
+      

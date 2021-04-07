@@ -1,0 +1,200 @@
+.view_hover {
+    position: absolute;
+    top: 3rpx;
+    left: 3rpx;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1) inset;
+  }
+  .map {
+    width: 100%;
+  }
+  .map .pic {
+    height: 100%;
+    width: 100%;
+  }
+  .map .point1_1 {
+    position: absolute;
+    top: 700rpx;
+    left: 500rpx;
+  }
+  .map .point1_3 {
+    position: absolute;
+    top: 900rpx;
+    left: 300rpx;
+  }
+  .map .point1_2 {
+    position: absolute;
+    top: 500rpx;
+    left: 300rpx;
+    transform: rotateY(180deg);
+  }
+  .map .point1_4 {
+    position: absolute;
+    top: 700rpx;
+    left: 300rpx;
+    
+  }
+  .map .content1_1 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 35rpx;
+    font-weight: bolder;
+    top: 700rpx;
+    left: 620rpx;
+  }
+  .map .content1_3 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 28rpx;
+    font-weight: bolder;
+    top: 900rpx;
+    left: 400rpx;
+  }
+  .map .content1_2 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 35rpx;
+    font-weight: bolder;
+    top: 500rpx;
+    left: 150rpx;
+  }
+  .map .content1_4 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 28rpx;
+    font-weight: bolder;
+    top: 700rpx;
+    left: 395rpx;
+    
+  }
+  .map .point2_1 {
+    position: absolute;
+    top: 520rpx;
+    left: 300rpx;
+  }
+  .map .content2_1 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 35rpx;
+    font-weight: bolder;
+    top: 520rpx;
+    left: 420rpx;
+  }
+  .map .point2_2 {
+    position: absolute;
+    top: 1020rpx;
+    left: 690rpx;
+    transform: rotateY(180deg);
+  }
+  .map .content2_2 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 35rpx;
+    font-weight: bolder;
+    top: 1020rpx;
+    left: 520rpx;
+  }
+  .map .point3_1 {
+    position: absolute;
+    top: 1020rpx;
+    left: 300rpx;
+  }
+  .map .content3_1 {
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 35rpx;
+    font-weight: bolder;
+    top: 1020rpx;
+    left: 420rpx;
+  }
+  
+
+  .literature{
+    position: absolute;
+    width: 250rpx;
+    top:300rpx;
+    left:180rpx;
+    display: flex; 
+  }
+  .body{
+    width: 100%;
+  }
+  .clothes{
+    position: absolute;
+    width: 250rpx;
+    top:650rpx;
+    left:180rpx;
+    display: flex;
+  }
+  .diet{
+    position: absolute;
+    width: 250rpx;
+    top:750rpx;
+    left:350rpx;
+    display: flex;
+  }
+  .distribution{
+    position: absolute;
+    width: 250rpx;
+    top:980rpx;
+    left:500rpx;
+    display: flex;
+  }
+  .music{
+    position: absolute;
+    width: 250rpx;
+    top:600rpx;
+    left:200rpx;
+    display: flex;
+  }
+  .flag{
+    flex: 2;
+    height: 45rpx;
+    border: 2px solid #fff;
+    border-radius: 25rpx;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+  }
+  
+  .point{
+    flex: 1;
+    display: flex;
+  }
+  
+  .shining{
+    -webkit-animation:twinkling 2.1s infinite ease-in-out;
+    animation:twinkling 2.1s infinite ease-in-out;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+  }
+  .line{
+    flex: 3;
+    position: relative;
+    z-index: -5;
+  }
+  .up{
+    position:absolute;
+    left: 20rpx;
+    width: 400rpx;
+    bottom: 30rpx;
+    display: flex;
+    color: white;
+    font-size: 40rpx;
+  }
+  @keyframes twinkling {
+    0% {
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    -webkit-transform:scale(1);
+  }
+  50% {
+    opacity:1;
+    filter:alpha(opacity=50);
+    -webkit-transform:scale(1.12);
+  }
+  100% {
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    -webkit-transform:scale(1);
+  }
+  }

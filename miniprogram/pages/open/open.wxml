@@ -1,0 +1,45 @@
+<scroll-view scroll-y="true" style="width: 100%; height: 100%">
+    <view bindtouchend="touchEnd" bindtouchstart="touchStart" class="container">
+        <view class="one {{ view[0].in }} {{ view[0].out }}" style="width: 100%; height: 100%;z-index:10;">
+            <!--image class="one-one {{ one_one }}" src="{{p_12_j}}" ></image-->
+            <view class="head"  >
+    <!-- <van-image width="100%" height="100%" fit="fill" src="../../assets/images/icon-getcoupons.png" /> -->
+    <image src="{{p_12_j}}" style="height:100%;width:100%;" />
+    <text  class="head-text" bindtap="Gotoculture">跳过</text>
+  </view>
+
+            <image class="one-two {{ one_two }}" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/ymxc.png?sign=4c899f4045c1b99265d1182ef3cd7b66&t=1589514084" mode="widthFix" style="width:300rpx;"></image>
+            <image class="one-five {{ one_five }}" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/right.png?sign=12ab550c54ff0b1f7d53860b3d566550&t=1589380580" mode="widthFix" style="width:200rpx;"></image>
+        </view>
+        <view class="two {{ view[1].in }} {{ view[1].out }}" style="width: 100%; height: 100%"  bindtap="Gotomap" hover-class="view_hover">
+            <view class="box">
+                
+                 <view class="two-one {{ two_one }}" >
+                    <view class="gotomap" bindtap="Gotoculture" hover-class="view_hover">
+                        <image class="gotomap_p" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/yizuwenhua.png?sign=5e8c023a1397779b27f78aff0e3a4f0e&t=1613890886" mode="widthFix" style="width:300rpx;" />
+                    </view>
+                </view>
+                <view class="two-two {{ two_two }}" >
+                    <view class="gotofont" bindtap="Gotodistinguish" hover-class="view_hover">
+                        <image class="gotofont_p" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/wujianshibie.png?sign=aaa430e8fe4234af958d7446b28a7a60&t=1613890916" mode="widthFix" style="width:300rpx;" />
+                    </view>
+                </view>
+                <view class="two-three {{ two_two }}" >
+                        <view class="gotostudy" bindtap="Gotostudy" hover-class="view_hover">
+                            <image class="gotostudy_p" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/yiyuxuexi.png?sign=e1c5dd177667fbf9bef47ff41f031b04&t=1613891049" mode="widthFix"  style="width:300rpx;" />
+                        </view>
+                </view>
+            </view>
+        </view>
+        
+        <image class="bottom-top {{ bottom_top }}" src="{{p_5}}" style="z-index:3;"></image>
+        <image class="bottom-one {{ bottom_one }}" src="{{p_1}}" style="z-index:3;"></image>
+        <image class="bottom-one2 {{ bottom_one }}" src="{{p_1}}" style="z-index:3;"></image>
+        <image class="bottom-two {{ bottom_two }}" src="{{p_11}}" style="z-index:3;"></image>
+        <image class="bottom-two2 {{ bottom_two }}" src="{{p_11}}" style="z-index:3;"></image>
+        <image class="bottom-three {{ bottom_three }}" src="{{p_12}}" style="z-index:3;"></image>
+        <image class="bottom-three2 {{ bottom_three }}" src="{{p_12}}" style="z-index:3;"></image>
+        <image class="bottom-four {{ bottom_four }}" src="{{p_10}}" style="z-index:3;"></image>
+        <image class="bottom-four2 {{ bottom_four }}" src="{{p_10}}" style="z-index:3;"></image>
+    </view>
+</scroll-view>

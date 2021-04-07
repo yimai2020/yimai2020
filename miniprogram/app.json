@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/open/open",
+    "pages/culture/culture",
+    "pages/history/history",
+    "pages/map/map",
+    "pages/language/language",
+    "pages/distribution/distribution",
+    "pages/distribution/population/population",
+    "pages/clothes/clothes",
+    "pages/festivals/festivals",
+    "pages/people/people",
+    "pages/literature/literature",
+    "pages/music/music",
+    "pages/dance/dance",
+    "pages/search/search",
+    "pages/festivals/saizhuangjie/saizhuangjie",
+    "pages/festivals/jishanjie/jishanjie",
+    "pages/festivals/jilongjie/jilongjie",
+    "pages/festivals/chahuajie/chahuajie",
+    "pages/festivals/bunianjie/bunianjie",
+    "pages/festivals/hulinjie/hulinjie",
+    "pages/festivals/tiaogongjie/tiaogongjie",
+    "pages/festivals/huobajie/huobajie",
+    "pages/festivals/yizunian/yizunian",
+    "pages/diet/diet",
+    "pages/architecture/architecture",
+    "pages/custom/custom",
+    "pages/language/word/word",
+    "pages/language/article/article",
+    "pages/language/dialogue/dialogue",
+    "pages/language/word/detailPage_word/detailPage_word",
+    "pages/distribution/Zhixi/Zhixi",
+    "pages/map/bookshelf/bookshelf",
+    "pages/language_introduction/language_introduction",
+    "pages/map/indoor/indoor",
+    "pages/map/life/life",
+    "pages/map/alife/alife",
+    "pages/calendar/calendar",
+    "pages/shengmin/shengmin",
+    "pages/map/video/literature/literature_video",
+    "pages/map/video/custom/custom",
+    "pages/map/video/diet/diet",
+    "pages/map/video/distribution/distribution",
+    "pages/map/video/festivals/festivals",
+    "pages/map/video/people/people",
+    "pages/map/video/clothes/clothes",
+    "pages/map/video/architecture/architecture",
+    "pages/map/video/history/history",
+    "pages/map/video/language/language",
+    "pages/distinguish/distinguish",
+    "pages/distinguish/result/result"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "彝脉相传",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/culture/culture",
+        "iconPath": "images/culture.png",
+        "selectedIconPath": "images/culture-active.png",
+        "text": "彝族文化"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/jiejing.png",
+        "selectedIconPath": "images/jiejing-active.png",
+        "text": "街景"
+      },
+      {
+        "pagePath": "pages/distinguish/distinguish",
+        "iconPath": "images/faxian.png",
+        "selectedIconPath": "images/faxian-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/language/language",
+        "iconPath": "images/language.png",
+        "selectedIconPath": "images/language-active.png",
+        "text": "彝语学习"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

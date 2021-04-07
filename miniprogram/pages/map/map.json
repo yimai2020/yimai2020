@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "Left": "../../components/Array/Left",
+    "Right": "../../components/Array/Right",
+    "ShiningPoint":"../../components/ShiningPoint/ShiningPoint"
+    
+  },
+  "navigationStyle": "custom"
+}

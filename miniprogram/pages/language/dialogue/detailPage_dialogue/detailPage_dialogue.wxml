@@ -1,0 +1,28 @@
+<view  class="letter_collection" >
+  <view class="letter_audio">
+    <view class="letter">{{sentence}}</view>
+    <image wx:if='{{!onplay}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/guangbo.png?sign=8eb9c9e1be77cd9e095b229c1a5e1a9a&t=1584865651" bindtap="playAudio" class="audio" mode='widthFix'></image>
+    <image wx:if='{{onplay}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/guangbo_play.png?sign=b54fd68fd229c88b66b104c975f48010&t=1584865670" bindtap="playAudio" class="audio" mode='widthFix'></image>
+  </view>
+  <view class="collection">
+    <image catchtap='collectionIcon' wx:if='{{!isCollected}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/uncollected.png?sign=2b61e41ae0b739296585deaaeb25f2b2&t=1583640849"  mode='widthFix'  style="width: 100%;"></image>
+    <image catchtap='collectionIcon' wx:if='{{isCollected}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/collected.png?sign=1d7d35b697518ec283e196ab9b5e5444&t=1583640875"  mode='widthFix'  style="width: 100%;"></image>
+  </view>
+</view>
+
+<view style="margin-left:30rpx;margin-bottom:20rpx;margin-top:20rpx">{{explain}}</view>
+<view style="margin-left:30rpx;margin-bottom:20rpx;">/{{pronunciation}}/</view>
+<van-divider />
+
+<view style="margin:20rpx auto 30rpx 30rpx;font-weight:700;font-size:40rpx">句子结构及说明：</view>
+<view class="structure" style="margin-bottom:30rpx">
+<text class="title" style="font-weight:700">结构：</text>
+<text class="strucure">{{structure}}</text>
+</view>
+<view class="structure">
+<text class="title" style="font-weight:700">说明：</text>
+<text class="strucure">{{illustration}}</text>
+</view>
+<image src="{{image}}" mode='widthFix' style="width:300rpx; margin:20rpx;"></image>
+<van-divider />
+<button class='knew' catchtap='knewButtom' wx:if='{{!isKnew}}'>已认识</button>

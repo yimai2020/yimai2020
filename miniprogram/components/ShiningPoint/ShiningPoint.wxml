@@ -1,0 +1,6 @@
+<view class="ShiningPoint">
+<image class="Point" src="../../images/zhuyi.png" />
+<image class="Line" src="../../images/zhixian.png" />
+<image class="Content" src="../../images/tuoyuankuang.png" />
+  
+</view>

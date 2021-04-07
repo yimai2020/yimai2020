@@ -1,0 +1,376 @@
+<view class="swiper-tab">
+  <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+  历史沿革</view>
+  <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+  称谓溯源</view>
+  <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">
+  彝族大事记</view>
+</view>
+
+<swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+      <view class="history-background"></view>
+      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+        <text space="emsp" >  彝族历史悠久，其沿袭及变革几乎贯穿了整个中国的历史。\n  彝族历史沿革总共有七个时期。\n  分别为先秦时期、秦汉时期、魏晋时期、唐时期、宋时期、元明清时期、民国时期。</text>
+      </view>
+
+      <view class="history-background">
+        <image class="line" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/history-line.png?sign=f2d0565fc3d63a59f79d8118003cfa03&t=1582421858"></image>
+        <view style="flex-direction:column">
+          <view  class="title" style="top:20rpx;">
+            <text class="title-content-xianqin">先秦时期的彝族</text>
+          </view>
+          <view  class="title" style="top:1800rpx;">
+            <text class="title-content-xianqin">秦汉时期的彝族</text>
+          </view>
+          <view  class="title" style="top:3850rpx;">
+            <text class="title-content-xianqin">魏晋时期的彝族</text>
+          </view>
+          <view  class="title" style="top:5440rpx;">
+            <text class="title-content-xianqin">唐时期的彝族</text>
+          </view>
+          <view  class="title" style="top:6480rpx;">
+            <text class="title-content-xianqin">宋时期的彝族</text>
+          </view>
+          <view  class="title" style="top:7950rpx;">
+            <text class="title-content-xianqin">元明清时期的彝族</text>
+          </view>
+          <view  class="title" style="top:8950rpx;">
+            <text class="title-content-xianqin">民国时期的彝族</text>
+          </view>
+        </view>
+      </view>  
+  
+      <view class="detail" >
+        <view class="left">
+          <view class="left_content" style="margin-bottom:230rpx;">
+            <text style="font-weight: 700;" >大约公元前13世纪</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-bc13.jpg?sign=ab17e5f7150c96c15aa641e58769a0c8&t=1582422307"></image>
+            <text space="emsp">\n  在今天澜沧江两岸的景东彝族自治县、云县及怒江沿岸一带，居住着一个主要从事游牧生活的土著部落。</text>
+          </view>
+
+          <view class="left_content" style="top:650rpx;margin-bottom:330rpx;">
+            <text style="font-weight: 700;">春秋时期</text>
+            <image mode='widthFix' style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-chunqiu.jpg?sign=9ec618ed1b7c6cf5bba30d68145f4ece&t=1582422322"></image>
+            <text space="emsp">\n  彝族出现了更为强大的部落联盟政权——<text style="font-weight: 700;" >古蜀国</text>。古蜀国国主名为杜幕（或称杜宇、仲牟由、隆幕等），他兴修水利、发展手工业，促进了蜀地的经济发展，除此以外，他还举行了非常有名的六祖分支大典。彝族的部落分支即由此开始，在分支过程中，彝族的文化不断吸收着各地的本土文化，使其文化内涵越发丰富起来。\n</text>
+          </view>
+
+          <view class="left_content" style="top:1800rpx;margin-bottom:200rpx; ">
+            <text style="font-weight: 700;" >西汉时期</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-xihan.jpg?sign=0ef20e16fbd0a245b95804d0cb2c67a6&t=1582422351"></image>
+            <text space="emsp">\n  中国西南地区出现了数十个大大小小的地方民族政权，其中最为强大、疆域最广阔的就是<text style="font-weight: 700;" >夜郎国</text>。夜郎国最早见于司马迁的《史记·西南夷列传》。当时的夜郎国地处今云南、贵州交接地区，势力范围以毕节地区为中心，北连昭通、四川，西北达云南曲靖、宣威、会泽一带。作为当时部落王国中最强盛的一个，夜郎国是彝族文化兴盛发达的象征。\n</text>
+          </view>
+
+          <view class="left_content" style="top:3000rpx;width:660rpx;">
+            <text style="font-weight: 700;" >东汉时期</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-donghan.jpg?sign=dc3f8b667db2916eb1c52a942318ba5e&t=1582422362"></image>
+            <text space="emsp">\n  彝族先民昆明人的后裔在今云南保山、大理一带的地方建立了<text style="font-weight: 700;" >哀牢王国</text>。这一时期，彝族人民的人口扩张很快，经济文化进一步发展，其存在时间一直持续到唐代南诏时期。\n</text>
+          </view>
+
+          <view class="left_content" style="top:3990rpx;width:660rpx;boder:1px solid #fff;border-radius: 10rpx; ">
+            <text space="emsp">  魏晋以来，彝族分布区域不断扩大，史书称这一时期包括云南、川南、黔西、桂西等广大彝族居住地区为南中。西汉推行的屯田制使戍守在南中地区的孟、霍、雍、爨（cuan 第四声）等汉族大势力日益强大，这些地方大姓的发展加速了彝族社会的经济发展，也从不同方面影响了彝族的文化生活，从而促进了“夷汉”之间的交融。\n</text>
+          </view>
+
+          <view class="left_content" style="top:4400rpx;">
+            <text style="font-weight: 700;" >公元271年</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-dc271.jpg?sign=c4e178b1de412568ac5793c11ea583a0&t=1582422384"></image>
+            <text space="emsp">\n  晋武帝把南中七郡中的云南、兴古、建宇、永昌四郡划出设立永州，这一举措使南中大姓、夷帅与晋中央政权的矛盾激化，南中地区继而出现了各方势力割据的现象。\n</text>
+          </view>
+
+          <view class="left_content" style="top:5595rpx;width:660rpx;">
+            <text space="emsp">  出现了中国西南地区出现了有名的<text style="font-weight: 700;" >南诏国</text>。南诏政权与唐王朝关系密切，历史253年，共传13王，为云南社会经济的发展作出了重要贡献。\n</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-tang.jpg?sign=17817f0486b06a118244ee6dc450bf71&t=1582422401"></image>
+            <text space="emsp">\n  南诏最早称为蒙舍诏，是分布在云南哀牢山北部和洱海地区的乌蛮6大部落之一，其建立者名为蒙舍龙，是彝族的先民乌蛮蒙氏后裔。蒙舍诏发祥于南诏，兴起于太和（今大理古城区域），在历史上，这是彝族政权最为鼎盛的时期。\n</text>
+          </view>
+
+          <view class="left_content" style="top:6630rpx;">
+            <text style="font-weight: 700;" >902年</text>
+            <text space="emsp">\n南诏灭亡。\n</text>
+          </view>
+
+          <view class="left_content" style="top:7000rpx;">
+            <text style="font-weight: 700;" >1100年</text>
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-1100.jpg?sign=7e9b08c809669c715b91e42e79bc1e38&t=1582422416"></image>
+            <text space="emsp">\n  大理国政混乱，社会动荡，乌蛮三十七部中的彝族“些摩徒”部势力迅速发展壮大，建立了自杞国。自杞国位于滇东富庶之地，坝区农业和山区畜牧业十分发达，为滇东地区的经济发展作出了很大贡献，是彝族建立的最后一个王国，延续160年历史，于1260年被蒙古所灭。\n</text>
+          </view>
+
+          <view class="left_content" style="top:8200rpx;width:660rpx;">
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-ymq.jpg?sign=da2b274761c2b1736874c49a5b2e3946&t=1582422433"></image>
+            <text space="emsp">  自杞国灭亡后，彝族再也没有建立起统一的王国。在元明清三代，中央政府一直用土司制度对彝族聚集地区进行管辖。明末清初，云南各地彝区开始了声势浩大的“改土归流”，废除了土司制度，转而由中央派遣流官进行管理。流官的暴政激起了彝族人民的反抗，遭到血腥镇压后彝族人民纷纷迁移至乌蒙地区，也就是现今的云南昭通。\n</text>
+          </view>
+
+          <view class="left_content" style="top:9300rpx;width:660rpx;">
+            <image mode='widthFix'  style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/untitled.png?sign=c58921ae3c08c5ec109e2ef085569a95&t=1590226472"></image>
+            <text space="emsp">  新中国成立之后，一系列惠民政策让彝族人民的生活引来了曙光，彝族人民的生活也逐渐好了起来。\n</text>
+          </view>
+
+          
+        </view>
+
+        <view class="fix">
+          <image class="tri_left"  style="top:40rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:40rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="point" style="top:300rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="tri_right"  style="top:300rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_right.png?sign=63baf6943d211eca24d5df02a3b61653&t=1582422565"></image>
+
+          <image class="tri_left"  style="top:700rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:700rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="tri_left"  style="top:1820rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:1820rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="point" style="top:2100rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="tri_right"  style="top:2100rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_right.png?sign=63baf6943d211eca24d5df02a3b61653&t=1582422565"></image>
+
+          <image class="point" style="top:2950rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="point"  style="top:2990rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_top.png?sign=54e1465bb23dc4170a16a06a5593938c&t=1582424343"></image>
+
+          <image class="tri_left"  style="top:4450rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:4450rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="point" style="top:4700rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="tri_right"  style="top:4700rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_right.png?sign=63baf6943d211eca24d5df02a3b61653&t=1582422565"></image>
+
+          <image class="point" style="top:5540rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="point"  style="top:5580rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_top.png?sign=54e1465bb23dc4170a16a06a5593938c&t=1582424343"></image>
+
+          <image class="tri_left"  style="top:6640rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:6640rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="point" style="top:6800rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="tri_right"  style="top:6800rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_right.png?sign=63baf6943d211eca24d5df02a3b61653&t=1582422565"></image>
+
+          <image class="tri_left"  style="top:7020rpx;"  mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_left.png?sign=80a2db6ca1d8145f7855580152fd3576&t=1582422494"></image>
+          <image class="point" style="top:7020rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+
+          <image class="point" style="top:8160rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="point"  style="top:8189rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_top.png?sign=54e1465bb23dc4170a16a06a5593938c&t=1582424343"></image>
+
+          <image class="point" style="top:9260rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+          <image class="point"  style="top:9289rpx;"  mode='widthFix' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_tri_top.png?sign=54e1465bb23dc4170a16a06a5593938c&t=1582424343"></image>
+
+          <image class="point" style="top:10060rpx;" mode='widthFix'  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/fix_point.png?sign=b1897b2da7f39c54c1722877ed77a0ac&t=1582424146"></image>
+        </view>
+    
+        <view class="right" >
+          <view class="right_content" style="margin-bottom:780rpx;">
+            <text style="font-weight: 700;">约公元前12世纪</text>
+            <text space="emsp">\n  这个土著部落中的一部分进入洱海地区，与洱海地区的土著部落融合，并以洱海为中心，建立了西南历史上第一个部落政权——<text class="title-bc13" style="font-weight: 700;" >古莽国</text>。\n</text>
+            <image mode='widthFix' style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-bc12.jpg?sign=8153f3087d7279677d8ce65c3b800150&t=1582422775"></image>
+            <text space="emsp">\n 古莽国是彝族在先秦时期存在的有效力证，研究成果标明古莽部落与昆明部落有直接的渊源关系，昆明部落是彝族人早期的聚集部落，而古莽国的确认，将彝族的族源提前至了商朝，彝族的文化脉络也从此开始。</text>
+          </view>
+
+          <view class="right_content" style="margin-bottom:1680rpx;">
+            <text style="font-weight: 700;">夜郎国之后</text>
+            <image mode='widthFix' style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-dian.jpg?sign=d923c1edc7f333f33267bf7eac3a2fe2&t=1582422795"></image>
+            <text space="emsp">\n  在云南昆明滇池沿岸也出现了一个强大的地方民族政权——<text class="title-bc13" style="font-weight: 700;" >古滇国</text>作为又一个以彝族为主体建立的王国。古滇王国创造了璀璨辉煌的青铜文明。1956年，在云南昆明晋宁石寨山古墓群中出土了大批古滇国青铜文物，随同出土的还有汉武帝赐赠的“滇王之印”。\n</text>
+          </view>
+
+          <view class="right_content" style="margin-bottom:1630rpx;">
+            <text style="font-weight: 700;">公元339年</text>
+            <image mode='widthFix' style="width: 100%;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-timeline/history-399.jpg?sign=43a9ccce5ca8cbd5944c2023bfb247bc&t=1582422809"></image>
+            <text space="emsp">\n爨(cuàn)氏一统南中，开始其长达400年的统治。爨氏不断加强与南中地区彝族等土著民族的通婚，并自觉接受他们的文化风俗，最终被完全同化。彝族文化在与爨文化交融后，其生命力和内涵也进一步得到了补充和充实。\n</text>
+          </view>
+
+          <view class="right_content" >
+            <text style="font-weight: 700;">937年</text>
+            <text space="emsp">\n通海节度使段思平在以彝族为主体的乌蛮三十七部支持下建立了大理政权。大理国建立后，分封了彝族贵族为大小封建领主，彝族大小领主受封后，负责对大理国王纳贡、征发本领地内的兵役和劳役。\n</text>
+          </view>
+        </view>
+
+      </view>
+      <view class="sketch" style="top:3370rpx;width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;" >
+           <text space="emsp" >  经历了千年跌宕沉浮，彝族人民及其文化没有消失在历史长河中，反而历久弥金。\n  彝族作为中国的第六大少数民族，其悠久的历史和极具特色的文化是中华文化的无形瑰宝，希望所有中华儿女能够珍惜这一文化瑰宝。</text>
+      </view>
+      <text>  \n \n \n</text>
+    </scroll-view>
+  </swiper-item>
+  
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+    <view class="history-background" ></view>
+    <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+      <text space="emsp">  彝族历史悠久，早在先秦时期就有过记载。\n  彝族的称谓在历史上经历了不同的演变，不同时期各有不同。</text>
+    </view>
+    <view class="history-background" style="height:500rpx;"></view>
+
+    <view  class="title" style="position:relative;top:30rpx;left:200rpx;">
+      <text class="title-content-xianqin">秦汉时期</text>
+    </view>
+    <view class="name-qinhan" >
+      <view style="width:700rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=d9aff25c3e8a2b2b48cf89d0cd94a35e&t=1582422877" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-180rpx;margin-left:60rpx;"><text>司马迁《史记·西南彝传》记载，在秦汉时期，中国西南地区所分布的数十个部落统称“西南夷”。</text></view>
+      </view>
+      <view wx:for="{{name_qinhan}}" wx:key="index" class="card-qinhan" style="background-image: url({{item.background}});"> 
+        <image mode='widthFix' style="width: 100%;" src="{{item.img}}" class="name-image"></image>
+        <text class="name-detail" >{{item.detail}}</text>
+      </view>
+      <view style="width:700rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=d9aff25c3e8a2b2b48cf89d0cd94a35e&t=1582422877" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
+        <view class="sketch-content" style="width:550rpx;top:-160rpx;"><text>以上的这几个称谓昆明、巂、叟、僰组成了秦汉时期彝族的统称。</text></view>
+      </view>
+    </view>
+    
+    <view  class="title" style="left:200rpx;">
+      <text class="title-content-xianqin">魏晋时期</text>
+    </view>
+    <view class="name-qinhan" style="top:50rpx;">
+      <view class="card-weijin" style="background-image: url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-background/name-cuan.jpg?sign=8c8db87096208e3016e4e6101a1e07e9&t=1582423307);"> 
+        <image mode='widthFix' style="width: 250rpx;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-word/history-cuan.png?sign=9789b2ec632896a9772e9951967ada1e&t=1582423647" class="name-image"></image>
+        <text space="emsp" class="name-detail" >  魏晋南北朝时期称西南夷地区为南中。南中区域与秦汉时期西南夷分布区基本一致，经过长期的地方区域权利争夺，爨(cuàn)氏称雄南中，取得了在南中的统治地位。爨氏通知的核心区域在今滇东北的曲靖、昭通一带，势力范围遍及云、贵、川三省的腹心地带和广西部分区域，这些地区正是彝族先民叟人和昆明人的主要聚集区。\n  爨文化中的农垦文明及畜牧文明富有强烈的民族性与区域文化特征，两汉时期彝族先民叟人和昆明人移居至南中，不断与当地的土著族群通婚，接受土著族群的民族文化和生活习俗，最终被当地彝人土著所同化。至此，彝人正式成为了爨人，这一时期的彝文、彝字也称之为爨文、爨字。</text>
+      </view>
+    </view>
+
+    <view  class="title" style="left:200rpx;">
+      <text class="title-content-xianqin">唐宋时期</text>
+    </view>
+    <view class="name-qinhan" style="margin-bottom:200rpx;top:50rpx;">
+      <view class="card-qinhan" style="background-image: url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-background/name-wu.jpg?sign=b63d7a32e633ae8fc44f7cd260e4d934&t=1582423327);"> 
+        <image mode='widthFix' style="width: 200rpx;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-word/history-wuman.png?sign=d7708d0941e07b13ea4bc1770072706d&t=1582423659" class="name-image"></image>
+        <text space="emsp" class="name-detail" >  隋唐时代，爨族区域进一步扩大，朝廷将将爨族区域划分成为了东爨和西爨。分布在这一区域内的人们被称为“乌蛮”和“白蛮”，包涵了这个区域内的所有民族，相应的，彝族的称谓又产生了变化。</text>
+      </view>
+    </view>
+    
+    <view  class="title" style="left:200rpx;">
+      <text class="title-content-xianqin">元代时期</text>
+    </view>
+    <view class="name-qinhan" style="margin-bottom:200rpx;top:50rpx;">
+      <view class="card-weijin" style="background-image: url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-background/name-luoluo.jpg?sign=1c18c5c69ae97d6ab6fbc7859c1bb720&t=1582423348);"> 
+        <image mode='widthFix' style="width: 200rpx;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-word/history-luo.png?sign=d745b01121e37ff3db90c1aeabd184ee&t=1582423671" class="name-image"></image>
+        <text space="emsp" class="name-detail" >  “罗罗”一词源于唐代《蛮书》中记载的卢鹿蛮部落。元王朝统一中国后，迅速在彝族卢鹿蛮部落分布的地区建立统治政权，并设立罗罗宣慰使司等。\n  此后，“罗罗”一词的使用越来越广泛，不仅称罗罗地区的彝族为“罗罗”，还把东西两爨地区的彝族都统称为“罗罗”。在罗罗的总称下，还出现了白罗罗、黑罗罗、撒弥罗罗、阿者罗罗、鲁屋罗罗、罗鹜、摩查都等若干彝族称谓。此称谓从元代起，一直延续到了新中国成立前。</text>
+      </view>
+    </view>
+
+    <view  class="title" style="left:200rpx;">
+      <text class="title-content-xianqin">新中国成立后</text>
+    </view>
+    <view class="name-qinhan" style="margin-bottom:200rpx;top:50rpx;">
+      <view class="card-weijin" style="background-image: url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-background/name-yizu.jpg?sign=39ae7c9dd43e79413c2b65141a17e308&t=1582423364);"> 
+        <image mode='widthFix' style="width: 200rpx;" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/history-name/name-word/history-yizu.jpg?sign=7b4da681155bb121aee8f99d3ae4b864&t=1582423684" class="name-image"></image>
+        <text space="emsp" class="name-detail" >  新中国成立前，各地各民族、各类书籍对彝族的称呼和记载五花八门，甚至有的称呼还带有民族歧视。今天彝族的统称，是新中国成立后毛主席亲自确定的。\n1956年，各地彝族人士聚集北京共商民族社会经济发展大计，在谈到旧时“夷族”称谓时，大家都认为不妥，毛主席提议将“夷”字改为“彝”，这一提议得到了赞同，由此彝族从原来的“夷”更改为“彝”，这一称谓也延续至今。</text>
+      </view>
+    </view>
+    </scroll-view>
+  </swiper-item>
+  
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+    <view class="history-background" ></view>
+      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+        <text  space="emsp">  彝族在长期形成与发展中，民族的发展始终与我国中原历史密切相关，古滇、南诏、彝海结盟，解放后彝族自治区和自治县的成立，都是我国少数民族文化发展历史的重要事件</text>
+      </view>
+
+      <view class="history-background" style="height:14600rpx;">
+        <image class="line" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/history-line.png?sign=f2d0565fc3d63a59f79d8118003cfa03&t=1582421858" style="top:50rpx;height:14130rpx;"></image>
+      </view>
+      <view  class="title" style="top:30rpx;left:200rpx; margin-bottom:70rpx;">
+          <text class="title-content-xianqin">远古―公元前8世纪</text>
+      </view>
+      <view style="width:700rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-150rpx;margin-left:150rpx;"><text>彝族起源"哎哺"(原始)时代\n(哎哺是彝族最古老的部落)</text></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_1}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+
+      <view  class="title" style="left:150rpx;width:450rpx;margin-bottom:70rpx;">
+        <text class="title-content-xianqin" style="width:450rpx;">公元前8世纪―公元220年</text>
+      </view>
+      <view style="width:700rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-190rpx;margin-left:150rpx;"><text>'西南夷'时代\n(六祖:武、乍、糯、恒、布、黔\n分为六大部落并四面迁徙)</text></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_2}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+
+      <view  class="title" style="left:150rpx;width:450rpx;margin-bottom:70rpx;">
+        <text class="title-content-xianqin" style="width:450rpx;">公元220年―589年</text>
+      </view>
+      <view style="width:500rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-130rpx;margin-left:180rpx;"><text>夷帅的兴起与诸葛亮南征</text></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_3}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+
+      <view  class="title" style="left:150rpx;width:450rpx;margin-bottom:70rpx;">
+        <text class="title-content-xianqin" style="width:450rpx;">公元738年―902年</text>
+      </view>
+      <view style="width:500rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-120rpx;margin-left:250rpx;"><text>南诏帝国时代</text></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_4}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+      
+      <view  class="title" style="left:150rpx;width:450rpx;margin-bottom:70rpx;">
+        <text class="title-content-xianqin" style="width:450rpx;">公元902年―1958年</text>
+      </view>
+      <view style="width:500rpx;height:300rpx;">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
+        <view class="sketch-content" style="width:600rpx;top:-120rpx;margin-left:250rpx;"><text>彝族土司时代</text></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_5}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+
+      <view class="big-detail" wx:for="{{big_detail_6}}" wx:key="index">
+        <view class="big-detail-left"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.left}}</view></view>
+        <view class="big-detail-middle" >
+          <view  wx:for="{{item.middle}}" wx:key="index" style="width:250rpx;margin-bottom:200rpx;">
+            <image src="{{item.img}}" mode='widthFix' style="width:100%;"></image>
+            <text space="emsp" style="top:-50rpx;position:relative;"> {{item.year}}</text>
+          </view>
+        </view>
+        <view class="big-detail-right" style="margin-top:300rpx;"><view style="border-radius: 20rpx;background: #fff;padding:20rpx;">{{item.right}}</view></view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+</swiper>

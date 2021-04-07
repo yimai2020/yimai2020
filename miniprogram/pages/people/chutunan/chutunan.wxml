@@ -1,0 +1,32 @@
+
+<view class="page">
+    <view class="intro" style="height:550rpx">
+        <view class="intro_picture" style="width:50%;height:420rpx">
+            <image src="{{intro}}" style="width:100%;height:480rpx" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">楚图南</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" >
+            生卒：1899年-1994年
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:small" >
+            原名楚方鹏，曾用啊囊、高素、高寒为笔名，云南文山人
+            </text>
+            <text space="true" decode="true" style="font-size:small">
+            老一辈中国共产党人，革命家、文学家、学者、社会活动家
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：\n　　新中国建立后，楚图南先后任西南军政委员会文教委员，文教部部长，中央人民政府扫除文盲委员会主任，中国人民对外文化协会会长，对外文化联络委员会副主任，民盟第一、二届中央常委，第三、四届中央副主席，第五届中央代主席、名誉主席，第六届全国人大常委副委员长，第一至四届全国人大代表，第五届人大常委，第一届全国政协委员，第二至五届全国政协常委。
+　　楚图南对云南大学有着深厚的感情，他的心始终牵挂着云大。1955年在他担任对外文化交流工作期间，利用出访欧洲的机会，联系了建国前夕到法国定居的前云南大学校长熊庆来，经多方面的努力，1957年终于促成了熊庆来校长回国，满足了老校长思念家乡，报效祖国的愿望。他多次为云南大学题词，“云大附中”校牌、东陆园“云南大学革命烈士纪念碑”都留下了他的真迹。
+　　楚图南是一位坚定的共产主义者，同时也是一位严谨治学并颇有成就的文学家、学者。他自1924年开始从事文学创作和翻译工作以来，先后出版小说《没有仇恨和虚伪的国度》，散文《悲剧及其他》、《刁斗集》、《荷戈集》、《枫叶集》等著作，翻译了美国惠特曼诗选《草叶集选》、俄国诗人涅克拉索夫的诗选《在俄罗斯谁能快乐而幸福》等</text>
+    </view>
+</view>

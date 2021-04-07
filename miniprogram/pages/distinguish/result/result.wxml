@@ -1,0 +1,9 @@
+<view class="card">
+  <image 
+    src="{{pic}}"
+    mode='widthFix'  
+    style="width: 600rpx;align-self:center;margin-top:70rpx;border-radius: 20rpx;"
+  ></image>
+  <view class="name">{{keyword}}</view>
+  <view class="introduction">{{description}}</view>
+</view>

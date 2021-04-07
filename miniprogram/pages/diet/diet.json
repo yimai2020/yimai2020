@@ -1,0 +1,12 @@
+{
+    "usingComponents": {
+      "van-button": "@vant/weapp/button",
+      "van-tab": "@vant/weapp/tab",
+      "van-tabs": "@vant/weapp/tabs",
+      "van-panel": "@vant/weapp/panel",
+      "van-card": "@vant/weapp/card"
+    },
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "饮食文化"
+}

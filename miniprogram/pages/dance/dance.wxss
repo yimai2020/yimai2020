@@ -1,0 +1,35 @@
+.title{
+  width: 300rpx;
+  border-radius: 10rpx;
+  background: #993333;
+  font-weight: 700;
+  color: white;
+  font-size: 35rpx;
+  line-height: 45rpx;
+  margin: 30rpx auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  width: 650rpx;
+  margin: 10rpx auto;
+  background: #663300;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  color:white;
+}
+
+.content1{
+  width: 650rpx;
+  margin: 10rpx auto;
+  background:#996633;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  color:white;
+}
+.swiper{
+  width: 710rpx;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}

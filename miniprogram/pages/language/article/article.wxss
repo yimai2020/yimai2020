@@ -1,0 +1,29 @@
+/* miniprogram/pages/language/article/article.wxss */
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid rgba(119, 119, 119, 0.089);
+  background: #fff;
+}
+
+.swiper-item {
+  overflow: scroll;
+}
+
+.tab-item {
+  width: 25%;
+  text-align: center;
+  font-size: 29rpx;
+  color: #777;
+}
+
+.on {
+  color: #0a0a0a;
+  font-size: 30rpx;
+  border-bottom: 4rpx solid #f11629;
+}
+
+.swiper {
+  height: 1100px;
+}

@@ -1,0 +1,15 @@
+<view class="search_row">
+  <input value="{{inpValue}}" placeholder="来搜点东西吧" bindinput="handleInput"> </input>
+  <button bindtap="handleCancel" hidden="{{!isFocus}}">取消</button>
+</view>
+<view class="search_content" >
+  <navigator class="search_item" wx:for="{{goods}}" wx:key="_id" data-item="{{item}}"  url="{{item.detail}}" hover-class="view_hover" >
+   <text class="name" selectable="false" space="false" decode="false">
+      {{item.name}}
+    </text>
+    <text class="class" selectable="false" space="false" decode="false">
+      类别：{{item.class}}
+    </text>
+  </navigator>
+</view> 
+

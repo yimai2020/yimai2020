@@ -1,0 +1,48 @@
+<view class="oneline">
+  <view class="left" bindtap="gotoPopulation">
+    <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distribution/ditu.png?sign=8d5ddc69002af5dc5c495d4256f63667&t=1587180250" mode="widthFix" style="width:90rpx;margin-left:50rpx;margin-right:15rpx;"></image>
+    <text style="align-self:center;font-size:35rpx;">人口分布</text>
+  </view>
+  <view class='line'></view>
+  <view class="right" bindtap="gotoZhixi">
+    <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distribution/zhixi.png?sign=787f5a69607281ae6f1b544a8323c317&t=1587184239" mode="widthFix" style="width:85rpx;margin-left:50rpx;margin-right:15rpx;"></image>
+    <text style="align-self:center;font-size:35rpx;">支系分布</text>
+  </view>
+</view>
+
+    <view class="view">
+      <text space="emsp">  彝族主要分布在云南、四川、贵州三省及广西壮族自治区西北部，总体上呈大分散小聚居的地理分布格局，其中云南彝族占彝族总人口的60％以上。另外，在越南、老挝、泰国、柬埔寨、缅甸等国家也有近3万多彝族。其中，越南有1万多彝族。</text>
+    </view>
+
+    <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:400rpx;">
+      <swiper-item wx:for="{{scorll_1}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" class="swiper"></image>
+      </swiper-item>
+    </swiper>
+
+    <view class="view">
+      <text space="emsp">  彝族分布的西南地区是云贵高原和青藏高原东南部边缘的山岳所在地。这里群峰叠翠，江河纵横，气候类型多样，山川坝子相间、河谷纵深交错，海子星罗棋布，资源丰富厚足。有巍峨的大雪山、大凉山、乌蒙山、哀牢山、无量山等山脉；有汹涌奔腾的大渡河、鸭绿江以及安宁河、元江、澜沧江、南盘江等河流；有风景如画的邱海、泸沽湖、滇池、草海、马湖等高原湖泊；还有昆明、曲靖、宜良、蒙自、玉溪及凉山十坝等山间盆地和河谷平原。山区和半山区及部分河谷平原和山间盆地是彝族生活的主要地区。</text>
+    </view>
+
+    <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:400rpx;">
+      <swiper-item wx:for="{{scorll_2}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" class="swiper"></image>
+      </swiper-item>
+    </swiper>
+
+    <view class="view">
+      <text space="emsp">  由于山川相间，峡谷纵深，这里的地形和自然条件极为复杂。大多数地区在1000公尺到2500公尺不等，属山区或半山区，如哀牢山、无量山一带；一小部分地区属于丘陵和河谷，如金沙江、红河及其支流的谷地。还有少数地方海拔在3000公尺左右，系高寒山区，大、小凉山的腹地和滇东、黔西北等地区。不同的地区的气温与雨量悬殊很大。高寒山区气候凉爽，山区和半山区气候温和，雨量适中；一些河谷气候炎热、潮湿，属于亚热带气候，这些都为农、林、牧业的发展提供了得天独厚的自然条件。与多彩的地形地貌相适应，广大彝区的动物、植物、水力、鱼类和矿藏资源都十分丰富。</text>
+    </view>
+
+    <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:450rpx;">
+      <swiper-item wx:for="{{scorll_3}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" class="swiper"></image>
+      </swiper-item>
+    </swiper>
+
+    <view class="view">
+      <text space="emsp">  云南楚雄地区金沙江中游林区、云南红河地区与贵州毕节、威宁一带是我国西南地区著名的绿色钢材基地。四川大小凉山的大面积亚热带常绿阔叶林、亚热带针叶林、亚热带高山针叶林及亚热带经济林木等辽阔的原始林和再生林区栖息着虎、豹、熊、猩猩、野牛、野马、猞猁、羚羊等各种珍禽异兽，还有大熊猫、金丝猴等稀有珍贵动物，汹涌奔腾的大渡河、金沙江及安宁河、元江、澜沧江和南盘江等河流蕴藏着极其丰富的水力资源。彝区盛产铁、煤、铜、锡等矿产，四川攀枝花的铁矿、个旧的锡矿、东川的铜矿在国内同类矿产中占有重要的位置。彝区不仅物产丰饶，而且还是脊椎动物和古猿人的一个重要发祥地。如在云南楚雄自治州所处的金沙江流域发现的腊玛古猿化古和元谋人化石已闻名中外，彝族地区独特的民族风情和自然景观为主的旅游资源丰富而独特，路南石林奇观，一年一度的彝族火把节与色彩亮丽的彝族木制器皿等民间工艺吸引了无数的游客。红河烟草、武定壮鸡、宣威火腿、建水汽锅鸡等是远近闻名的彝区特产。</text>
+    </view>
+    <text space="emsp"> \n \n</text>
+
+  

@@ -1,0 +1,43 @@
+
+<view class="page">
+    <view class="intro">
+        <view class="intro_picture" style="width:50%;height:90%">
+            <image src="{{intro}}" style="width:100%;height:100%" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">祭龙节</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:28rpx">
+            时间： \n二月初三、三月初三、六月初六   
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:28rpx">
+            习俗:杀猪&nbsp;宰鸡&nbsp;宰牛 &nbsp;祭祀 
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:28rpx">
+            节日分布：广泛分布 
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：\n这一天热情的彝族姑娘小伙身着色彩斑斓的民族服装，跳起、唱起欢快的彝族歌舞为现场的观众献上一场精彩纷呈的演出。男女老少跳跳唱唱，有的跳烟盒箅，有的打响竿。还要推选一位当年的抱龙人(即祭龙主持人)。抱龙人必须是选身体健康。为人正直，娃娃成行的人担任，抱龙人确定后，就由抱龙人找几个小伙子砍一些刺棵，把进入龙树区的道路堵塞，祭龙之前禁止人畜通行。</text>
+        <view class="story-detail">    </view>
+    </view>
+    <view class="picture">
+        <text class="picture-title">康康照片:</text>
+        <scroll-view scroll-left="0" scroll-x class="scroll">
+            <block wx:for="{{picList}}" wx:key="fileID">
+                <view class="picture-detail">
+                    <image src="{{item.tempFileURL}}" />
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>

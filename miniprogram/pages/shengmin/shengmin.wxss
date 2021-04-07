@@ -1,0 +1,8 @@
+
+
+.text{
+  position: absolute;
+  top:300rpx;
+  margin: 20rpx;
+  color: #000;
+}

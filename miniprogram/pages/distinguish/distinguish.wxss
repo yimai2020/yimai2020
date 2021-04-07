@@ -1,0 +1,51 @@
+page{
+  background-color: #ffffff;
+}
+
+.introduction{
+  border: 1px solid #cfceceb4;
+  margin: 30rpx;
+  margin-top: 70rpx;
+  border-radius: 10rpx;
+}
+
+.swiper1{
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.paizhao{
+  align-self:center;
+  margin-top:90rpx;
+  border-radius: 70rpx;
+  box-shadow: 0 8rpx 12rpx 4rpx #666;
+  -webkit-animation:twinkling 3.1s infinite ease-in-out;
+	animation:twinkling 3.1s infinite ease-in-out;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+
+@keyframes twinkling {
+  0% {
+  opacity:0.8;
+  filter:alpha(opacity=20);
+  -webkit-transform:scale(1);
+}
+50% {
+  opacity:1;
+  filter:alpha(opacity=50);
+  -webkit-transform:scale(1.12);
+}
+100% {
+  opacity:0.8;
+  filter:alpha(opacity=20);
+  -webkit-transform:scale(1);
+}
+}
+
+.tip{
+  align-self: center;
+  font-size: 25rpx;
+  margin: 30rpx;
+  color: #8a8787;
+}

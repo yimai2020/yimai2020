@@ -1,0 +1,133 @@
+<!--pages/architecture/architecture.wxml-->
+<view class="container">
+  <view class="card_wrap">
+   <view bindtouchend="slidethis" animation="{{id === 0 ? animationData : ''}}" class="card_item card{{ id + 1 }}" wx:for="{{ cardInfoList }}" wx:for-index="id" wx:for-item="item" wx:key="key" >
+      <view>
+        <view size="lager" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-1-4-1.jpg?sign=a8e171c7f12da9b12fb77b6e34f66d6c&t=1583032915);color: #000;line-height: 100rpx;font-size:60rpx;letter-spacing:25rpx; width:100%;" class="item6;">特色建筑</view>
+       <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src="{{ item.cardImages1 }}" style="width:100%;"mode="widthFix;"></image>
+    </swiper-item>
+  </swiper>
+        <van-row>
+        <van-col offset="6" span="18" style="background:#dbce8f;"class="box"> 
+        <view  class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;padding:10rpx;" wx:for="{{item.cardInfo.cardInfoMes }}"  wx:key="unique2" wx:for-index="idx" wx:for-item="cradMes"  >
+          {{ cradMes }}
+        </view>
+        </van-col>
+        </van-row>
+        <!--image src='../../images/bg1.PNG' style="height:200rpx;"></image-->
+        <view class="item1" wx:for="{{item.cardInfo.cardTitle }}"  wx:key="unique2" wx:for-index="idx" wx:for-item="cradMes">{{item.cardInfo.cardTitle}}</view>
+      </view>
+      <view class="continue1" >点击继续</view>
+      <view animation="{{animationMiddleHeaderItem}}" class="continue2">>></view>
+     
+      <!--image src="{{ item.cardUrl }}"></image-->
+    </view>
+    
+  </view>
+</view>
+
+
+
+<!--view size="lager" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-1-1.jpg?sign=a8e171c7f12da9b12fb77b6e34f66d6c&t=1583032915);color: #fff;line-height: 150rpx;font-size: 60rpx;letter-spacing:25rpx;" class="item6;" >民居里的价值取向</view> 
+
+<view class="box1" style="margin:0rpx;border-radius:25rpx;color:#fff">
+彝族受汉儒文化影响不深，封建社会"家天下"、"大一统"的政治观念淡薄，村落居住往往表现为血缘观念、亲族感情。对于一个彝族男子来说，衡量他成家立业的标准，主要看他是否建盖了像样的住房。
+民居建筑十分注重内部安排，无不尊从某种"图案"和"秩序"--天、地、人的秩序。正房堂屋靠墙处是天地祖宗牌位，供桌上陈设敬天地奉祖宗的香炉、虎、狮等图腾雕像；正中摆八仙桌，用于接人待客；左侧是长年不熄的火塘，它是彝族家庭兴衰的标志,也是家庭成员围坐议事的中心。</view>
+<view size="lager" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-1-2.jpg?sign=a8e171c7f12da9b12fb77b6e34f66d6c&t=1583032915);color: #fff;line-height: 150rpx;font-size: 60rpx;letter-spacing:25rpx;" class="item6">民居里的宗教信仰</view>
+<view class="box1" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+彝族人民建房过程中的宗教色彩十分浓厚，建房过程就是一个宗教活动过程，要请风水先生查看房基、定坐向后，方可动工。破土日、入山伐木等须选择吉日，还要请毕摩祭祀土地神、山神。上梁更是建房过程中的重要日子，房主要请毕摩主持祭祀土地神、木神等，用公鸡为横梁点冠，祭中柱，预备糖果、馒头等物从梁上撒给人群。横梁架好，整栋房子就有了"灵气"。新房落成，要请毕摩供放祖灵，开财门，送冷堂神，打灶祭灶神，要请亲朋好友以示庆贺。</view>
+<view size="lager" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-1-3.jpg?sign=a8e171c7f12da9b12fb77b6e34f66d6c&t=1583032915);color: #fff;line-height: 150rpx;font-size:60rpx;letter-spacing:25rpx;" class="item6">民居里的风俗习惯</view>
+<view class="box1" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+彝族尚黑，不仅族称和人称用"黑"冠之，传统的彝族服饰也以"黑"为庄重。彝族有烟熏木料以防腐的传统，新房建成后，要先用烟熏黑木料、墙壁，才能迁入。旧时彝族都在住房附近建盖有土、木、石结构的碉楼，多为五至七层，外墙用墨灰浆勾勒边幅，有的还作彝族传统图画，内侧房间较宽敞，既可用于战事防御，又可用于生活起居或存粮。彝族曾有氏族聚议的习俗，旧时许多彝族村寨在寨中心或边缘的大古树下，用石条建一座四面均为台阶的金字形石塔，作为氏族聚会地点，现已成为村民聚集、闲聊的场所。</view>
+<view size="lager" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-1-4-1.jpg?sign=a8e171c7f12da9b12fb77b6e34f66d6c&t=1583032915);color: #000;line-height: 150rpx;font-size: 60rpx;letter-spacing:25rpx;" class="item6">特色建筑</view>
+  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-1-1.jpg?sign=ff5531a30b1f092ffc49a9f81570b9d1&t=1583033139'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-1-2.PNG?sign=b80ccd4a67c0807754996eca93937c91&t=1583033158'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-1-3.PNG?sign=4959926ff378dece6547ed553607c1d3&t=1583033179'></image>
+    </swiper-item>
+  </swiper>
+  <van-row>
+  <van-col offset="6" span="18" style="background:#dbce8f;"class="box">
+  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+  风篱房是彝族建筑形式中较古老的一种居住形式，是彝族建筑史上的一大发明和进步。今撒尼人建盖的牛车棚、舂碓棚就是古代风篱的延续和发展。风篱的建筑结构特别简单，用两根上端带杈的树杆插入土中做柱子，用一根树杆横搭在两根柱子的树杈上做梁，再用数根树杆并排搭在梁上，一端落地，成一面坡式的墙，其上覆盖树枝、茅草之类的东西，用来遮风避雨。
+  </view></van-col>
+</van-row>
+<view class="item1">风篱房</view>
+  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-2-1.jpg?sign=e56da7e2e9e7a22784f22c40346b5bdd&t=1583033223'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-2-2.jpg?sign=1674dd53ada7411384f3050e100922a8&t=1583033244'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-2-3.jpg?sign=ba64b444a98c2397777e889dfa7b7cef&t=1583033261'></image>
+    </swiper-item>
+  </swiper>
+  <van-row>
+  <van-col offset="0" span="18" style="background:#dbce8f;"class="box">
+  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+ 土库房，俗称"土掌房"，以土、木、石为原料，屋顶平坦，其构造是以块石做墙基，用土坯或泥土夯墙，无柱无梁，在筑好的墙上直接铺上一层木棍、木板或木条，上覆茅草，再铺一层不含杂质的泥土，洒水抿捶，形成平台。土库房的特点是结构简单，保暖防寒，防火性能好，且结实牢固，酷似碉堡，故又有"碉楼""碉房"之称。
+  </view></van-col>
+</van-row>
+<view class="item2">土库房</view>
+  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-3-1.jpg?sign=fb4dd2ee540c07a38e85e660da4868c1&t=1583033282'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-3-2.jpg?sign=be3ff19180df060c3b84faa9fb770f4c&t=1583033344'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-3-3.jpg?sign=1ab9c5a7d8580f97508b28275e36bb77&t=1583033359'></image>
+    </swiper-item>
+  </swiper>
+  <van-row>
+  <van-col offset="6" span="18" style="background:#dbce8f;"class="box">
+  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+一般为土木结构，以石块垫基，夯土筑墙，用结实的圆木或方木为柱。茅草房为双面坡斜顶，用草盖顶。盖草顶时，先打尽草绒，泼上冷水让风吹，接着放火燎茅草，浸透水的部分因风吹不干而不被火燃烧，形成结实的草顶，并在山墙上盖石板。能在发生火灾时让山墙挡住风力和火苗，控制火势，尽量避免火舌乱窜，殃及四周邻居。
+  </view></van-col>
+</van-row>
+<view class="item3">茅草房</view>
+  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-4-1.jpg?sign=86084435017b95561c719aeff1acc94b&t=1583035181'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-4-2.jpg?sign=9510b93877f3d2159e79af2b94ce66e1&t=1583035198'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-4-3.jpg?sign=ce56c9e6446d37cfbf3b3a9419481e87&t=1583035217'></image>
+    </swiper-item>
+  </swiper>
+   <van-row>
+  <van-col offset="0" span="18" style="background:#dbce8f;"class="box">
+  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+ 篱笆房主要分布在圭山乡的合和村一带。这种房屋结构与瓦房相同，两层，上层存储粮食，下层住人，关牲畜。屋顶盖以瓦片，以条石做墙基，竹条，树条或藤条编织成篱笆，糊上泥，涂刷平坦成为墙壁。
+  </view></van-col>
+</van-row>
+<view class="item4">篱笆房</view>
+  
+  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-5-1.jpg?sign=12300d0f0d6254eea7fc063ab37e5bf4&t=1583035234'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-5-2.jpg?sign=c2bfe6c905d5c1c80f4f2a3c7db2eb2e&t=1583035254'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-5-3.jpg?sign=4828f770041f4206a3e2a755c2546016&t=1583035273'></image>
+    </swiper-item>
+  </swiper>
+  <van-col offset="6" span="18" style="background:#dbce8f;"class="box">
+  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
+石板房主要分布在圭山乡的糯黑村。这种房子多为两层楼房，楼上、楼下各三间，梁、柱、椽、楼均为木料，山墙、背墙和围墙用石板垒砌，地板用薄石板铺成。该村附近的群山多为石山，人们上山采石，依照石头的纹理改制成大小不等的石板条，建造出比砖木、土木结构更为坚固结实，更为整齐美观的石板房。
+  </view></van-col>
+<view class="item5">石板房</view>

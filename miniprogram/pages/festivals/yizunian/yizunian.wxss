@@ -1,0 +1,43 @@
+@import "../../../style/Layout.wxss";
+
+.story,.picture{
+    margin:16rpx
+  }
+  .story-title,.picture-title{
+    font-size:12px;
+    color:#726F6F;
+  }
+  .story-detail{
+    text-indent:2em;
+    margin-top:10rpx;
+  }
+  
+  .scroll{
+    display: flex;
+    white-space: nowrap;  
+    width:100%;
+  }
+  .picture-detail{
+     display: inline-block; 
+  }
+  .picture-detail image{
+    margin-top:10rpx;
+    display: block;  /* 将名字放在图片下面 */
+    height:500rpx;
+    width:300px;
+    padding-right: 10rpx;
+  }
+  .picture-detail text{
+    display: block; 
+  }
+  page{
+    background-color: #edece4;
+  }
+
+  .name{
+      width: 200rpx;
+  }
+.intro{
+  border-bottom: 5rpx solid #DE5034;
+  border-bottom-style: dotted;
+}

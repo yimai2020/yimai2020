@@ -1,0 +1,26 @@
+.top{
+  display: flex;
+  margin-top: 20rpx;
+  margin-bottom: 25rpx;
+}
+  
+  .column{
+    display:flex;
+    background-color: #fff;
+  }
+
+  .title{
+    flex: 6;
+    padding: 5rpx 5rpx 5rpx 25rpx;
+    color: rgb(141, 139, 139);
+    font-size: 28rpx;
+  }
+
+  .laiyuan{
+    flex: 5;
+    text-align: right;
+    padding: 0rpx 25rpx 5rpx 5rpx;
+    color: rgb(141, 139, 139);
+    font-size: 28rpx;
+    align-self: center;
+  }

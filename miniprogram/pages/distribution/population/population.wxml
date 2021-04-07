@@ -1,0 +1,9 @@
+<view style="background:#fff;height:100%;"></view>
+<view style="position:absolute;top:20rpx;z-index:100;width:100%;display:flex;justify-content: center"><text style="font-weight: 700;color: rgba(0, 0, 0, 0.712);">彝族人口在国内的分布情况</text></view>
+<view class="container" >
+  <ec-canvas id="mychart-dom-area" canvas-id="mychart-area" ec="{{ ec_map }}"></ec-canvas>
+</view>
+<view class="tip">来源：Echarts</view>
+<view class="container" style="top:800rpx;">
+  <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec_pie }}" bind:init="echartInit"></ec-canvas>
+</view>

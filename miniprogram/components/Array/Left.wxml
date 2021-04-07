@@ -1,0 +1,5 @@
+<!--components/Array/Array.wxml-->
+<view class="Array">
+<image class="ArrayImage" src="../../images/xiangzuojiantou.png" />
+<text class="text">返回上级</text>
+</view>

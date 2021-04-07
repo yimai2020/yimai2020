@@ -1,0 +1,66 @@
+
+<view>
+
+
+   <view class="infor" animation="{{slide_up1}}" style="position:relative;top:200px">
+      <view class="title">
+         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+         <text class="title_content">
+         彝文历史
+         </text>
+      </view>
+      <text class="infor_content" selectable="false" space="false" decode="false">
+         彝文，又叫“爨文”“韪书”,产生于新石器时代到铁器时代之间，经历了文字发展的必经阶段，不是借用和摹仿汉字的产物。有关专家研究表明，古彝文可以与甲骨文、苏美尔文、埃及文、玛雅文、哈拉般文相并列，是世界六大古文字之一，可以代表着世界文字的一个重要起源。
+  彝文在彝族社会中虽然使用较久，流传较广，但直到19世纪末才吸引外界的研究视线。为使彝文能更好地为各方言区服务，1975年四川省彝文规范工作会议讨论通过了《四川彝文规范方案》，共确定 819个规范彝字，并设计了拉丁字母的“彝语拼音方案”，便于注音学习。
+      </text>
+   </view>
+
+
+   <view class="infor" animation="{{slide_up2}}" style="position:relative;top:200px">
+      <view class="title">
+         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+         <text class="title_content">
+         书写规则
+         </text>
+      </view>
+      <text class="infor_content" selectable="false" space="false" decode="false">
+        彝文的书写规则主要有：
+        &nbsp;&nbsp;&nbsp;1.先主后附
+        &nbsp;&nbsp;&nbsp;2.从上到下
+        &nbsp;&nbsp;&nbsp;3.从左到右
+        &nbsp;&nbsp;&nbsp;4.先中间后两边
+        &nbsp;&nbsp;&nbsp;5.先中间后上下
+        &nbsp;&nbsp;&nbsp;6.先外围后两边
+      </text>
+   </view>
+
+
+   <view class="infor" animation="{{slide_up3}}" style="position:relative;top:200px">
+      <view class="title">
+         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+         <text class="title_content">
+         写好彝语
+         </text>
+      </view>
+      <text class="infor_content" selectable="false" space="false" decode="false">
+         写好彝文字，必须通过以下四个环节：
+      </text>
+      <van-collapse  class= "collapse"  value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
+      <van-collapse-item  class= "collapse" title="画好圆" name="5">
+           画好圆，圆画在彝文字中不仅占有重要的地位，也是独特的构字笔画，特别在有圆画的字体中，园画对字体间架结构起到举足轻重的作用，也就是对字体的平衡（小章法）起到重要作用。
+      </van-collapse-item>
+      <van-collapse-item  class= "collapse" title="折笔画" name="6">
+         写好多折笔画，多折笔画在彝文字中所占的比例较多，也是彝文字与其他民族文字所不同的笔画。多折笔画对单字的结构安排很重要，写好多折笔画对有多折笔画字的平衡、间架结构、章法布局起到重要作用。
+      </van-collapse-item>
+      <van-collapse-item  class= "collapse" title="写倒笔" name="7">
+         掌握倒笔的书写和应用，倒笔的书写和应用是彝文书写中独有的特点，如果不用倒笔的书写，就会将彝文字中的一笔分开写成两笔或多笔，这样书写出来的彝文字似乎像一笔是由多笔搭接而成的感觉。
+      </van-collapse-item>
+      <van-collapse-item  class= "collapse" title="字结构" name="8">
+         掌握好字体结构，彝文字的间架结构主要由直、折、圆、弧、绕五种笔画构成。然而在书写过程中需要掌握好字体结构，这些字体结构的安排主要由直、折、圆、弧、绕笔画的布局来决定。
+      </van-collapse-item>
+   </van-collapse>
+   </view>
+
+
+   
+</view>

@@ -1,0 +1,53 @@
+<view class="swiper-tab">
+  <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+  未学词汇</view>
+  <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+  已学词汇</view>
+  <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">
+  已认识</view>
+  <view class="tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">
+  收藏词汇</view>
+</view>
+
+<swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+      <view wx:for="{{wordlist_unstudied}}" wx:key="index" >
+        <view bindtap="unstudied_studied" data-item="{{item}}" >
+          <van-cell title="{{item.letter}}" value="{{item.explain}}" is-link data-item="{{item}}" bindtap="navigateToDetail"></van-cell>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+      <view wx:for="{{wordlist_studied}}" wx:key="index">
+        <view data-item="{{item}}" bindtap="navigateToDetail">
+          <van-cell title="{{item.letter}}" value="{{item.explain}}" is-link ></van-cell>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+      <view wx:for="{{wordlist_knew}}" wx:key="index">
+        <view data-item="{{item}}" bindtap="navigateToDetail">
+          <van-cell title="{{item.letter}}" value="{{item.explain}}" is-link ></van-cell>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
+      <view wx:for="{{wordlist_collected}}" wx:key="index">
+        <view data-item="{{item}}" bindtap="navigateToDetail">
+          <van-cell title="{{item.letter}}" value="{{item.explain}}" is-link ></van-cell>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+</swiper>

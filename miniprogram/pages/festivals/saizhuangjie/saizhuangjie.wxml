@@ -1,0 +1,43 @@
+
+<view class="page">
+    <view class="intro">
+        <view class="intro_picture" style="width:50%;height:90%">
+            <image src="{{intro}}" style="width:100%;height:100%" mode="wideFix" />
+        </view>
+        <view class="intro_content" style="width:60%;height:420rpx">
+            <view class="name">
+                <text style="font-size:30px;">赛装节</text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:28rpx">
+            时间：\n正月十五日   &nbsp;&nbsp; 三月二十八日    
+            </text>
+            </view>
+            <view class="row" >
+            <text space="true" decode="true" style="font-size:28rpx">
+            习俗：赛装  &nbsp;&nbsp;求爱   
+            </text>
+            </view>
+            <view class="row">
+            <text space="true" decode="true" style="font-size:28rpx">
+            节日分布：楚雄彝州 
+            </text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="story">
+        <text class="story-title">简介：\n赛装节为居住分散，平时很难有机会相聚相识的青年男女提供了一个表白爱情的机会。而姑娘们最能显示自己的魅力，就是看谁的衣服最漂亮。彝族女子的服装，全靠手工桃花和刺绣，做一套衣服往往要花一两年的时间。因此，谁的衣服多、花样好，谁就会被看作是勤劳能干、心灵手巧的人。</text>
+        <view class="story-detail">    </view>
+    </view>
+    <view class="picture">
+        <text class="picture-title">康康照片:</text>
+        <scroll-view scroll-left="0" scroll-x class="scroll">
+            <block wx:for="{{picList}}" wx:key="fileID">
+                <view class="picture-detail">
+                    <image src="{{item.tempFileURL}}" />
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>

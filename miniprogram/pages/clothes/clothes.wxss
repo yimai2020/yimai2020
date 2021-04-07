@@ -1,0 +1,44 @@
+.swiper{
+  width: 710rpx;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}
+
+.view{
+  width:650rpx;
+  margin: 10rpx auto;
+  color: white;
+  background: #ebc79e;
+  line-height: 50rpx;
+  font-size: 35rpx;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  font-weight: 700;
+}
+
+.title{
+  width: 300rpx;
+  border-radius: 10rpx;
+  background: red;
+  font-weight: 700;
+  color: white;
+  font-size: 35rpx;
+  line-height: 45rpx;
+  margin: 30rpx auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title-less{
+  font-weight: 700;
+  margin-left: 40rpx;
+}
+
+.content{
+  width: 650rpx;
+  margin: 10rpx auto;
+  background: #ebc79e;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  color:white;
+}

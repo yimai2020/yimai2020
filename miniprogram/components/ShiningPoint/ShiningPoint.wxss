@@ -1,0 +1,48 @@
+/* components/ShiningPoint/ShiningPoint.wxss */
+.ShiningPoint{
+    height: 30rpx;
+	width:30rpx;
+	z-index: 30;
+}
+.Line{
+	height: 50rpx;
+	width: 80rpx;
+	position: relative;
+	bottom: 50rpx;
+	left:20rpx;
+	
+}
+.Content{
+	height: 150rpx;
+	width: 150rpx;
+	position: relative;
+	bottom: 155rpx;
+	left: 80rpx;
+
+}
+.Point{
+    height: 30rpx;
+	width:30rpx;
+	-webkit-animation:twinkling 2.1s infinite ease-in-out;
+	animation:twinkling 2.1s infinite ease-in-out;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+
+@keyframes twinkling {
+	0% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+50% {
+	opacity:1;
+	filter:alpha(opacity=50);
+	-webkit-transform:scale(1.12);
+}
+100% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+}

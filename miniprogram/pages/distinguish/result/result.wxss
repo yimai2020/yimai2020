@@ -1,0 +1,31 @@
+page{
+  background: #000000;
+}
+
+.card{
+  background-color: #ffffff;
+  width: 700rpx;
+  border:1px solid #000000;
+  margin: 25rpx;
+  display:flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+}
+
+.img{
+  flex: 5;
+}
+
+.name{
+  flex: 1;
+  align-self:center;
+  margin-top: 30rpx;
+}
+
+.introduction{
+  flex: 10;
+  color: #666565;
+  font-size: 30rpx;
+  margin: 50rpx;
+  margin-top: 30rpx;
+}

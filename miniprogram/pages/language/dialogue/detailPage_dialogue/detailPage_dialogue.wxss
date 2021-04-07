@@ -1,0 +1,59 @@
+page{
+    background-color: #fff;
+  }
+  
+  .letter_collection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30rpx;
+    margin-right: 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    
+  }
+  
+
+  .structure{
+    margin-left: 40rpx;
+  }
+
+  .letter_audio{
+    width:450rpx;
+    display: flex;
+  }
+  
+  .letter{
+    font-size: 70rpx;
+    width:450rpx;
+    font-weight: 700;
+  }
+  
+  .audio{
+    width:50rpx;
+    align-self: center;
+  }
+  
+  .collection{
+    width:50rpx;
+    height:50rpx;
+    align-self: center;
+  }
+  
+  .sentence_yi{
+    display: flex;
+    justify-content: space-between;
+    width: 700rpx;
+  }
+  
+  .knew {
+    font-size: 39rpx;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    background-color: rgb(200, 225, 248);
+    margin:20rpx;
+    color: rgb(27, 38, 202);
+  }

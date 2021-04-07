@@ -1,0 +1,53 @@
+/* components/Array/Array.wxss */
+.Array{
+    display: flex;
+    height: 150rpx;
+    width: 250rpx;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15rpx;
+    color: #fff;
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: 10;
+    
+}
+.ArrayImage{
+    height: 100rpx;
+    width: 100rpx;
+    position: relative;
+    right:-50rpx;
+    bottom:-5rpx;
+    -webkit-animation:twinkling 2.1s infinite ease-in-out;
+	animation:twinkling 2.1s infinite ease-in-out;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+ 
+}
+.text{
+    font-weight: bolder;
+    font-size: smaller;
+    font-size: 40rpx;
+    position: relative;
+    bottom: rpx;
+    left: 40rpx;
+
+}
+@keyframes twinkling {
+    0% {
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    -webkit-transform:scale(1);
+}
+50% {
+    opacity:1;
+    filter:alpha(opacity=50);
+    -webkit-transform:scale(1.12);
+}
+100% {
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    -webkit-transform:scale(1);
+}
+}
