@@ -1,4 +1,7 @@
+
 .book {
+  position: relative;
+  top:100rpx;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -12,10 +15,6 @@
   border-radius: 50rpx;
   box-shadow: 0 6rpx 10rpx 2rpx #666;
   background-color: #f5f5d5;
-  border-bottom: 5rpx solid #DE5034;
-  border-bottom-style: dotted;
-  border-top: 5rpx solid #DE5034;
-  border-top-style: dotted;
 }
 .book .pic {
   flex: 2;
@@ -46,7 +45,7 @@ page {
 .booktap {
   opacity: 0.9;
   position: relative;
-  top: 3rpx;
+  bottom: 3rpx;
   right: 2rpx;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1) inset;
 }
@@ -67,6 +66,8 @@ page {
   color: #726F6F;
 }
 .infor {
+  position: relative;
+  top:100rpx;
   margin: 20rpx;
   padding: 20rpx;
   border-radius: 25rpx;

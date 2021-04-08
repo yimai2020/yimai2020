@@ -60,14 +60,10 @@ wx.switchTab({
   });},
 
   backtomap:function (e){
-    wx.navigateTo({
-      url: '../../map/map',
-      success: (result) => {
-        
-      },
-      fail: () => {},
-      complete: () => {}
-  });},
+    wx.switchTab({
+      url: '../../../pages/map/map',
+    })
+  },
 
     Gotoalife:function (e){
       wx.navigateTo({

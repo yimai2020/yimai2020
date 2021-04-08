@@ -1,26 +1,22 @@
 <view class="search">
   <SearchInput></SearchInput>
 </view>
-<view class="festivals_swiper">
-   <swiper class="" indicator-dots="false" indicator-color="rgba(0,0,0,.3)" autoplay="true" interval="5000" duration="1000" circular="{{true}}" >
-     <swiper-item wx:for="{{festivals_swiper_images}}"
-            wx:key="fileID">
-     <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate" ci>
-       <image  src="{{item.tempFileURL}}" mode="wideFix"  /> 
-     </navigator> 
+<view class="festivals_swiper" style="position: relative;  top:100rpx;">
+   <swiper indicator-dots="false" indicator-color="rgba(0,0,0,.3)" autoplay="true" interval="5000" duration="1000" circular="{{true}}" >
+     <swiper-item wx:for="{{festivals_swiper_images}}" wx:key="fileID" class="image-fa">
+       <image  src="{{item.tempFileURL}}" mode="widthFix"  style="width: 85%;"/> 
      </swiper-item>
-     
    </swiper>
 </view>
 
-<view class="year_start_father">
+<view class="year_start_father" style="position: relative;  top:100rpx;">
     <view class="year_start_son">
       正月初一
     </view>
 </view>
 
 
-<view class="body">
+<view class="body" style="position: relative;  top:100rpx;">
   <image class="vertical_line" src="{{vertical_line}}" />
 
 
@@ -30,91 +26,91 @@
     <view class="content1">
       <text class="descr1"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;赛装节\n</text>
       <text class="time1" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农历正月十五</text>
-      <image class="picture1" src="{{saizhuangjie}}" />
+      <image class="picture1" src="{{saizhuangjie}}" mode="widthFix" style="width: 250rpx;"/>
     </view>
   </view>   
 
   
   <view class="jishanjie" hover-class="view_right_hover" bindtap = "jishanjieTap">
-    <image class="yuandian2" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle2" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian2" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle2" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content2">
       <text class="descr2"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;祭山节\n</text>
       <text class="time2" decode="{{true}}">&nbsp;&nbsp;&nbsp;农历二月初二</text>
-      <image class="picture2" src="{{jishanjie}}" />
+      <image class="picture2" mode="widthFix" src="{{jishanjie}}" />
     </view>
   </view>   
 
 
   <view class="jilongjie" hover-class="view_left_hover" bindtap = "jilongjieTap">
-    <image class="yuandian3" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle3" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian3" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle3" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content3">
       <text class="descr3"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;祭龙节\n</text>
       <text class="time3" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农历二月初三</text>
-      <image class="picture3" src="{{jilongjie}}" />
+      <image class="picture3" mode="widthFix" src="{{jilongjie}}" />
     </view>
   </view>   
 
 
   <view class="chahuajie" hover-class="view_right_hover" bindtap = "chahuajieTap">
-    <image class="yuandian4" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle4" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian4" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle4" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content4">
       <text class="descr4"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;插花节\n</text>
       <text class="time4" decode="{{true}}">&nbsp;&nbsp;&nbsp;农历二月初八</text>
-      <image class="picture4" src="{{chahuajie}}" />
+      <image class="picture4" mode="widthFix" src="{{chahuajie}}" />
     </view>
   </view>   
 
 
   <view class="bunianjie" hover-class="view_left_hover" bindtap = "bunianjieTap">
-    <image class="yuandian5" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle5" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian5" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle5" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content5">
       <text class="descr5"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;补年节\n</text>
       <text class="time5" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农历二月初十</text>
-      <image class="picture5" src="{{bunianjie}}" />
+      <image class="picture5" mode="widthFix" src="{{bunianjie}}" />
     </view>
   </view>   
 
   <view class="hulinjie" hover-class="view_right_hover" bindtap = "hulinjieTap">
-    <image class="yuandian6" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle6" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian6" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle6" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content6">
       <text class="descr6"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;护林节\n</text>
       <text class="time6" decode="{{true}}">&nbsp;&nbsp;&nbsp;农历三月初三</text>
-      <image class="picture6" src="{{hulinjie}}" />
+      <image class="picture6" mode="widthFix" src="{{hulinjie}}" />
     </view>
   </view>   
 
   <view class="tiaogongjie" hover-class="view_left_hover" bindtap = "tiaogongjieTap">
-    <image class="yuandian7" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle7" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian7" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle7" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content7">
       <text class="descr7"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;跳弓节\n</text>
       <text class="time7" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农历四月</text>
-      <image class="picture7" src="{{tiaogongjie}}" />
+      <image class="picture7" mode="widthFix" src="{{tiaogongjie}}" />
     </view>
   </view>   
 
   <view class="huobajie" hover-class="view_right_hover" bindtap = "huobajieTap">
-    <image class="yuandian8" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle8" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian8" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle8" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content8">
       <text class="descr8"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;火把节\n</text>
       <text class="time8" decode="{{true}}">&nbsp;&nbsp;&nbsp;农历六月二十四日</text>
-      <image class="picture8" src="{{huobajie}}" />
+      <image class="picture8" mode="widthFix" src="{{huobajie}}" />
     </view>
   </view>   
 
   <view class="yizunian" hover-class="view_left_hover" bindtap = "yizunianTap">
-    <image class="yuandian9" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle9" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian9" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle9" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content9">
       <text class="descr9"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;彝族年\n</text>
       <text class="time9" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;农历十月</text>
-      <image class="picture9" src="{{yizunian}}" />
+      <image class="picture9" mode="widthFix" src="{{yizunian}}" />
     </view>
   </view>   
 
@@ -123,7 +119,7 @@
   
 
 
-<view class="year_end_father">
+<view class="year_end_father" style="position: relative;  top:40rpx;">
     <view class="year_end_son">
       大年三十
     </view>

@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
+    //设备宽高
+    windowHeight:'',
+    windowWidth:'',
     active: 1
+  },
+
+  
+  getsize(){
+    let that=this;
+    wx.getSystemInfo({
+      success(res) {
+        console.log(res)
+        that.setData({
+          windowHeight:res.windowHeight,
+          windowWidth:res.windowWidth
+        })
+      },
+    })
   },
 
   onChange(event) {
@@ -115,6 +132,8 @@ Page({
    */
   onLoad: function (options) {
     this.app = getApp()
+    var that = this
+    that.getsize();
   },
 
   /**

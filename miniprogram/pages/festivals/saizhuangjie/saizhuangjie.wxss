@@ -23,7 +23,6 @@
   .picture-detail image{
     margin-top:10rpx;
     display: block;  /* 将名字放在图片下面 */
-    height:500rpx;
     width:300px;
     padding-right: 10rpx;
   }

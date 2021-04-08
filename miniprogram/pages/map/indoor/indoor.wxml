@@ -1,5 +1,3 @@
-<!--pages/map/indoor/indoor.wxml-->
-
 <image class="body" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/indoor/indoor2.jpg?sign=685f8f26d787c722be78e2d62e91fc6a&t=1588943043"   style="height:{{height}}rpx;z-index:-10;" ></image>
 
 <view class="literature" bindtap="gotoLiterature">
@@ -43,11 +41,10 @@
   </view>
 </view>
 
-<!--view class="up" bindtap = "backtomap">
+<view class="up" bindtap = "backtomap">
   <view class="point" style="flex:1"> 
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/zhishi.png?sign=cc984a62c41a97978ce96214932a77e6&t=1588582401"  mode='widthFix' style="width:60rpx;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
-      </view> 
-  
+    <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/zhishi.png?sign=cc984a62c41a97978ce96214932a77e6&t=1588582401"  mode='widthFix' style="width:60rpx;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
+  </view> 
   <view style="flex:4">返回上级</view>
-</view-->
+</view>
 

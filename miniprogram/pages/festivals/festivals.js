@@ -28,9 +28,9 @@ Page({
     })
 
   wx.cloud.getTempFileURL({
-      fileList: ['cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/yizunian_swiper.png', 
-      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/saizhaungjie_swiper.jpg',
-      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/huobajie_swiperr.jpg'],
+      fileList: ['cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/pic1.jpg', 
+      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/pic2.jpg',
+      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals_swiper_images/pic3.jpg'],
       success: res => {
     // get temp file URL
       console.log(res.fileList)

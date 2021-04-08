@@ -250,6 +250,37 @@
         {
           "name": "pages/map/life/life",
           "pathName": "pages/map/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/jilongjie/jilongjie",
+          "pathName": "pages/festivals/jilongjie/jilongjie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/hulinjie/hulinjie",
+          "pathName": "pages/festivals/hulinjie/hulinjie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/yizunian/yizunian",
+          "pathName": "pages/festivals/yizunian/yizunian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/people/people",
+          "pathName": "pages/people/people",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/calendar/calendar",
+          "pathName": "pages/calendar/calendar",
+          "query": "",
           "scene": null
         }
       ]

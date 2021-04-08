@@ -29,7 +29,7 @@ Page({
     })
   },
   backtomap: function () {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../../../pages/map/map',
     })
   },

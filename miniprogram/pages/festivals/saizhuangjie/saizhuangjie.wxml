@@ -2,7 +2,7 @@
 <view class="page">
     <view class="intro">
         <view class="intro_picture" style="width:50%;height:90%">
-            <image src="{{intro}}" style="width:100%;height:100%" mode="wideFix" />
+            <image src="{{intro}}" style="width:100%;" mode="widthFix" />
         </view>
         <view class="intro_content" style="width:60%;height:420rpx">
             <view class="name">
@@ -35,7 +35,7 @@
         <scroll-view scroll-left="0" scroll-x class="scroll">
             <block wx:for="{{picList}}" wx:key="fileID">
                 <view class="picture-detail">
-                    <image src="{{item.tempFileURL}}" />
+                    <image src="{{item.tempFileURL}}" mode="widthFix"/>
                 </view>
             </block>
         </scroll-view>

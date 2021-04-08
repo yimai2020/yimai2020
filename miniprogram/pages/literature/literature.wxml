@@ -1,7 +1,5 @@
 <SearchInput></SearchInput>
-<view>
-
-
+<view >
    <view class="infor" animation="{{slide_up1}}" >
       <view class="title">
          <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
@@ -66,7 +64,7 @@
      <text class="cutword">点击查看下方文学</text>
      <text class="cutline">····</text>
    </view>-->
-   <van-divider contentPosition="center">点击查看下方文学作品简介</van-divider>
+   <van-divider contentPosition="center" style="position: relative;  top:100rpx;">点击查看下方文学作品简介</van-divider>
 
 
    

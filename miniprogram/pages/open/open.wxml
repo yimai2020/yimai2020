@@ -8,7 +8,7 @@
     <text  class="head-text" bindtap="Gotoculture">跳过</text>
   </view>
 
-            <image class="one-two {{ one_two }}" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/ymxc.png?sign=4c899f4045c1b99265d1182ef3cd7b66&t=1589514084" mode="widthFix" style="width:300rpx;"></image>
+            <image class="one-two {{ one_two }}" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/ymxc.png?sign=7fecf46f491bc287731feef77a10c8db&t=1617780160" mode="widthFix" style="width:300rpx;"></image>
             <image class="one-five {{ one_five }}" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/open/right.png?sign=12ab550c54ff0b1f7d53860b3d566550&t=1589380580" mode="widthFix" style="width:200rpx;"></image>
         </view>
         <view class="two {{ view[1].in }} {{ view[1].out }}" style="width: 100%; height: 100%"  bindtap="Gotomap" hover-class="view_hover">

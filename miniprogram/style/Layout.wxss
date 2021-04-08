@@ -3,10 +3,11 @@
     border-bottom: 5rpx solid #DE5034;
     border-bottom-style: dotted;
     height: 550rpx;
+    align-items: center;
   }
   .intro_picture{
     width:25%;
-    margin-left:20rpx
+    margin-left:20rpx;
   }
   .left image{
     width:100%;

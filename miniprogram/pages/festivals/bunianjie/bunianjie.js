@@ -20,9 +20,9 @@ Page({
     })
 
   wx.cloud.getTempFileURL({
-      fileList: ['cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/pic3.png', 
+      fileList: ['cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/pic3.jpg', 
       'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/pic2.jpg',
-      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/pic1.png'],
+      'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/pic1.jpg'],
       success: res => {
     // get temp file URL
       console.log(res.fileList)
@@ -36,7 +36,7 @@ Page({
    })
 
     wx.cloud.downloadFile({
-      fileID: 'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/intro.jpg', // 文件 ID
+      fileID: 'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/bunianjie/intro.png', // 文件 ID
       success: res => {
         // 返回临时文件路径
         console.log(res.tempFilePath)

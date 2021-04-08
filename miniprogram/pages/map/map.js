@@ -153,17 +153,14 @@ wx.switchTab({
 
     let that = this;
     wx.getSystemInfo({
-      success: function (res) {
-        let clientHeight = res.windowHeight;
-        let clientWidth = res.windowWidth;
-        let ratio = 750 / clientWidth;
-        let height = clientHeight * ratio;
+      success(res) {
         that.setData({
-          height: height
-        });
-      }
-    });
-
+          height:res.windowHeight,
+          windowWidth:res.windowWidth
+        })
+      },
+    })
+    console.log(that.data.height)
   },
 
   /**

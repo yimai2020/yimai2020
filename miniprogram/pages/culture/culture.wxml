@@ -37,7 +37,7 @@
   <text class="content">人物\nꊿ</text>
 </view>
   
-<van-divider contentPosition="center" animation="{{slide_up11}}" bindtap="navigateshengmin" hover-class="button-hover" style="position: relative;top:400rpx">版权声明</van-divider>
+<van-divider contentPosition="center" bindtap="navigateshengmin" hover-class="button-hover" style="position: relative;top:100rpx">版权声明</van-divider>
 
 
   

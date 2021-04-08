@@ -1,4 +1,5 @@
-<view class='wrap'>
+<view class='wrap' style="height:{{windowHeight}}px;width:{{windowWidth}}px;  ">
+<view class="card">
   <view>
     <view class='date-show'>
       <view class='lt-arrow' bindtap='lastMonth'>
@@ -46,5 +47,5 @@
   </view>
 
     
-    
+</view>
 </view>
