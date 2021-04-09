@@ -1,4 +1,4 @@
-<image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/bookshelf.png?sign=de28ca118c3242e89853271cf9c77b42&t=1588563189"  style="height:100%;width:100%;" class="background"></image>
+<image src="{{backgroundPic}}"  style="height:{{height}}px;width:100%;" class="background"></image>
 
 <view class="lishi" bindtap="gotoLishi">
   <view class="flag">历史</view>

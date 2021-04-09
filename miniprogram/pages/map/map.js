@@ -10,7 +10,10 @@ Page({
   data: {
     btemp: [0, 0, 0],
     atemp: [0, 0, 0],
-    isShow: [1, 0, 0]
+    isShow: [1, 0, 0],
+    backgroundPic:'',
+    height:0,
+    width:''
 
   },
 
@@ -134,33 +137,57 @@ wx.switchTab({
 
   },
 
+  getSize(){
+    var that = this
+    wx.getSystemInfo({
+      success(res) {
+        console.log(res)
+        that.setData({
+          height:res.windowHeight,
+          width:res.windowWidth
+        })
+        if((that.data.width / that.data.height).toFixed(2) > 0.55 && (that.data.width / that.data.height).toFixed(2) < 0.57){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/map/mapPic1242_2208.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.51 && (that.data.width / that.data.height).toFixed(2) < 0.53){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/map/1080_2040.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.45 && (that.data.width / that.data.height).toFixed(2) < 0.47){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/map/mapPic1242_2688.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.48 && (that.data.width / that.data.height).toFixed(2) < 0.50){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/map/mapPic1440_2960.png'
+          })
+        }
+        else{
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/map/mapPic1440_2960.png'
+          })
+        }
+      },
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.cloud.downloadFile({
-      fileID: 'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/pic1.jpg', // 文件 ID
-      success: res => {
-        // 返回临时文件路径
-        console.log(res.tempFilePath)
-        this.setData({
-          pic:res.tempFilePath
-        })
-      },
-      fail: console.error
-    })
-
     let that = this;
-    wx.getSystemInfo({
-      success(res) {
-        that.setData({
-          height:res.windowHeight,
-          windowWidth:res.windowWidth
-        })
-      },
-    })
-    console.log(that.data.height)
+    that.getSize()
+    wx.showLoading({
+      title: '加载中',
+      })
+      
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
   },
 
   /**
@@ -174,6 +201,12 @@ wx.switchTab({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 1
+        })
+      }
 
   },
 

@@ -17,3 +17,5 @@
 ></image>
 
 <view class="tip">拍一拍了解更多彝族物件</view>
+
+<view style="height:100rpx;position:relative;top:0"></view>

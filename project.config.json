@@ -19,9 +19,8 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
+    "useMultiFrameRuntime": false,
     "useApiHook": true,
-    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -32,7 +31,6 @@
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
@@ -284,6 +282,17 @@
           "name": "pages/calendar/calendar",
           "pathName": "pages/calendar/calendar",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/life/life",
+          "pathName": "pages/map/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
           "scene": null
         }
       ]

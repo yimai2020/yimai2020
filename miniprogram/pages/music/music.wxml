@@ -1,6 +1,6 @@
 <SearchInput ></SearchInput>
 
-<view>
+<view style="position: relative;  top:100rpx;">
 
 
 <view class="infor" animation="{{slide_up1}}"  >

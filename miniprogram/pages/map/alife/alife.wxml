@@ -13,7 +13,7 @@
     </view>    
 </view-->
 
-<image class="body" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/map/pic3.jpg" mode="aspectFit|aspectFill|widthFix"   style="height:{{height}}rpx;z-index:-10;" ></image>
+<image class="body" src="{{backgroundPic}}"   style="height:{{height}}px;z-index:-10;" ></image>
 
 <view class="diet" bindtap="Gotocus">
   <view class="flag">习俗</view>

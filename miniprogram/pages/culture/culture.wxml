@@ -1,43 +1,43 @@
 <SearchInput></SearchInput>
-<view bindtap="gotoHistory" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/history-button.jpg?sign=d4824d26c82bc43eb8a8dd53b2446596&t=1581744334);">
+<view bindtap="gotoHistory" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/history.png?sign=cb6e06c2a4e2fd0fe542f41aaefb3f0f&t=1617950321);">
   <text class="content">历史\nꐩꋊ</text>
 </view>
-<view bindtap="gotoLanguage_introduction" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/button-yiwen.jpg?sign=c8001365ae2d66e02f9a16654d13d3a5&t=1589337135);">
+<view bindtap="gotoLanguage_introduction" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/wenzi.png?sign=a507537118b3c3e022361a2383ac092e&t=1617950867);">
   <text class="content">文字\nꁱꂷ</text>
 </view>
-<view bindtap="gotoDiet" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-food.jpg?sign=07daec79642916bd1aa159a42b1b9d0e&t=1582445315);">
+<view bindtap="gotoDiet" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/food.png?sign=e72953eab55db57a012d77252b48af0d&t=1617950879);">
   <text class="content">饮食\nꋚꒉ</text>
 </view>
-<view  bindtap="gotoMusic" class="button" hover-class="button-hover" style="  background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/u%3D5699381%2C58709578%26fm%3D26%26gp%3D0.jpg?sign=88856d2624ee0ead55b98d634d3a050b&t=1611799878);">
+<view  bindtap="gotoMusic" class="button" hover-class="button-hover" style="  background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/sing.png?sign=29d10b6b335b7e73f0591f8a90641395&t=1617950903);">
   <text class="content">歌曲\nꑵꉙ</text>
 </view>
-<view bindtap="gotoDance" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dance/wudao.jpg?sign=63669b622e2950ab7ddb10eb63f75080&t=1611638695)">
+<view bindtap="gotoDance" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/dance.png?sign=e2dc6e8e01bf432b31a52f8b9ce17cd2&t=1617950916)">
   <text class="content">舞蹈\nꀛꐂ</text>
 </view>
-<view bindtap="gotoDistribution" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/distribution-button.jpg?sign=95535c76d97497c89c1f1d8abfdc6f60&t=1581744392);">
+<view bindtap="gotoDistribution" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/distribution.png?sign=8aea4805e56095f8174916f8ddf9b144&t=1617950925);">
   <text class="content">分布\nꋦꁍ</text>
 </view>
-<view bindtap="gotoClothes" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/clothes-button.jpg?sign=a7c93e7023e07eb065a6100247175633&t=1582445300);">
+<view bindtap="gotoClothes" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/clothes.png?sign=9d6afebc2ee0b6217fbc8dcb6434678a&t=1617950949);">
   <text class="content">服饰\nꃢꈜ</text>
 </view>
-<view bindtap="gotoArchitecture" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-building.jpg?sign=0d8f60d63fd56c81ee9aeb3dda280f0d&t=1582448254);">
+<view bindtap="gotoArchitecture" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/building.png?sign=6bd73980a92f27d798afdea77fc9ff52&t=1617950960);">
   <text class="content">建筑\nꑳꇤ </text>
 </view>
-<view bindtap="gotoCustom" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-custom.jpg?sign=7c96be4591415ea484c1526d3f6bc235&t=1582445362);">
+<view bindtap="gotoCustom" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/custom.png?sign=4431d076b96e096badf1a20b0a6165e0&t=1617950975);">
   <text class="content">民俗\nꇍꆗ</text>
 </view>
-<view bindtap="gotoFestivals" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-festival.jpg?sign=712fa86c5ddb9b1c5b3968e9b984d61c&t=1582448239);">
+<view bindtap="gotoFestivals" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/festival.png?sign=ac2342ab05b3573327a0d4622fca3d29&t=1617950986);">
   <text class="content">节日\nꋩꑍ</text>
 </view>
 
-<view bindtap="gotoLiterature" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/bottom-literary.jpg?sign=8928866477b57dedea579563bf08beda&t=1582448227);">
+<view bindtap="gotoLiterature" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/literary.png?sign=4b057fc816634a3ef2a51d22c86306d5&t=1617950996);">
   <text class="content">文学\nꁰꁱ</text>
 </view>
-<view bindtap="gotoPeople" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/button-person.jpg?sign=e345fe0a465885a814485686cb1aa2d7&t=1589336977);">
+<view bindtap="gotoPeople" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/person.png?sign=1b0c47155ead73a6fa7169d9a6c9317b&t=1617951011);">
   <text class="content">人物\nꊿ</text>
 </view>
   
 <van-divider contentPosition="center" bindtap="navigateshengmin" hover-class="button-hover" style="position: relative;top:100rpx">版权声明</van-divider>
-
+<view style="height:100rpx;position:relative;top:80rpx"></view>
 
   

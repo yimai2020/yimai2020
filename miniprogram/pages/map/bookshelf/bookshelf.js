@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    height:0
+    backgroundPic:'',
+    height:0,
+    width:''
   },
   
   gotoLishi:function(){
@@ -32,6 +34,44 @@ Page({
     })
   },
 
+  
+  getSize(){
+    var that = this
+    wx.getSystemInfo({
+      success(res) {
+        console.log(res)
+        that.setData({
+          height:res.windowHeight,
+          width:res.windowWidth
+        })
+        if((that.data.width / that.data.height).toFixed(2) > 0.55 && (that.data.width / that.data.height).toFixed(2) < 0.57){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/book/book1242_2208.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.51 && (that.data.width / that.data.height).toFixed(2) < 0.53){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/book/book1080_2040.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.45 && (that.data.width / that.data.height).toFixed(2) < 0.47){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/book/book1242_2688.png'
+          })
+        }
+        else if((that.data.width / that.data.height).toFixed(2) > 0.48 && (that.data.width / that.data.height).toFixed(2) < 0.50){
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/book/book1440_2960.png'
+          })
+        }
+        else{
+          that.setData({
+            backgroundPic:'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/map/alife/alife1440_2960.png'
+          })
+        }
+      },
+    })
+  },
 
 
   /**
@@ -39,17 +79,14 @@ Page({
    */
   onLoad: function (options) {
     let  that = this;
-    wx.getSystemInfo({
-      success: function (res) {
-        let  clientHeight = res.windowHeight;
-        let  clientWidth = res.windowWidth;
-        let  ratio = 750 / clientWidth;
-        let  height = clientHeight * ratio;
-        that.setData({
-          height: height
-        });
-      }
-    });
+    wx.showLoading({
+      title: '加载中',
+      })
+      
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 1000)
+    that.getSize()
   },
 
   /**
