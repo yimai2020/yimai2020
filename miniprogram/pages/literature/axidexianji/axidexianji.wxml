@@ -1,43 +1,35 @@
 
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>阿细的先基</view>
+            <view class='detail-nm-eng'>作者：云南省民族民间文学红河调查队搜集翻译整理</view>
+            <view class='detail-sc'>副标题:无</view>
+            <view class='detail-cou'>出版年: 1959年10月</view>
+            <view class='detail-act'>类别：史诗</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:28px;">阿细的先基</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:15px;">
-            作者：云南省民族民间文学红河调查队搜集翻译整理 
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >    
-            副标题: 无
-               
-            出版年: 1959年10月 
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：史诗
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-       “阿细的先基”是彝族支系阿细人的史诗，流传在云南弥勒县西山一带的阿细人民口头上。“先基”是阿细语“sei ji”的译音，为“歌”之意，是这一作品诗歌和曲调的总称。用“先基”调唱的传统诗歌，内容基本上是固定的、系统的，它构成了一部完整的叙事长诗。解放前夕和解放后，阿细人民也运用“先基”调唱出了许多歌颂革命斗争和社会主义建设的诗歌；但从诗歌的内容和结构来看，它们已是另外一些作品，和古老的叙事诗无有机的联系。
-整理者们根据自身的认识水平，对所搜集到的材料进行了初步的研究和处理：
-1、“先基”的材料很多，不同的地方不同的歌手唱的，都有若干差异，整理时有所选择。
-2、对同一事件说法不同和细节描写差异的处理，从史诗反映的时代性和民族特点来考虑，注重采用阿细人中最古的、最具有民族特色的说法。
-3、整理时注意了精华和糟粕的鉴别。
-4、精简了原诗某些地方的重复拖沓。
-5、原诗都是五言韵诗，翻译成的汉语形成了长短句，对语言作了适当的加工，并在表情达意的前提下，尽量使其押韵。
-6、原诗没有标题，加入了大小标题，在每个小标题下又分了段。</text>
-        
     </view>
 </view>
 
+<view class="keyWord">
+    <text space="emsp">简介：
+  “阿细的先基”是彝族支系阿细人的史诗，流传在云南弥勒县西山一带的阿细人民口头上。“先基”是阿细语“sei ji”的译音，为“歌”之意，是这一作品诗歌和曲调的总称。用“先基”调唱的传统诗歌，内容基本上是固定的、系统的，它构成了一部完整的叙事长诗。解放前夕和解放后，阿细人民也运用“先基”调唱出了许多歌颂革命斗争和社会主义建设的诗歌；但从诗歌的内容和结构来看，它们已是另外一些作品，和古老的叙事诗无有机的联系。
 
+  整理者们根据自身的认识水平，对所搜集到的材料进行了初步的研究和处理：
+
+  1、“先基”的材料很多，不同的地方不同的歌手唱的，都有若干差异，整理时有所选择。
+
+  2、对同一事件说法不同和细节描写差异的处理，从史诗反映的时代性和民族特点来考虑，注重采用阿细人中最古的、最具有民族特色的说法。
+
+  3、整理时注意了精华和糟粕的鉴别。
+
+  4、精简了原诗某些地方的重复拖沓。
+
+  5、原诗都是五言韵诗，翻译成的汉语形成了长短句，对语言作了适当的加工，并在表情达意的前提下，尽量使其押韵。
+
+  6、原诗没有标题，加入了大小标题，在每个小标题下又分了段。</text>
+</view>

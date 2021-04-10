@@ -313,6 +313,17 @@
           "pathName": "pages/people/shexiangfuren/shexiangfuren",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "pathName": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/literature",
+          "pathName": "pages/literature/literature",
+          "scene": null
         }
       ]
     }

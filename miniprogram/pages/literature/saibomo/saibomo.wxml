@@ -1,34 +1,22 @@
 
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>赛玻嫫</view>
+            <view class='detail-nm-eng'>作者：云南省民族民间文学楚雄调查队搜集 / 郭恩九 / 尚仲豪整理</view>
+            <view class='detail-sc'>副标题:彝族民间叙事长诗</view>
+            <view class='detail-cou'>出版年:  1980-02-01</view>
+            <view class='detail-act'>类别：叙事长诗</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:24px;">赛玻嫫</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true">
-            作者：云南省民族民间文学楚雄调查队搜集 / 郭恩九 / 尚仲豪整理
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >    
-            副标题: 彝族民间叙事长诗
-               
-            出版年: 1980-02-01
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：叙事长诗
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-       《赛玻嫫》是一首彝族优美、抒情的长篇叙事诗。本书稿是以双柏县彝族中流传的叙事长诗为基础整理的，主要原始资料是从口头流传的叙事长诗翻译记录的，也有一部分资料是从彝族的“彝书”和《贝玛经》中翻译整理的。这首长诗的整理、翻译、出版，展现了彝族文学的丰富多样。</text>
     </view>
 </view>
 
+<view class="keyWord">
+    <text space="emsp">简介：
+  《赛玻嫫》是一首彝族优美、抒情的长篇叙事诗。本书稿是以双柏县彝族中流传的叙事长诗为基础整理的，主要原始资料是从口头流传的叙事长诗翻译记录的，也有一部分资料是从彝族的“彝书”和《贝玛经》中翻译整理的。这首长诗的整理、翻译、出版，展现了彝族文学的丰富多样。</text>
+    
+</view>

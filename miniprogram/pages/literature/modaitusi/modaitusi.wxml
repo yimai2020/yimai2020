@@ -1,36 +1,22 @@
 
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>末代土司</view>
+            <view class='detail-nm-eng'>作者：金满</view>
+            <view class='detail-sc'>副标题:无</view>
+            <view class='detail-cou'>出版年: 2010-1-1 </view>
+            <view class='detail-act'>类别：小说</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">末代土司</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            作者：金满
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >    
-            副标题: 无
-               
-            出版年: 2010-1-1 
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：小说
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-       在中国西南边陲的哀牢山上，有一棵神奇的茶树，相传它生长了几千年。这颗神树所出产的茶叶只供给皇室享用。 哀牢山上居住着古羌人的后裔——哈尼人，他们世代守卫着这棵给哈尼人带来幸福、吉祥和财富的神树，千百年来他们也延续传承者制茶秘法。 明朝皇帝分封了十八位哈尼土司，而神树就在摩陀土司的领地上。这一棵神树，这一场分封，自此带给了哈尼人大大小小数也数不清的争夺与仇杀。</text>
-        
     </view>
 </view>
 
-
+<view class="keyWord">
+    <text space="emsp">简介：
+  在中国西南边陲的哀牢山上，有一棵神奇的茶树，相传它生长了几千年。这颗神树所出产的茶叶只供给皇室享用。 哀牢山上居住着古羌人的后裔——哈尼人，他们世代守卫着这棵给哈尼人带来幸福、吉祥和财富的神树，千百年来他们也延续传承者制茶秘法。 明朝皇帝分封了十八位哈尼土司，而神树就在摩陀土司的领地上。这一棵神树，这一场分封，自此带给了哈尼人大大小小数也数不清的争夺与仇杀。</text>
+        
+</view>
