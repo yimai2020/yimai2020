@@ -1,31 +1,21 @@
 
-<view class="page">
-    <view class="intro" style="height:650rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx;position:relative;top:10rpx">
-            <image src="{{intro}}" style="width:100%;" mode="widthFix" />
-        </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">卢汉</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            生卒：1895年—1974年 
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >
-            原名邦汉，字永衡，云南昭通人，彝族
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            著名抗日爱国将领，中华民国大陆时期滇军高级将领。
-            </text>
-            </view>
-        </view>
-        
+<view class="topCard">
+    <view class="pic">
+        <image src="{{intro}}" mode="widthFix" style="width:80%"></image>
     </view>
-    <view class="story">
-        <text class="story-title">简介：\n民国三年（1914年），卢汉在云南陆军讲武堂毕业后，在滇军中历任排长、连长、营长。团长。旅长、师长等职。抗日战争爆发，蒋介石任卢汉为六十军军长，率部参加台儿庄等著名战役，升任军团长，集团军副总司令、总司令，第一方面军总司令。日军投降后，率部赴越南受降。1945年10月，龙云被蒋介石解除军政大权后，任云南省主席兼保安司令，继龙云之后，成为新一任云南省主席，在中华民国时期执掌云南军政大权4年多，被称为最后一任“云南王”。
-1949年12月9日，卢汉率部起义。解放后，历任云南省军政委员会主席，西南行政委员会副主席等职，1974年5月，病逝于北京，享年79岁。  </text>
+    <view class="info">
+        <view class="name">卢汉</view>
+        <view class="time"><text>1895年—1974年</text></view>
+        <view class="costom">原名邦汉，字永衡，云南昭通人，彝族</view>
+        <view class="fenbu">著名抗日爱国将领，中华民国大陆时期滇军高级将领。</view>
     </view>
 </view>
+
+<view class="jianjieCard">
+    <text space="emsp">  民国三年（1914年），卢汉在云南陆军讲武堂毕业后，在滇军中历任排长、连长、营长。团长。旅长、师长等职。抗日战争爆发，蒋介石任卢汉为六十军军长，率部参加台儿庄等著名战役，升任军团长，集团军副总司令、总司令，第一方面军总司令。日军投降后，率部赴越南受降。1945年10月，龙云被蒋介石解除军政大权后，任云南省主席兼保安司令，继龙云之后，成为新一任云南省主席，在中华民国时期执掌云南军政大权4年多，被称为最后一任“云南王”。
+
+  1949年12月9日，卢汉率部起义。解放后，历任云南省军政委员会主席，西南行政委员会副主席等职，1974年5月，病逝于北京，享年79岁。
+    </text>
+</view>
+
+<view class="bu" ></view>

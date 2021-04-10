@@ -1,30 +1,19 @@
 
-<view class="page">
-    <view class="intro" style="height:650rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx;position:relative;top:10rpx">
-            <image src="{{intro}}" style="width:100%" mode="widthFix" />
-        </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">卢浚泉</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            生卒：1899年－1979年
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >
-            云南省昭通县人，彝族
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            黄埔军校入伍生第一团第三营连长、营长
-            </text>
-            </view>
-        </view>
-        
+<view class="topCard">
+    <view class="pic">
+        <image src="{{intro}}" mode="widthFix" style="width:80%"></image>
     </view>
-    <view class="story">
-        <text class="story-title">简介：\n1927年回云南任第九十八师中校参谋、第十路军总指挥部军官候补生队大队长。1930年调任第九十八师第三旅第六团营长，1931年升任第十路军卫士大队大队长。1933年任云南补充大队大队长。1935年所部改编为近卫第一团，任团长。1937年全面抗战爆发后，率近卫第一旅守备滇南。1941年所部改编为暂编十八师，任师长。1943年任第一集团军第一路军指挥官。1944年所部改编为第九十三军，任军长。1945年抗战胜利后赴越南受降，任河内警备司令。1948年3月兼任锦州警备司令，6月晋升第六兵团司令官，10月15日锦州被共产党军攻陷，卢浚泉被俘，关押于北京功德林战犯改造所。1959年获特赦，任云南政协秘书处专员。1978年任全国政协委员。1979年在云南昆明病逝，终年80岁。</text>
+    <view class="info">
+        <view class="name">卢浚泉</view>
+        <view class="time"><text>1899年－1979年</text></view>
+        <view class="costom">云南省昭通县人，彝族</view>
+        <view class="fenbu">黄埔军校入伍生第一团第三营连长、营长</view>
     </view>
 </view>
+
+<view class="jianjieCard">
+    <text space="emsp">  1927年回云南任第九十八师中校参谋、第十路军总指挥部军官候补生队大队长。1930年调任第九十八师第三旅第六团营长，1931年升任第十路军卫士大队大队长。1933年任云南补充大队大队长。1935年所部改编为近卫第一团，任团长。1937年全面抗战爆发后，率近卫第一旅守备滇南。1941年所部改编为暂编十八师，任师长。1943年任第一集团军第一路军指挥官。1944年所部改编为第九十三军，任军长。1945年抗战胜利后赴越南受降，任河内警备司令。1948年3月兼任锦州警备司令，6月晋升第六兵团司令官，10月15日锦州被共产党军攻陷，卢浚泉被俘，关押于北京功德林战犯改造所。1959年获特赦，任云南政协秘书处专员。1978年任全国政协委员。1979年在云南昆明病逝，终年80岁。
+    </text>
+</view>
+
+<view class="bu" ></view>

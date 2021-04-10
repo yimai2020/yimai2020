@@ -12,6 +12,13 @@ Page({
 
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/language/language',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -14,7 +14,7 @@ Page({
   },
 
   navigateToWenzi:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../../../clothes/clothes',
     })
   },

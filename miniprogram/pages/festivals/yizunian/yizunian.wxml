@@ -1,43 +1,27 @@
 
-<view class="page">
-    <view class="intro">
-        <view class="intro_picture" style="width:50%;height:90%;position:relative;top:30rpx">
-            <image src="{{intro}}" style="width:100%;" mode="widthFix" />
-        </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">彝族年</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:28rpx">
-            时间：    &nbsp;农历十月   
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:28rpx">
-            习俗：    &nbsp;杀年猪&nbsp;&nbsp;&nbsp;敬祖灵&nbsp;&nbsp;&nbsp;拜年  
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:28rpx">
-            节日分布：    &nbsp;凉山彝族自治州 
-            </text>
-            </view>
-        </view>
-        
+<view class="topCard">
+    <view class="pic">
+        <image src="{{intro}}" mode="widthFix" style="width:80%"></image>
     </view>
-    <view class="story">
-        <text class="story-title">简介：\n彝族年   ，彝语称为“库斯”，“库”即年、“斯”即新，意思是新年，是四川省凉山彝族自治州大小凉山彝族传统的祭祀兼庆贺性节日。彝族年是彝族的一个重要节日。从古到今，彝族对过年十分重视，也很热闹。关于彝族年始于何时，现已无从查考，凉山彝族过年中的许多仪式均与祖先崇拜相关，整个节日中充满浓厚的祖先至上色彩。</text>
-        <view class="story-detail">    </view>
+    <view class="info">
+        <view class="name">彝族年</view>
+        <view class="time"><text>农历十月</text></view>
+        <view class="costom">杀年猪、敬祖灵、拜年</view>
+        <view class="fenbu">凉山彝族自治州</view>
     </view>
+</view>
+
+<view class="jianjieCard">
+    <view class="content">彝族年   ，彝语称为“库斯”，“库”即年、“斯”即新，意思是新年，是四川省凉山彝族自治州大小凉山彝族传统的祭祀兼庆贺性节日。彝族年是彝族的一个重要节日。从古到今，彝族对过年十分重视，也很热闹。关于彝族年始于何时，现已无从查考，凉山彝族过年中的许多仪式均与祖先崇拜相关，整个节日中充满浓厚的祖先至上色彩。</view>
     <view class="picture">
-        <text class="picture-title">康康照片:</text>
-        <scroll-view scroll-left="0" scroll-x class="scroll">
+        <scroll-view scroll-left="0" scroll-y class="scroll">
             <block wx:for="{{picList}}" wx:key="fileID">
                 <view class="picture-detail">
-                    <image src="{{item.tempFileURL}}"  mode="widthFix"/>
+                    <image src="{{item.tempFileURL}}" mode="widthFix" style="width:100%"/>
                 </view>
             </block>
         </scroll-view>
     </view>
 </view>
+
+<view class="bu" ></view>

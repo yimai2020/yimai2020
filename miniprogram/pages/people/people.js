@@ -8,6 +8,13 @@ Page({
     
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/people/people',
+    })
+  },
+
   shexiangfurenTap:function (e){
     wx.navigateTo({
       url: 'shexiangfuren/shexiangfuren',

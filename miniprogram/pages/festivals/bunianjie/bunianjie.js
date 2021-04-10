@@ -15,6 +15,7 @@ Page({
    */
   onLoad: function (options) {
 
+    getApp().loadFont();
     wx.cloud.init({
       env:"fxy"
     })

@@ -25,7 +25,6 @@ page{
   line-height: 70rpx;
   text-align:center;
   font-size: 65rpx;
-  font-weight: 700;
   margin-left: 40rpx;
   margin-top:30rpx; 
 }

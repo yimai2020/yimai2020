@@ -22,6 +22,13 @@ Page({
 
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/destivals/destivals',
+    })
+  },
+
   GetFestivalsSwiper: function(){
     wx.cloud.init({
       env:"fxy"

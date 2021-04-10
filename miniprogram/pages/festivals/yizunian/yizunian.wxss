@@ -1,43 +1,89 @@
-@import "../../../style/Layout.wxss";
 
-.story,.picture{
-    margin:16rpx
-  }
-  .story-title,.picture-title{
-    font-size:12px;
-    color:#726F6F;
-  }
-  .story-detail{
-    text-indent:2em;
-    margin-top:10rpx;
-  }
-  
-  .scroll{
-    display: flex;
-    white-space: nowrap;  
-    width:100%;
-  }
-  .picture-detail{
-     display: inline-block; 
-  }
-  .picture-detail image{
-    margin-top:10rpx;
-    display: block;  /* 将名字放在图片下面 */
-    height:500rpx;
-    width:300px;
-    padding-right: 10rpx;
-  }
-  .picture-detail text{
-    display: block; 
-  }
-  page{
-    background-color: #edece4;
-  }
+page{
+  background-color: #edece4;
+}
 
-  .name{
-      width: 200rpx;
+.topCard{
+  display: flex;
+  align-items: center;
+  margin: 30rpx;
+  background-color: #996633;
+  border-radius: 20rpx;
+  padding: 40rpx;
+  line-height: 50rpx;
+  font-size: 27rpx;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 6px 10px rgba(19, 19, 19, 0.678);
+}
+
+.pic{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  flex: 3;
+  align-self: center;
+}
+
+.name{
+  font-size: 60rpx;
+  font-family: 'lishu';
+  margin-bottom: 20rpx;
+  font-weight: 300;
+}
+
+.time{
+  margin-bottom: 20rpx;
+}
+
+.costom{
+  margin-bottom: 20rpx;
+}
+
+.jianjieCard{
+  position: absolute;
+  top:450rpx;
+  background-color: #663300;
+  display: flex;
+  padding: 30rpx;
+  padding-top: 100rpx;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  font-weight: 700;
+  animation: cardAnimation 1s;
+}
+@keyframes cardAnimation {
+  from {
+      top:750rpx
   }
-.intro{
-  border-bottom: 5rpx solid #DE5034;
-  border-bottom-style: dotted;
+  to {
+      top:450rpx
+  }
+}
+
+.content{
+  flex: 2;
+  color: #fff;
+  align-self: center;
+  margin-right: 20rpx;
+}
+
+.picture{
+  flex: 3;
+  align-self: center;
+}
+
+.bu{
+  height:600rpx;
+  width: 100%;
+  background-color:#663300;
+  position: absolute;
+  bottom: 0;
+  z-index: -10;
 }

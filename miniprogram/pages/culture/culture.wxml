@@ -1,3 +1,5 @@
+
+
 <SearchInput></SearchInput>
 <view bindtap="gotoHistory" class="button" hover-class="button-hover" style="background-image:url(https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/culture-button/history.png?sign=cb6e06c2a4e2fd0fe542f41aaefb3f0f&t=1617950321);">
   <text class="content">历史\nꐩꋊ</text>

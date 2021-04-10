@@ -207,6 +207,7 @@ wx.switchTab({
           selected: 1
         })
       }
+      that.getSize()
 
   },
 
