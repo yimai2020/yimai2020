@@ -11,7 +11,7 @@
   <swiper-item>
     <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
       <view class="history-background"></view>
-      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'">
         <text space="emsp" >  彝族历史悠久，其沿袭及变革几乎贯穿了整个中国的历史。\n  彝族历史沿革总共有七个时期。\n  分别为先秦时期、秦汉时期、魏晋时期、唐时期、宋时期、元明清时期、民国时期。</text>
       </view>
 
@@ -181,7 +181,7 @@
         </view>
 
       </view>
-      <view class="sketch" style="top:3370rpx;width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;" >
+      <view class="sketch" style="top:3370rpx;width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'" >
            <text space="emsp" >  经历了千年跌宕沉浮，彝族人民及其文化没有消失在历史长河中，反而历久弥金。\n  彝族作为中国的第六大少数民族，其悠久的历史和极具特色的文化是中华文化的无形瑰宝，希望所有中华儿女能够珍惜这一文化瑰宝。</text>
       </view>
       <text>  \n \n \n</text>
@@ -191,7 +191,7 @@
   <swiper-item>
     <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
     <view class="history-background" ></view>
-    <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+    <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'">
       <text space="emsp">  彝族历史悠久，早在先秦时期就有过记载。\n  彝族的称谓在历史上经历了不同的演变，不同时期各有不同。</text>
     </view>
     <view class="history-background" style="height:500rpx;"></view>
@@ -201,16 +201,14 @@
     </view>
     <view class="name-qinhan" >
       <view style="width:700rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=d9aff25c3e8a2b2b48cf89d0cd94a35e&t=1582422877" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-180rpx;margin-left:60rpx;"><text>司马迁《史记·西南彝传》记载，在秦汉时期，中国西南地区所分布的数十个部落统称“西南夷”。</text></view>
+        <view class="sketch-content" style="width:600rpx;margin-left:60rpx;font-family:'lishu'"><text>司马迁《史记·西南彝传》记载，在秦汉时期，中国西南地区所分布的数十个部落统称“西南夷”。</text></view>
       </view>
       <view wx:for="{{name_qinhan}}" wx:key="index" class="card-qinhan" style="background-image: url({{item.background}});"> 
         <image mode='widthFix' style="width: 100%;" src="{{item.img}}" class="name-image"></image>
         <text class="name-detail" >{{item.detail}}</text>
       </view>
-      <view style="width:700rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=d9aff25c3e8a2b2b48cf89d0cd94a35e&t=1582422877" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
-        <view class="sketch-content" style="width:550rpx;top:-160rpx;"><text>以上的这几个称谓昆明、巂、叟、僰组成了秦汉时期彝族的统称。</text></view>
+      <view style="width:700rpx;height:200rpx;">
+        <view  class="sketch-content" style="width:600rpx;margin-left:60rpx;font-family:'lishu'"><text>以上的这几个称谓昆明、巂、叟、僰组成了秦汉时期彝族的统称。</text></view>
       </view>
     </view>
     
@@ -259,7 +257,7 @@
   <swiper-item>
     <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}" >
     <view class="history-background" ></view>
-      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:35rpx;">
+      <view class="sketch" style="width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'">
         <text  space="emsp">  彝族在长期形成与发展中，民族的发展始终与我国中原历史密切相关，古滇、南诏、彝海结盟，解放后彝族自治区和自治县的成立，都是我国少数民族文化发展历史的重要事件</text>
       </view>
 
@@ -270,8 +268,7 @@
           <text class="title-content-xianqin">远古―公元前8世纪</text>
       </view>
       <view style="width:700rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-150rpx;margin-left:150rpx;"><text>彝族起源"哎哺"(原始)时代\n(哎哺是彝族最古老的部落)</text></view>
+        <view class="sketch-content" style="width:550rpx;margin-left:60rpx;"><text>彝族起源"哎哺"(原始)时代\n(哎哺是彝族最古老的部落)</text></view>
       </view>
 
       <view class="big-detail" wx:for="{{big_detail_1}}" wx:key="index">
@@ -289,8 +286,7 @@
         <text class="title-content-xianqin" style="width:450rpx;">公元前8世纪―公元220年</text>
       </view>
       <view style="width:700rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:690rpx;height:220rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-190rpx;margin-left:150rpx;"><text>'西南夷'时代\n(六祖:武、乍、糯、恒、布、黔\n分为六大部落并四面迁徙)</text></view>
+        <view class="sketch-content" style="width:550rpx;margin-left:60rpx;"><text>'西南夷'时代\n(六祖:武、乍、糯、恒、布、黔\n分为六大部落并四面迁徙)</text></view>
       </view>
 
       <view class="big-detail" wx:for="{{big_detail_2}}" wx:key="index">
@@ -308,8 +304,7 @@
         <text class="title-content-xianqin" style="width:450rpx;">公元220年―589年</text>
       </view>
       <view style="width:500rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-130rpx;margin-left:180rpx;"><text>夷帅的兴起与诸葛亮南征</text></view>
+        <view class="sketch-content" style="width:500rpx;margin-left:100rpx;"><text>夷帅的兴起与诸葛亮南征</text></view>
       </view>
 
       <view class="big-detail" wx:for="{{big_detail_3}}" wx:key="index">
@@ -327,8 +322,7 @@
         <text class="title-content-xianqin" style="width:450rpx;">公元738年―902年</text>
       </view>
       <view style="width:500rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-120rpx;margin-left:250rpx;"><text>南诏帝国时代</text></view>
+        <view class="sketch-content" style="width:300rpx;margin-left:220rpx;"><text>南诏帝国时代</text></view>
       </view>
 
       <view class="big-detail" wx:for="{{big_detail_4}}" wx:key="index">
@@ -346,8 +340,7 @@
         <text class="title-content-xianqin" style="width:450rpx;">公元902年―1958年</text>
       </view>
       <view style="width:500rpx;height:300rpx;">
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/history/background/paint.png?sign=10796293d4ed2150c92dfcee0fefcc49&t=1587177387" style="position:relative;z-index:-1;width:500rpx;height:170rpx;left:100rpx;"></image>
-        <view class="sketch-content" style="width:600rpx;top:-120rpx;margin-left:250rpx;"><text>彝族土司时代</text></view>
+        <view class="sketch-content" style="width:300rpx;margin-left:220rpx;"><text>彝族土司时代</text></view>
       </view>
 
       <view class="big-detail" wx:for="{{big_detail_5}}" wx:key="index">

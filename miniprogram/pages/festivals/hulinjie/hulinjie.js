@@ -20,7 +20,7 @@ Page({
     })
 
   wx.cloud.getTempFileURL({
-      fileList: ['cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/hulinjie/pic3.jpg', 
+      fileList: [
       'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/hulinjie/pic2.jpg',
       'cloud://fxy-onc8b.6678-fxy-onc8b-1300849435/festivals/hulinjie/pic1.jpg'],
       success: res => {

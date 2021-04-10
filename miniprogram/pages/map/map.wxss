@@ -109,9 +109,10 @@
 .literature{
   position: absolute;
   width: 250rpx;
-  top:550rpx;
-  left:0rpx;
+  top:100rpx;
+  left:320rpx;
   display: flex; 
+  align-items: center;
 }
 .body{
   width: 100%;
@@ -119,23 +120,26 @@
 .clothes{
   position: absolute;
   width: 250rpx;
-  top:650rpx;
+  top:850rpx;
   left:180rpx;
   display: flex;
+  align-items: center;
 }
 .diet{
   position: absolute;
   width: 250rpx;
-  top:750rpx;
-  left:350rpx;
+  top:400rpx;
+  left:230rpx;
   display: flex;
+  align-items: center;
 }
 .distribution{
   position: absolute;
   width: 250rpx;
-  top:450rpx;
+  top:550rpx;
   left:450rpx;
   display: flex;
+  align-items: center;
 }
 .flag{
   flex: 2;
@@ -144,7 +148,9 @@
   border-radius: 25rpx;
   background-color: rgba(0, 0, 0, 0.397);
   color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .point{

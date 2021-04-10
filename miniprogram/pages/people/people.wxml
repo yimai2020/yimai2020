@@ -5,14 +5,14 @@
 
 
 
-<view class="body">
+<view class="body" style="position: relative;  top:100rpx;">
   <image class="vertical_line" src="{{vertical_line}}" />
 
   <view class="shexiangfuren" hover-class="view_right_hover" bindtap = "shexiangfurenTap" >
     <image class="yuandian0" src="{{yuandian}}" mode="widthFix"/>
-    <image class="triangle0" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="triangle0" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content0">
-      <image class="picture0" src="{{shexiangfuren}}" />
+      <image class="picture0" src="{{shexiangfuren}}" mode="widthFix"/>
       <text class="name0"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;奢香夫人\n</text>
       <text class="des0" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;政治家</text>
       
@@ -21,10 +21,10 @@
 
 
   <view class="longyun" hover-class="view_left_hover" bindtap = "longyunTap">
-    <image class="yuandian1" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle1" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian1" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle1" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content1">
-     <image class="picture1" src="{{longyun}}" />
+     <image class="picture1" src="{{longyun}}" mode="widthFix"/>
       <text class="name1"  decode="{{true}}"  >龙云\n</text>
       <text class="des1" decode="{{true}}">滇系军阀首领</text>
      
@@ -33,10 +33,10 @@
 
   
   <view class="xiaoyedan" hover-class="view_right_hover" bindtap = "xiaoyedanTap">
-    <image class="yuandian2" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle2" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian2" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle2" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content2">
-    <image class="picture2" src="{{xiaoyedan}}" />
+      <image class="picture2" src="{{xiaoyedan}}" mode="widthFix"/>
       <text class="name2"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小叶丹</text>
       <text class="des2" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;彝族首领</text>
       
@@ -45,10 +45,10 @@
 
 
   <view class="luhan" hover-class="view_left_hover" bindtap = "luhanTap">
-    <image class="yuandian3" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle3" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian3" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle3" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content3">
-    <image class="picture3" src="{{luhan}}" />
+    <image class="picture3" src="{{luhan}}" mode="widthFix"/>
       <text class="name3"  decode="{{true}}"  >卢汉</text>
       <text class="des3" decode="{{true}}">国民革命军二级上将</text>
       
@@ -57,10 +57,10 @@
 
 
   <view class="chutunan" hover-class="view_right_hover" bindtap = "chutunanTap">
-    <image class="yuandian4" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle4" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian4" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle4" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content4">
-     <image class="picture4" src="{{chutunan}}" />
+     <image class="picture4" src="{{chutunan}}" mode="widthFix"/>
       <text class="name4"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;楚图南</text>
       <text class="des4" decode="{{true}}">&nbsp;&nbsp;&nbsp;作家、翻译家、书法家</text>
      
@@ -69,10 +69,10 @@
 
 
   <view class="lujunquan" hover-class="view_left_hover" bindtap = "lujunquanTap">
-    <image class="yuandian5" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle5" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian5" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle5" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content5">
-    <image class="picture5" src="{{lujunquan}}" />
+    <image class="picture5" src="{{lujunquan}}" mode="widthFix"/>
       <text class="name5"  decode="{{true}}"  >卢浚泉</text>
       <text class="des5" decode="{{true}}">军人</text>
       
@@ -80,10 +80,10 @@
   </view>   
 
   <view class="zhangchong" hover-class="view_right_hover" bindtap = "zhangchongTap">
-    <image class="yuandian6" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle6" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian6" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle6" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content6">
-    <image class="picture6" src="{{zhangchong}}" />
+    <image class="picture6" src="{{zhangchong}}" mode="widthFix"/>
       <text class="name6"  decode="{{true}}"  >&nbsp;<image class="picture6" src="{{zhangchong}}" /><image class="picture6" src="{{zhangchong}}" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张冲\n</text>
       <text class="des6" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“小孔明”</text>
       
@@ -91,10 +91,10 @@
   </view>   
 
   <view class="longzehui" hover-class="view_left_hover" bindtap = "longzehuiTap">
-    <image class="yuandian7" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle7" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian7" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle7" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content7">
-    <image class="picture7" src="{{longzehui}}" />
+    <image class="picture7" src="{{longzehui}}" mode="widthFix"/>
       <text class="name7"  decode="{{true}}"  >龙泽汇\n</text>
       <text class="des7" decode="{{true}}">军人</text>
       
@@ -102,10 +102,10 @@
   </view>   
 
   <view class="yangguoxiang" hover-class="view_right_hover" bindtap = "yangguoxiangTap">
-    <image class="yuandian8" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle8" src="{{triangle_left}}" mode="awidthFix"  />
+    <image class="yuandian8" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle8" src="{{triangle_left}}" mode="widthFix"  />
     <view class="content8">
-    <image class="picture8" src="{{yangguoxiang}}" />
+    <image class="picture8" src="{{yangguoxiang}}" mode="widthFix"/>
       <text class="name8"  decode="{{true}}"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杨国祥\n</text>
       <text class="des8" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空军少将</text>
       
@@ -113,10 +113,10 @@
   </view>   
 
   <view class="yanglikun" hover-class="view_left_hover" bindtap = "yanglikunTap">
-    <image class="yuandian9" src="{{yuandian}}" mode="wideFix"/>
-    <image class="triangle9" src="{{triangle_right}}" mode="awidthFix"  />
+    <image class="yuandian9" src="{{yuandian}}" mode="widthFix"/>
+    <image class="triangle9" src="{{triangle_right}}" mode="widthFix"  />
     <view class="content9">
-    <image class="picture9" src="{{yanglikun}}" />
+    <image class="picture9" src="{{yanglikun}}" mode="widthFix"/>
       <text class="name9"  decode="{{true}}"  >杨丽坤\n</text>
       <text class="des9" decode="{{true}}">舞蹈演员，电影演员</text>
       
@@ -128,7 +128,7 @@
   
 
 
-<view class="year_end_father">
+<view class="year_end_father" style="position: relative;  top:100rpx;">
     <view class="year_end_son" hover-class="button-hover" bindtap = "Gotomain">
       (回到主菜单)
     </view>

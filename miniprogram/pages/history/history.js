@@ -232,6 +232,7 @@ Page({
    */
   onLoad: function (options) {
     var that = this
+    getApp().loadFont();
     wx.getSystemInfo({
       success: function (res) {
         that.setData({

@@ -2,7 +2,7 @@
 <text style="margin:20rpx auto;font-size:40rpx;font-weight:700;">彝族主要支系区域分布情况</text>
 <van-divider contentPosition="right" fontSize="10">点击支系自称查看分布情况</van-divider>
 <van-grid column-num="2" gutter="{{ 10 }}">
-  <van-grid-item use-slot wx:for="{{name}}" wx:key="index" >
+  <van-grid-item use-slot wx:for="{{name}}" wx:key="index">
     <image mode="widthFix"  style="width: 90%; height: 100rpx;" src="{{item.src}}" bindtap="preview" data-item="{{item}}"/>
   </van-grid-item>
 </van-grid>

@@ -1,4 +1,7 @@
 @import "../../../style/Layout.wxss";
+.intro{
+  height: 450rpx;
+}
 
 .story,.picture{
     margin:16rpx

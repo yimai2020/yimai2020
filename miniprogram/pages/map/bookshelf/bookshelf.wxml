@@ -1,25 +1,19 @@
-<image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/bookshelf.png?sign=de28ca118c3242e89853271cf9c77b42&t=1588563189"  style="height:100%;width:100%;" class="background"></image>
-
-
+<image src="{{backgroundPic}}"  style="height:{{height}}px;width:100%;" class="background"></image>
 
 <view class="lishi" bindtap="gotoLishi">
   <view class="flag">历史</view>
   <view class="point">
     <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
-    <view style="flex: 1;">
-      <view class="bottomMiddleHeaderItemSubView"> 
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
-      </view>  
+    <view style="flex: 1;"class="shining">
+      <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" ></image>
     </view>
   </view>
 </view>
 
 <view class="wenxue" bindtap="gotoWenxue">
   <view class="point">
-    <view style="flex: 1;">
-      <view class="bottomMiddleHeaderItemSubView"> 
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
-      </view> 
+    <view style="flex: 1;"class="shining">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" ></image>
     </view>
     <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
   </view>
@@ -30,17 +24,15 @@
   <view class="flag">人物</view>
   <view class="point">
     <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
-    <view style="flex: 1;">
-      <view class="bottomMiddleHeaderItemSubView"> 
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
-      </view> 
+    <view style="flex: 1;"class="shining">
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" ></image>
     </view>
   </view>
 </view>
 
 <view class="up" bindtap = "backtoindoor">
   <view class="bottomMiddleHeaderItemSubView" style="flex:1"> 
-        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/zhishi.png?sign=cc984a62c41a97978ce96214932a77e6&t=1588582401"  mode='widthFix' style="width:60rpx;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
+        <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/zhishi.png?sign=cc984a62c41a97978ce96214932a77e6&t=1588582401"  mode='widthFix' style="width:60rpx;align-self:center;" ></image>
       </view> 
   
   <view style="flex:4">返回上级</view>

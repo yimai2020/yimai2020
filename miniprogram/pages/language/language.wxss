@@ -4,13 +4,22 @@
   margin: 20rpx;
   height: 150rpx;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  line-height: 150rpx;
+  align-items: center;
   border-radius: 20rpx;
   background: #fff;
-  font-size: 35rpx;
   border: 1px solid rgba(172, 170, 170, 0.507);
   /*box-shadow: 0 8rpx 12rpx 4rpx #666;*/
+}
+
+.zhongwen{
+  font-family: 'lishu';
+  font-size: 50rpx;
+}
+
+.yiwen{
+  font-size: 35rpx;
 }
 
 .profile{
@@ -55,12 +64,12 @@
   position: relative;
   background-color: #fff;
   top:710rpx;
-  height: 700rpx;z-index: -5;
+  height: 800rpx;z-index: -5;
 }
 
 .allButton{
   position: relative;
-  top:0;
+  top:-100rpx;
 }
 
 .wave{ 
@@ -69,7 +78,7 @@
   height: 1100rpx;	
   background-color: rgb(60, 108, 250);	
   z-index: -10;
-  }
+}
 
 .wave:before,.wave:after{	
   content: "";	

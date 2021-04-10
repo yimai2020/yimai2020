@@ -19,13 +19,13 @@ page{
 
 .letter{
   font-size: 70rpx;
-  width:150rpx;
   font-weight: 700;
 }
 
 .audio{
   width:50rpx;
   align-self: center;
+  margin-left: 20rpx;
 }
 
 .collection{

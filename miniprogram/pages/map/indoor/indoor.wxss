@@ -1,10 +1,11 @@
 /* pages/map/indoor/indoor.wxss */
 .literature{
   position: absolute;
-  width: 250rpx;
+  width: 300rpx;
   top:550rpx;
-  left:0rpx;
+  left:100rpx;
   display: flex; 
+  align-items: center;
 }
 .body{
   width: 100%;
@@ -15,6 +16,7 @@
   top:650rpx;
   left:180rpx;
   display: flex;
+  align-items: center;
 }
 .diet{
   position: absolute;
@@ -22,6 +24,7 @@
   top:750rpx;
   left:350rpx;
   display: flex;
+  align-items: center;
 }
 .distribution{
   position: absolute;
@@ -29,6 +32,7 @@
   top:450rpx;
   left:450rpx;
   display: flex;
+  align-items: center;
 }
 .flag{
   flex: 2;
@@ -40,6 +44,9 @@
   background-color: rgba(0, 0, 0, 0.397);
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .point{

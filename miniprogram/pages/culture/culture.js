@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    active: 1
+    //设备宽高
+    windowHeight:'',
+    windowWidth:'',
+    active: 1,
+    scrollTop: 0,
+    //scrollHeight:0
+  },
+
+  
+  getsize(){
+    let that=this;
+    wx.getSystemInfo({
+      success(res) {
+        console.log(res)
+        that.setData({
+          windowHeight:res.windowHeight,
+          windowWidth:res.windowWidth
+        })
+      },
+    })
   },
 
   onChange(event) {
@@ -115,6 +134,9 @@ Page({
    */
   onLoad: function (options) {
     this.app = getApp()
+    var that = this
+    getApp().loadFont();
+    that.getsize();
   },
 
   /**
@@ -151,6 +173,14 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 0
+        })
+      }
+
+
     setTimeout(function () {
       this.app.slideupshow(this, 'slide_up1', -200, 1)
     }.bind(this), 200);
@@ -262,7 +292,32 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    console.log('到底')
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        toBottom: 1
+      })
+    }
+  },
+  
+  //监听屏幕滚动 判断上下滚动
+  onPageScroll: function (e) {
+     if (e.scrollTop > this.data.scrollTop || e.scrollTop >= this.data.scrollHeight) {
+      //向下滚动 
+     } else {
+      //向上滚动 
+      if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          toBottom: 0
+        })
+      }
+     }
+     //给scrollTop重新赋值 
+     this.setData({
+      scrollTop: e.scrollTop
+     })
   },
 
   /**

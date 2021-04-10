@@ -1,3 +1,5 @@
+<view id="page">
+
 <view class="background_view">
   <view class='wave'></view>
   <view class='wave_1'></view>
@@ -13,9 +15,23 @@
     
 <view class="background"></view>
 <view class="allButton">
-  <view bindtap="gotoWord" hover-class="view_hover" class="button">单词列表\nꁱꂷꅑꀜ</view>
-  <view bindtap="gotoDialogue" hover-class="view_hover" class="button">日常对话\nꂿꑍꅇꄜ</view>
-  <view bindtap="gotoArticle" hover-class="view_hover" class="button">经典选段\nꂓꅑꌋꊱ</view>
-  <view bindtap="gotoCalender" hover-class="view_hover" class="button">每日打卡\nꃅꑍꌬꈧ</view>
+  <view bindtap="gotoWord" hover-class="view_hover" class="button">
+    <view class="zhongwen">每日打卡</view>
+    <view class="yiwen">ꃅꑍꌬꈧ</view>
+  </view>
+  <view bindtap="gotoDialogue" hover-class="view_hover" class="button">
+    <view class="zhongwen">日常对话</view>
+    <view class="yiwen">ꂿꑍꅇꄜ</view>
+  </view>
+  <view bindtap="gotoArticle" hover-class="view_hover" class="button">
+    <view class="zhongwen">经典选段</view>
+    <view class="yiwen">ꂓꅑꌋꊱ</view>
+  </view>
+  <view bindtap="gotoCalender" hover-class="view_hover" class="button">
+    <view class="zhongwen">每日打卡</view>
+    <view class="yiwen">ꃅꑍꌬꈧ</view>
+  </view>
   
+</view>
+
 </view>

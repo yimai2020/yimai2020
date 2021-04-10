@@ -7,6 +7,7 @@ page{
   margin: 30rpx;
   margin-top: 70rpx;
   border-radius: 10rpx;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .swiper1{

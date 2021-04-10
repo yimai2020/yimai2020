@@ -49,7 +49,8 @@
     "pages/map/video/history/history",
     "pages/map/video/language/language",
     "pages/distinguish/distinguish",
-    "pages/distinguish/result/result"
+    "pages/distinguish/result/result",
+    "custom-tab-bar/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -60,30 +61,31 @@
     "navigationStyle": "default"
   },
   "tabBar": {
+    "custom": true,
     "color": "#707070",
     "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/culture/culture",
-        "iconPath": "images/culture.png",
+        "iconPath": "images/culture_white.png",
         "selectedIconPath": "images/culture-active.png",
         "text": "彝族文化"
       },
       {
         "pagePath": "pages/map/map",
-        "iconPath": "images/jiejing.png",
+        "iconPath": "images/jiejing_white.png",
         "selectedIconPath": "images/jiejing-active.png",
         "text": "街景"
       },
       {
         "pagePath": "pages/distinguish/distinguish",
-        "iconPath": "images/faxian.png",
+        "iconPath": "images/faxian_white.png",
         "selectedIconPath": "images/faxian-active.png",
         "text": "发现"
       },
       {
         "pagePath": "pages/language/language",
-        "iconPath": "images/language.png",
+        "iconPath": "images/language_white.png",
         "selectedIconPath": "images/language-active.png",
         "text": "彝语学习"
       }

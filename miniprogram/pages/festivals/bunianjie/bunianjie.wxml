@@ -35,7 +35,7 @@
         <scroll-view scroll-left="0" scroll-x class="scroll">
             <block wx:for="{{picList}}" wx:key="fileID">
                 <view class="picture-detail">
-                    <image src="{{item.tempFileURL}}" />
+                    <image src="{{item.tempFileURL}}"  mode="widthFix"/>
                 </view>
             </block>
         </scroll-view>
