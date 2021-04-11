@@ -1,3 +1,4 @@
+
 <view style="margin-bottom:50rpx;">
       <swiper  indicator-dots ="true"  autoplay="true"   interval ="5000"   duration="500" style="height:400rpx;">
       <swiper-item wx:for="{{scorll_1}}" wx:key="index">
@@ -15,8 +16,4 @@
       <van-divider />
       <view class="title" style="top:30rpx;">茅草房</view>
       <view class="content1"><text space="emsp" >茅草房一般为土木结构，以石块垫基，夯土筑墙，用结实的圆木或者方木为柱。茅草房为双面坡斜顶，用草盖顶。盖草顶时，先打尽草绒，泼上冷水让风吹，接着放火燎茅草，燎去易燃的部分，浸透水的部分因风吹不干而不被火燃烧，形成结实的草顶，并在山墙上盖石板。能在发生火灾时让山墙挡住风力和火苗，控制火势，尽量避免火舌乱窜，殃及四周邻居。</text></view>
-    </view>
-      
-
-
-
+      </view>

@@ -1,41 +1,32 @@
 
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>阿诗玛</view>
+            <view class='detail-nm-eng'>作者：群众</view>
+            <view class='detail-sc'>副标题:无</view>
+            <view class='detail-cou'>出版年: 无</view>
+            <view class='detail-act'>类别：民间诗歌</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">阿诗玛</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            作者：群众
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >    
-            副标题: 无
-               
-            出版年: 无
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：民间诗歌
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-       阿诗玛使用口传诗体语言讲述或演唱阿诗玛的事迹：从前，在阿着底地方，贫苦的格路日明家生了个美丽的姑娘，爹妈希望女儿像金子一样珍贵闪光，便给她取名叫“阿诗玛”。
-       阿诗玛姑娘不仅长得漂亮，也能歌善舞，许多小伙子都喜欢她。她爱上了青梅竹马的孤儿阿黑，立誓非他不嫁。
-       一年的火把节，她和聪明勇敢的阿黑订了亲。财主热布巴拉的儿子阿支也看上了美丽的阿诗玛，便请媒人去说亲，但不管怎样威胁利诱，都无济于事。
-       热布巴拉家乘阿黑到远方放羊之机，派人抢走了阿诗玛并强迫她与阿支成亲，阿诗玛誓死不从，被鞭打后关进了黑牢。阿黑闻讯，日夜兼程赶来救阿诗玛，他和阿支比赛对歌、砍树、接树、撒种，全都赢了阿支。热布巴拉恼羞成怒，指使家丁放出三只猛虎扑向阿黑，阿黑三箭将猛虎射死，并救出了阿诗玛。
-       狠毒的热布巴拉父子不肯罢休，勾结崖神，乘阿诗玛和阿黑过河时，放洪水卷走了阿诗玛。十二崖子的应山歌姑娘，救出阿诗玛并使她变成了石峰，变成了回声神。从此，你怎样喊她，她就怎样回答你。她的声音，她的影子永远留在了人间。
-       阿诗玛不屈不挠地同强权势力作斗争的故事，揭示了光明终将代替黑暗、善美终将代替丑恶、自由终将代替压迫与禁锢的人类理想，反映了彝族撒尼人“断得弯不得”的民族性格和民族精神。</text>
-        
     </view>
 </view>
 
+<view class="keyWord">
+    <text space="emsp">简介：
+  阿诗玛使用口传诗体语言讲述或演唱阿诗玛的事迹：从前，在阿着底地方，贫苦的格路日明家生了个美丽的姑娘，爹妈希望女儿像金子一样珍贵闪光，便给她取名叫“阿诗玛”。
+  
+  阿诗玛姑娘不仅长得漂亮，也能歌善舞，许多小伙子都喜欢她。她爱上了青梅竹马的孤儿阿黑，立誓非他不嫁。
 
+  一年的火把节，她和聪明勇敢的阿黑订了亲。财主热布巴拉的儿子阿支也看上了美丽的阿诗玛，便请媒人去说亲，但不管怎样威胁利诱，都无济于事。
+
+  热布巴拉家乘阿黑到远方放羊之机，派人抢走了阿诗玛并强迫她与阿支成亲，阿诗玛誓死不从，被鞭打后关进了黑牢。阿黑闻讯，日夜兼程赶来救阿诗玛，他和阿支比赛对歌、砍树、接树、撒种，全都赢了阿支。热布巴拉恼羞成怒，指使家丁放出三只猛虎扑向阿黑，阿黑三箭将猛虎射死，并救出了阿诗玛。
+
+  狠毒的热布巴拉父子不肯罢休，勾结崖神，乘阿诗玛和阿黑过河时，放洪水卷走了阿诗玛。十二崖子的应山歌姑娘，救出阿诗玛并使她变成了石峰，变成了回声神。从此，你怎样喊她，她就怎样回答你。她的声音，她的影子永远留在了人间。
+
+  阿诗玛不屈不挠地同强权势力作斗争的故事，揭示了光明终将代替黑暗、善美终将代替丑恶、自由终将代替压迫与禁锢的人类理想，反映了彝族撒尼人“断得弯不得”的民族性格和民族精神。
+    </text>
+</view>

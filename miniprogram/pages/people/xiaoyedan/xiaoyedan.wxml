@@ -1,32 +1,23 @@
 
-<view class="page">
-    <view class="intro" style="height:650rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx;position:relative;top:10rpx">
-            <image src="{{intro}}" style="width:100%;" mode="widthFix" />
-        </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">小叶丹</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            生卒：1894年-1942年
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >
-            彝名果基约达，彝族，四川省冕宁县（今彝海镇）人 
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            100位为新中国成立作出突出贡献的英雄模范人物
-            </text>
-            </view>
-        </view>
-        
+<view class="topCard">
+    <view class="pic">
+        <image src="{{intro}}" mode="widthFix" style="width:80%"></image>
     </view>
-    <view class="story">
-        <text class="story-title">简介：\n北上红军进入四川冕宁后，艰险异常的大凉山百里彝区横亘在红军面前。通过执行党的民族政策，红军先遣部队刘伯承司令、聂荣臻政委与彝族首领小叶丹在彝海边相见，以水代酒，歃血盟誓结为兄弟，小叶丹护送红军大队顺利通过了百里彝区。
-　　建立了第一支少数民族地方红色武装的红军果基支队。在其后一直坚持与国民党军队作战。 
-　　小叶丹派出向导为红军带路，护送红军顺利通过了彝区，为红军抢渡大渡河、飞夺泸定桥赢得了宝贵时间，实现了北上抗日军事大转移。 从而彻底粉碎了蒋介石叫嚣的“让毛泽东成为第二个石达开”的美梦。</text>
+    <view class="info">
+        <view class="name">小叶丹</view>
+        <view class="time"><text>1894年-1942年</text></view>
+        <view class="costom">彝名果基约达，彝族，四川省冕宁县（今彝海镇）人</view>
+        <view class="fenbu">100位为新中国成立作出突出贡献的英雄模范人物</view>
     </view>
 </view>
+
+<view class="jianjieCard">
+    <text space="emsp">  北上红军进入四川冕宁后，艰险异常的大凉山百里彝区横亘在红军面前。通过执行党的民族政策，红军先遣部队刘伯承司令、聂荣臻政委与彝族首领小叶丹在彝海边相见，以水代酒，歃血盟誓结为兄弟，小叶丹护送红军大队顺利通过了百里彝区。
+　　
+  建立了第一支少数民族地方红色武装的红军果基支队。在其后一直坚持与国民党军队作战。 
+　　
+  小叶丹派出向导为红军带路，护送红军顺利通过了彝区，为红军抢渡大渡河、飞夺泸定桥赢得了宝贵时间，实现了北上抗日军事大转移。 从而彻底粉碎了蒋介石叫嚣的“让毛泽东成为第二个石达开”的美梦。
+    </text>
+</view>
+
+<view class="bu" ></view>

@@ -1,3 +1,19 @@
+
+.change{
+  position: fixed;
+  bottom: 30rpx;
+  right: 30rpx;
+  background-color: #fff;
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 10px rgba(19, 19, 19, 0.678);
+}
+
 .swiper{
   width: 710rpx;
   border-radius: 10rpx;

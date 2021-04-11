@@ -1,5 +1,13 @@
 <!--pages/dance/dance.wxml-->
-    <view style="margin-bottom:50rpx;">
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>    
+
+<view style="margin-bottom:50rpx;">
       <view class="content"><text space="emsp" > 彝族舞蹈有五种类型，分为打歌、跳弦、罗作、跳三弦、披毡舞。前四类舞蹈源于彝族古代生活，第五类模仿鹰、熊的舞蹈，与彝族古代的多神和图腾崇拜有关。这类动物模拟舞蹈，动作优美，在长期的历史进程中，逐步从祭祀仪式中分离出来，并不断添加着各个时代的审美意识，使之成为专供人们欣赏的表演舞蹈。</text></view>
       <van-divider />
       <view class="title" style="top:30rpx;">打歌</view>

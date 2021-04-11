@@ -1,13 +1,13 @@
-<image class="body" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/indoor/indoor2.jpg?sign=685f8f26d787c722be78e2d62e91fc6a&t=1588943043"   style="height:{{height}}rpx;z-index:-10;" ></image>
+<image class="body" src="{{backgroundPic}}"   style="height:{{height}}px;z-index:-10;" ></image>
 
 <view class="literature" bindtap="gotoLiterature">
-  <view class="flag">文学</view>
   <view class="point">
-    <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
     <view style="flex: 1;" class="shining" >
         <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;"  ></image>  
     </view>
+    <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
   </view>
+  <view class="flag">走近书架</view>
 </view>
 
 
@@ -21,7 +21,7 @@
   </view>
 </view>
 
-<view class="distribution" bindtap="gotoLanguage">
+<!--view class="distribution" bindtap="gotoLanguage">
   <view class="flag">分布</view>
   <view class="point">
     <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/line.png?sign=297e600599b991b7f334f715bb6a24e8&t=1588575574" class="line" mode='widthFix' style="width:100%;align-self:center;"></image>
@@ -39,7 +39,7 @@
         <image src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/bookshelf/point.png?sign=a5a270eb45162d358f6a325147d2d253&t=1588578230"  mode='widthFix' style="width:100%;align-self:center;" animation="{{animationMiddleHeaderItem}}"></image>
     </view>
   </view>
-</view>
+</view-->
 
 <view class="up" bindtap = "backtomap">
   <view class="point" style="flex:1"> 

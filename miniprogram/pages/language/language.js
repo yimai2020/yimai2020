@@ -2335,12 +2335,29 @@ Page({
     //设置动画
     that.setData(json)
   },
+
+  // 获取容器高度，使页面滚动到容器底部
+  pageScrollToBottom: function() {
+    wx.createSelectorQuery().select('#page').boundingClientRect(function(rect) {
+      if (rect){
+        // 使页面滚动到底部
+        console.log(rect.height);
+        wx.pageScrollTo({
+           scrollTop: rect.height,
+           duration:1000
+        },
+        )
+      }
+    }).exec()
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getOpenid()//获取用户的openid
     var that = this
+    this.getOpenid()//获取用户的openid
+    getApp().loadFont();
     wx.getSystemInfo({//获取设备的宽高，用于轮播页面功能
       success: function (res) {
         that.setData({
@@ -2361,6 +2378,17 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 3
+        })
+      }
+
+      
+    var that = this
+    that.pageScrollToBottom()
+
     this.slideupshow(this, 'slide_up1', -200, 1)
 
     setTimeout(function () {

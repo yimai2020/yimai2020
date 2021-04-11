@@ -1,7 +1,7 @@
 .title{
   width: 300rpx;
   border-radius: 10rpx;
-  background: #CC9999;
+  background: #CC99CC;
   font-weight: 700;
   color: white;
   font-size: 35rpx;
@@ -10,16 +10,14 @@
   display: flex;
   justify-content: center;
 }
-
 .content{
   width: 650rpx;
   margin: 10rpx auto;
-  background: #999966;
+  background: #996699;
   padding: 20rpx;
   border-radius: 20rpx;
   color:white;
 }
-
 .content1{
   width: 650rpx;
   margin: 10rpx auto;

@@ -13,6 +13,13 @@ Page({
     scorll_3: ['https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distribution/distribution-3-1.jpg?sign=7b49c219c0e70420fd9227e7ea438de2&t=1583034115', 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distribution/distribution-3-2.jpg?sign=67991de07a1547710ce9468cb40dee28&t=1583034122', 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/distribution/distribution-3-3.jpg?sign=3677ea164f6f02634d4540c6f1e41724&t=1583034130'],
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/distribution/distribution',
+    })
+  },
+
   //页面轮播功能函数
   swichNav: function (e) {
     console.log(e);

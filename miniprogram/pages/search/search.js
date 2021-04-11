@@ -1,10 +1,15 @@
 
 const db = wx.cloud.database(); //用db代替数据库
-wx.cloud.init({
-  env: 'fxy-onc8b'
-})
+
 Page({
   
+  onLoad(){
+    wx.cloud.init({
+      env: 'fxy-onc8b'
+    })
+  },
+
+
   data: {
     goods:[],
     
@@ -23,17 +28,22 @@ Page({
   // 输入框的值改变 就会触发的事件
   handleInput(e){
     // 1 获取输入框的值
+    console.log(e)
     const {value}=e.detail;
+    console.log(value)
     // 2 检测合法性
     if(!value.trim()){
+      
       this.setData({
         goods:[],
         url:[],
         isFocus:false
       })
       // 值不合法
+      console.log("buhefa")
       return;
     }
+    console.log("shuruhefa")
     // 3 准备发送请求获取数据
     this.setData({
       isFocus:true
@@ -58,7 +68,10 @@ Page({
           goods: res.data
           })
           
-      }  
+      }  ,
+      fail(err){
+        console.log(err)
+      }
     })
   },
 

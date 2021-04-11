@@ -61,6 +61,23 @@ App({
 
     this.globalData = {}
 
+    this.loadFont()
   },
 
+  loadFont() {
+    wx.loadFontFace({
+      family: 'lishu',
+      source: 'url("https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/font/%E5%AD%97%E9%AD%8271%E5%8F%B7-%E6%B4%AA%E4%BA%AE%E6%AF%9B%E7%AC%94%E9%9A%B6%E4%B9%A6%E7%AE%80%E4%BD%93.ttf?sign=dd5664253ab16fbc5597ad51c1c6e1bb&t=1617952208")',
+      success(res){
+       
+      },
+      fail(err){
+       
+      },
+      complete(res){
+        
+      }
+    })
+  }
+  
 })

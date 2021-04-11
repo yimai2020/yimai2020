@@ -2,6 +2,21 @@ page{
   background: #edf0e6;
 }
 
+.change{
+  position: fixed;
+  bottom: 30rpx;
+  right: 30rpx;
+  background-color: #fff;
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 10px rgba(19, 19, 19, 0.678);
+}
+
 .swiper-item {
   overflow: scroll;
 }
@@ -78,6 +93,7 @@ page{
   margin-left: 20rpx;
   width: 310rpx;
   top:100rpx;
+  animation: leftAnimation 1s ;
 }
 
 .left_content{
@@ -86,6 +102,14 @@ page{
   width:270rpx;
   background: #fff;
   padding: 20rpx;
+}
+@keyframes leftAnimation {
+  from {
+      left:-200rpx
+  }
+  to {
+      left:0
+  }
 }
 
 .fix{
@@ -98,6 +122,7 @@ page{
   position: absolute;
   left: -2rpx;
   width:15rpx;
+  animation: leftAnimation 1s ;
 }
 
 .point{
@@ -110,12 +135,15 @@ page{
   position: absolute;
   width:20rpx;
   right: -2rpx;
+  animation: rightAnimation 1s ;
 }
 
 .right{
   position: relative;
+  z-index: 0;
   width: 310rpx;
   top:300rpx;
+  animation: rightAnimation 1s ;
 }
 
 .right_content{
@@ -123,6 +151,14 @@ page{
   width:270rpx;
   background: #fff;
   padding: 20rpx;
+}
+@keyframes rightAnimation {
+  from {
+      right:-200rpx
+  }
+  to {
+      right:0
+  }
 }
 
 .sketch{
@@ -134,10 +170,15 @@ page{
 
 .sketch-content{
   position:relative;
-  margin:20rpx auto;
-  color:white;
-  font-weight: bold;
+  margin:30rpx;
+  color:#fff;
   font-size:35rpx;
+  background-color: #d3b47a;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: center;
+  font-family: 'lishu';
 }
 
 .name-qinhan{

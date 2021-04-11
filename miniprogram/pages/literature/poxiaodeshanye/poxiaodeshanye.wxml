@@ -1,37 +1,27 @@
 
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:500rpx" mode="wideFix" />
+
+
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>破晓的山野</view>
+            <view class='detail-nm-eng'>作者：李乔</view>
+            <view class='detail-sc'>副标题:无</view>
+            <view class='detail-cou'>出版年: 1982-01</view>
+            <view class='detail-act'>类别：小说</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:28px;">破晓的山野</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            作者：李乔
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >    
-            副标题: 无
-               
-            出版年: 1982-01
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：小说
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-       《破晓的山野》是彝族著名作家李乔的一部长篇小说,讲述了在中国共产党的领导下,凉山彝族地区的广大群众不断提高觉悟,坚决贯彻民主改革、民族平等和民族团结政策,积极推进民主改革运动的故事,整部小说都充满了浓厚的凉山彝族特色,文字朴实,仿佛散发着浓郁的乡土气息.笔者被这部小说所深深地吸引住了,不仅是因为它成功塑造了拉莫、娓娓、洋芋嫫等这样一批善良真挚、渴望自由的人物形象,将凉山彝族地区广大人民群众分化瓦解叛乱者、粉碎特务阴谋的斗争描写得生动形象,更重要的原因是被小说中所展现出来的深厚的历史感和民族性所震撼,进而对"历史感"和"民族性"这两个概念有了全新的认识,也对小说想要表达的精神内涵有了全新的认识。
-         小说描述了凉山彝族地区波澜壮阔的民主改革运动。广大彝族群众在党的领导下,不断提高觉悟,坚决贯彻和平民主改革、民族平等和民族团结。</text>
-        
     </view>
 </view>
 
+<view class="keyWord">
+    <text space="emsp">简介：
+  《破晓的山野》是彝族著名作家李乔的一部长篇小说,讲述了在中国共产党的领导下,凉山彝族地区的广大群众不断提高觉悟,坚决贯彻民主改革、民族平等和民族团结政策,积极推进民主改革运动的故事,整部小说都充满了浓厚的凉山彝族特色,文字朴实,仿佛散发着浓郁的乡土气息.笔者被这部小说所深深地吸引住了,不仅是因为它成功塑造了拉莫、娓娓、洋芋嫫等这样一批善良真挚、渴望自由的人物形象,将凉山彝族地区广大人民群众分化瓦解叛乱者、粉碎特务阴谋的斗争描写得生动形象,更重要的原因是被小说中所展现出来的深厚的历史感和民族性所震撼,进而对"历史感"和"民族性"这两个概念有了全新的认识,也对小说想要表达的精神内涵有了全新的认识。
 
+  小说描述了凉山彝族地区波澜壮阔的民主改革运动。广大彝族群众在党的领导下,不断提高觉悟,坚决贯彻和平民主改革、民族平等和民族团结。</text>
+        
+</view>
+
+<view class="bu" ></view>

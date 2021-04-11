@@ -1,155 +1,89 @@
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
+
 <SearchInput></SearchInput>
-<view >
-   <view class="infor" animation="{{slide_up1}}" >
-      <view class="title">
-         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
-         <text class="title_content">
-         简介
-         </text>
+
+<view style="height:100rpx"></view>
+
+<view class="top">
+   <view class="card" style="margin-right:10rpx">
+      <view class="title">简介</view>
+      <view class="content" wx:if="{{!zhankai1}}">
+         <text space="emsp">彝族文学大量的是民间口头文学，民间文学中的神话、故事、叙事诗、谚语等具有鲜明的民族特色。彝族...</text>
+         <text class="shouqizhankai" bindtap="zhankai1">展开</text>
       </view>
-      <text class="infor_content" selectable="false" space="false" decode="false">
-         彝族文学大量的是民间口头文学，民间文学中的神话、故事、叙事诗、谚语等具有鲜明的民族特色。彝族传统民间文学中，流传在云南彝族地区的《梅葛》、《阿细的先基》、《查姆》、《阿鲁举热》和四川大凉山彝族地区的《勒俄特依》，是创世神话的代表作。民间叙事长诗在彝族文学中占有很大比重。散文体的神话，集中反映了彝族先民关于宇宙形成、人类起源、万物来源的认识,与韵文体创世神话同工异曲。
-      </text>
+      <view class="content" wx:if="{{zhankai1}}">
+        <text space="emsp">彝族文学大量的是民间口头文学，民间文学中的神话、故事、叙事诗、谚语等具有鲜明的民族特色。彝族传统民间文学中，流传在云南彝族地区的《梅葛》、《阿细的先基》、《查姆》、《阿鲁举热》和四川大凉山彝族地区的《勒俄特依》，是创世神话的代表作。民间叙事长诗在彝族文学中占有很大比重。散文体的神话，集中反映了彝族先民关于宇宙形成、人类起源、万物来源的认识,与韵文体创世神话同工异曲。</text>
+         <text class="shouqizhankai" bindtap="shouqi1">收起</text>
+      </view>
    </view>
 
-
-   <view class="infor" animation="{{slide_up2}}">
-      <view class="title">
-         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
-         <text class="title_content">
-         基本信息
-         </text>
+   <view class="card">
+      <view class="title">基本信息</view>
+      <view class="content" wx:if="{{!zhankai2}}">
+         <text space="emsp">彝族人口540余万(1982)。主要分布在云南、四川、贵州、广西四省（区）。语言属汉藏语系藏缅语族...</text>
+         <text class="shouqizhankai" bindtap="zhankai2">展开</text>
       </view>
-      <text class="infor_content" selectable="false" space="false" decode="false">
-        彝族人口 540余万(1982)。主要分布在云南、四川、贵州、广西四省（区）。语言属汉藏语系藏缅语族，有音节文字。彝族文学大量的是民间口头文学，也陆续发现了一些以老彝文抄录的文史哲方面的典籍和若干碑铭文献。民间文学中的神话、故事、叙事诗、谚语等具有鲜明的民族特色。
-      </text>
+      <view class="content" wx:if="{{zhankai2}}">
+         <text space="emsp">彝族人口540余万(1982)。主要分布在云南、四川、贵州、广西四省（区）。语言属汉藏语系藏缅语族，有音节文字。彝族文学大量的是民间口头文学，也陆续发现了一些以老彝文抄录的文史哲方面的典籍和若干碑铭文献。民间文学中的神话、故事、叙事诗、谚语等具有鲜明的民族特色。</text>
+         <text class="shouqizhankai" bindtap="shouqi2">收起</text>
+      </view>
+   </view>
+</view>
+
+<view class="card_book">
+   <view class="title">主要作品</view>
+   <view class="content" wx:if="{{!zhankai3}}">
+      <text space="emsp">彝族传统民间文学中，流传在云南彝族地区的《梅葛》、《阿细的先基》、《查姆》、《阿鲁举热》和...</text>
+      <text class="shouqizhankai" bindtap="zhankai3">展开</text>
+   </view>
+   <view class="content" wx:if="{{zhankai3}}">
+      <text space="emsp">彝族传统民间文学中，流传在云南彝族地区的《梅葛》、《阿细的先基》、《查姆》、《阿鲁举热》和四川大凉山彝族地区的《勒俄特依》，是创世神话的代表作。其中《梅葛》包括了“创世”、“造物”、“婚事和恋歌”、“丧葬”四部分；《阿细的先基》包括“最古的时候”、“男女说合成一家”两大部分；《查姆》为上下两部，上部记叙天地、日月、人类起源，下部记叙农作物、工具、医药、纸笔和人名地名的来源；《勒俄特依》全诗共11部分，除系统叙述天地、人类万物及民族起源外，还着重叙述了支格阿龙的英雄事迹。《阿鲁举热》是《勒俄特依》的另一变体流传本，它的基本内容与《勒俄特依》第 7章“支格阿龙谱系”、第 8章“射日射月”相似。</text>
+      <text class="shouqizhankai" bindtap="shouqi3">收起</text>
    </view>
 
-
-   <view class="infor" animation="{{slide_up3}}" >
-      <view class="title">
-         <image class="yuandian" src="{{yuandian}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
-         <text class="title_content">
-         主要作品
-         </text>
+   <view class="type">
+      <view class="type_title">小说</view>
+      <view class="book_column">
+         <view class="book" wx:for="{{xiaoshuo}}">
+            <image src="{{item.pic}}" class="pic" mode="widthFix" style="width:90%" bindtap="{{item.navigt}}"></image>
+            <view class="book_title">{{item.title}}</view>
+         </view>
       </view>
-      <text class="infor_content" selectable="false" space="false" decode="false">
-         彝族传统民间文学中，流传在云南彝族地区的《梅葛》、《阿细的先基》、《查姆》、《阿鲁举热》和四川大凉山彝族地区的《勒俄特依》，是创世神话的代表作。其中《梅葛》包括了“创世”、“造物”、“婚事和恋歌”、“丧葬”四部分；《阿细的先基》包括“最古的时候”、“男女说合成一家”两大部分；《查姆》为上下两部，上部记叙天地、日月、人类起源，下部记叙农作物、工具、医药、纸笔和人名地名的来源；《勒俄特依》全诗共11部分，除系统叙述天地、人类万物及民族起源外，还着重叙述了支格阿龙的英雄事迹。《阿鲁举热》是《勒俄特依》的另一变体流传本，它的基本内容与《勒俄特依》第 7章“支格阿龙谱系”、第 8章“射日射月”相似。
-      </text>
-      <van-collapse  class= "collapse"  value="{{ activeName }}" bind:change="collapse_a" accordion style="border-radious:20rpx;">
-      <van-collapse-item  class= "collapse" title="长诗" name="5">
-            民间叙事长诗在彝族文学中占有很大比重。它的题材广泛，情节完整，少则几百行，多则几千行，表现了彝族人民的社会生活和他们的思想感情与愿望。已收集整理出版的有《阿诗玛》、《逃婚的姑娘》、《逃到甜蜜的地方》、《我的么表妹》、《妈妈的女儿》、《赛玻嫫》、《白蚩尼和白拍蒙》等。这些长诗多与爱情生活有关，或赞美青年男女反抗恶势力的斗争精神，或揭露买卖婚姻制度的罪恶，或诉说自身的不幸，表达对幸福生活的追求和向往。有些长诗记叙了彝族独特的婚姻习俗，表现了彝族人民的民族心理。
-      </van-collapse-item>
-      <van-collapse-item  class= "collapse" title="民歌" name="6">
-          彝族的民歌，在中华人民共和国成立前，苦歌、悲调特别多。但反映爱情生活的情歌和反映彝族风俗习惯的习俗歌则优美动人。民间谚语在彝语中称为“尔比尔吉”，在彝族人民生活中有重要作用。它甚至成为人们处理问题的依据，教育后代的警语，表扬好人好事的准绳，扶持正义、谴责邪恶的武器。
-      </van-collapse-item>
-      <van-collapse-item  class= "collapse" title="散文" name="7">
-         散文体的神话，集中反映了彝族先民关于宇宙形成、人类起源、万物来源的认识,与韵文体创世神话同工异曲。代表作品有《英雄支格阿龙的传说》、《阿霹刹、洪水和人的祖先》、《天地的来源》、《三女找太阳》等。
-      </van-collapse-item>
-      <van-collapse-item  class= "collapse" title="传说" name="8">
-          传说主要讲述彝族的历史、山川风物和民俗风情，如《火把节的故事》、《阿细卜》、《石林的传说》、《裙子和锣锅帽》等。
-      </van-collapse-item>
-      <van-collapse-item  class= "collapse" title="民间故事" name="9">
-         如《呷喜和西皮》、《九兄弟》、《娴诺与阿朗》、《那尕路里》、《阿诺楚与阿诺诟》等，反映彝族人民在不同历史阶段的社会生活。彝族机智人物罗牧阿智的故事，通过罗牧阿智的种种行事，表现劳动人民的斗争智慧、反抗意志和乐观精神。
-      </van-collapse-item>
-      <van-collapse-item  class= "collapse" title="小说" name="10">
-          彝族新文学的发展，是中华人民共和国成立以后的事。李乔的长篇小说《欢笑的金沙江》、《破晓的山野》，苏晓星、普飞的短篇小说，吴琪拉达的诗歌，都得到文学界的好评。
-      </van-collapse-item>
-   </van-collapse>
    </view>
 
+   <view class="type">
+      <view class="type_title">叙事长诗</view>
+      <view class="book_column">
+         <view class="book" wx:for="{{xushichangshi}}">
+            <image src="{{item.pic}}" class="pic" mode="widthFix" style="width:90%" bindtap="{{item.navigt}}"></image>
+            <view class="book_title">{{item.title}}</view>
+         </view>
+      </view>
+   </view>
 
-   <!--<view class="cut" animation="{{slide_up4}}" style="position:relative;top:200px">
-     <text class="cutline">····</text>
-     <text class="cutword">点击查看下方文学</text>
-     <text class="cutline">····</text>
-   </view>-->
-   <van-divider contentPosition="center" style="position: relative;  top:100rpx;">点击查看下方文学作品简介</van-divider>
+   <view class="type">
+      <view class="type_title">创世史诗</view>
+      <view class="book_column">
+         <view class="book" wx:for="{{shishi}}">
+            <image src="{{item.pic}}" class="pic" mode="widthFix" style="width:90%" bindtap="{{item.navigt}}"></image>
+            <view class="book_title">{{item.title}}</view>
+         </view>
+      </view>
+   </view>
 
-
-   
-
-
-
-   <view class="book" bindtap="zaolaidechuntianTap" hover-class="booktap" animation="{{slide_up5}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/zaolaidechuntian.jpg"/>
-      <view class="content">
-         <text class="name">早来的春天</text>
-         <text class="author">\n作者：李乔</text>
-         <text class="category">\n类别：小说</text>
+   <view class="type">
+      <view class="type_title">民间诗歌</view>
+      <view class="book_column">
+         <view class="book" wx:for="{{minjianshige}}">
+            <image src="{{item.pic}}" class="pic" mode="widthFix" style="width:90%" bindtap="{{item.navigt}}"></image>
+            <view class="book_title">{{item.title}}</view>
+         </view>
       </view>
-   </view>   
-   <view class="book" bindtap="taohundeguniangTap" hover-class="booktap" animation="{{slide_up6}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/taohundeguniang.jpg"/>
-      <view class="content">
-         <text class="name">逃婚的姑娘</text>
-         <text class="author">\n作者：钟呜搜集</text>
-         <text class="category">\n类别：叙事长诗</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="saibomoTap" hover-class="booktap"  animation="{{slide_up7}}"  >
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/saibomo.jpg"/>
-      <view class="content">
-         <text class="name">赛玻嫫</text>
-         <text class="author">\n作者：云南省民族民间文学楚雄调查队搜集</text>
-         <text class="category">\n类别：叙事长诗</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="poxiaodeshanyeTap" hover-class="booktap" animation="{{slide_up8}}" >
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/poxiaodeshanye.jpg"/>
-      <view class="content">
-         <text class="name">破晓的山野</text>
-         <text class="author">\n作者：李乔</text>
-         <text class="category">\n类别：小说</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="modaitusiTap" hover-class="booktap" animation="{{slide_up9}}" >
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/modaitusi.jpg"/>
-      <view class="content">
-         <text class="name">末代土司</text>
-         <text class="author">\n作者：金满</text>
-         <text class="category">\n类别：小说</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="liecundehaiziTap" hover-class="booktap" animation="{{slide_up10}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/liecundehaizi.jpg"/>
-      <view class="content">
-         <text class="name">猎村的孩子</text>
-         <text class="author">\n作者：普飞</text>
-         <text class="category">\n类别：小说</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="leeteyiTap" hover-class="booktap" animation="{{slide_up11}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/leeteyi.jpg"/>
-      <view class="content">
-         <text class="name">勒俄特依</text>
-         <text class="author">\n作者：群众</text>
-         <text class="category">\n类别：创世史诗</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="huanxiaodejinshajiangTap" hover-class="booktap" animation="{{slide_up12}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/huanxiaodejinshajiang.jpg"/>
-      <view class="content">
-         <text class="name">欢笑的金沙江</text>
-         <text class="author">\n作者：李乔</text>
-         <text class="category">\n类别：小说</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="axidexianjiTap" hover-class="booktap" animation="{{slide_up13}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/axidexianji.jpg"/>
-      <view class="content">
-         <text class="name">阿细的先基</text>
-         <text class="author">\n作者：云南省民族民间文学红河调查队搜集翻译</text>
-         <text class="category">\n类别：史诗</text>
-      </view>
-   </view>   
-   <view class="book" bindtap="ashimaTap" hover-class="booktap" style="margin-bottom:50rpx" animation="{{slide_up14}}">
-      <image class="pic" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/literature/ashima.jpg"/>
-      <view class="content">
-         <text class="name">阿诗玛</text>
-         <text class="author">\n作者：群众</text>
-         <text class="category">\n类别：民间诗歌</text>
-      </view>
-   </view>   
-     
+   </view>
 </view>

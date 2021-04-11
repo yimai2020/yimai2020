@@ -1,25 +1,3 @@
-<!--view class="teachers_banner">
- <view class="container clearfix teachers_b">
- <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
- 
-  <block wx:for="{{datas}}" wx:key="key">
-  <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};" bindtap="choose" data-id="{{item.id}}">
- 
-  <view class="item2" size="lager" style=" color: #000;font-size: 50rpx;padding:10px;">
-  <view style="font-size: 65rpx;border-radius: 25rpx;margin:10rpx;color:#fff;" class="title">{{item.title}}</view>
-   <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
-    <swiper-item>
-      <image src="{{item.iamge}}" style="width:1000rpx;"></image>
-    </swiper-item>
-    </swiper>
-  {{item.mes}}
- </view>
-  </li>
-  </block>
- 
- </view>
- </view> 
-</view-->
 
 <view style="margin-bottom:50rpx;">
       <view class="title" style="top:30rpx;">礼仪</view>

@@ -62,6 +62,13 @@ Page({
     chuxiong_new: ['https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/clothes/chuxiong-1_new.png?sign=872ac3fef5a9553fdf60898e7d4700d1&t=1582984863', 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/clothes/chuxiong-2_new.png?sign=520c568036c706875edf820065fc9e4a&t=1582984876'],
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/clothes/clothes',
+    })
+  },
+
 
   onChange(event) {
     wx.showToast({
