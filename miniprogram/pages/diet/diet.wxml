@@ -1,4 +1,3 @@
-
 <view class="change" bindtap="navigateToVideo">
   <image 
   src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
@@ -7,141 +6,26 @@
   ></image>
 </view>
 
-<view class="teachers_banner">
- <view class="container clearfix teachers_b">
- <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
-
-  <block wx:for="{{datas}}" wx:key="key">
-  <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};" bindtap="choose" data-id="{{item.id}}">
- 
-  <view class="item2" size="lager" style=" color:#B8860B;font-size: 50rpx;padding:10px;">
-  <view style="font-size: 55rpx;border-radius: 25rpx;color:#000;" class="title">{{item.title}}</view>
-   <image src="{{item.iamge}}" style="width:600rpx;"></image>
-  {{item.mes}}
-  </view> 
-  </li>
-  </block>
- </view>
- </view>
-</view>
-
-
-
-
-
-
-
-
-
-<!--van-tabs active="{{ active }}" > 
-  <van-tab title="基本介绍">
-  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true' style="padding:20rpx;">
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-1.jpg?sign=c3781ffa6a5ed34136cd10c67db24bdc&t=1583032136'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-1-2.jpg?sign=62edf35504f49f2c9c5713b4fa500904&t=1583032179'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-1-3.jpg?sign=c5d497a3cdd86c1e8cbf53925f1f4530&t=1583032209'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-1-4.jpg?sign=5371ab35ff8f656435348d89d2e57410&t=1583032239'></image>
-    </swiper-item>
-  </swiper>
-<text class="item1" style="margin:0rpx;border-radius: 25rpx;color:#B8860B	;" >
-    彝族居住的地区，地理环境和自然条件复杂，植物和动物资源极为丰富。彝族人的饮食文化，有特别的民族习惯，更具有山里的芬芳。回味无穷的风味小吃令人馋涎欲滴、乐而忘返,其特色是鲜、嫩、脆、香、既有油香味、又不油嘴，又不腻心，味美无穷,擅长煮、烤、拌、烧、蒸、炖等。尤其长于羊、鹿子等皮毛类动物原料的烹制。
-    彝族还有"打羊"、"打牛"迎宾待客之习。凡有客至，必杀牲待客，并根据来客的身份、亲疏程度分别以牛、羊、猪、鸡等相待。在杀牲之前，要把活牲牵到客前，请客人过目后宰杀，以表示对客人的敬重。
-酒是敬客的见面礼。彝族是个好客的民族，在凉山只要客人进屋，主人必先以酒敬客，然后再制作各种菜肴，行酒的次序依据彝谚“耕地由下而上，端酒以上而下”。 彝族人民由于自己所处的特殊的地理位置和自然条件，形成了自己独特的饮食文化。
-</text>
-  </van-tab>
-  <van-tab title="酒文化">
-  <text class="item2" style="margin:0rpx;border-radius: 25rpx;color:#fff	;font-size: 37rpx;">
-　　在彝族节庆中和日常生活中，酒占据着极为重要的地位。走访亲友要带酒，参加婚礼要送酒和牲畜，参加丧葬活动也要送酒，参加宗教活动更离不开酒,就是去探视病人都要带酒。酒在彝族的日常生活中扮演着很重要的角色，几乎一切事情，都少不了酒。
-</text>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">转转酒</view>
-<image src="{{'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-2-1.jpg?sign=55f5289360efadd0e435dbbc7eccdf00&t=1583032265'}}" style="width:750rpx;" mode="widthFix"  ></image>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff	;">
-　彝家历来好客，劝酒一片真诚。喝酒时不分生人熟人，席地而坐，围成一个圆圈，递传酒杯，依次饮用，所以称作“转转酒”，是彝族最正统的酒文化。彝族家绝没有“干杯”一说，喝酒敬着喝、咪着喝才是有教养之人，也没有强迫喝酒的习俗，有人敬酒要接下，但能喝则喝，不能喝的尝一下就可以了。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">秆秆酒</view>
-<image src="{{'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-2-2.jpg?sign=ad22b15c6163578a417edb7a7547f423&t=1583032319'}}" ></image>
-<view class="item2" style="margin:10rpx;background: #;padding:1rpx 1rpx;border-radius: 25rpx;color:#fff	;">
-　彝族秆秆酒，其酿造历史悠久，制作工艺奇异，味道纯正独特，饮法别具风格。几人对饮时，杆杆酒共贮于一坛内，各执杆杆酒竿一支。彝族逢年过节，婚丧大事及接待嘉宾时常用杆杆酒。共饮时，除同享杆杆酒的美味外，还给人以亲密、友好、热情、豪放的感觉。饮用秆秆酒最为特别的部分是用秆秆饮用。秆秆多用黄竹制成，黄竹节用烧红的细铁丝烙通，采用“萨玛”制度。即在一竹片上钻一个小眼，插入一根小竹条，喝酒时，将竹片横放在酒坛口，小竹条朝下，即成“萨玛”（相当于一杯酒）。
-</view>
-</van-tab>
-  <van-tab title="肉文化">
-  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-2.jpg?sign=f58da25cca13e22f479a724c9683f35c&t=1583032368'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-2.jpg?sign=f9578194c5f96b64afbe5601a554983f&t=1583032389'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-3.jpg?sign=531c87ded3932e38b5243b0a5390d123&t=1583032410'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-4.jpg?sign=13bae0e35017ee780a848363a4f77049&t=1583032437'></image>
-    </swiper-item>
-     <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-5.jpg?sign=16aeb9fa8cb4736872df57156b97b296&t=1583032463'></image>
-    </swiper-item>
-  </swiper>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">坨坨肉</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　在凉山彝族地区的饮食特色食品中，坨坨肉最有名，彝语称“乌色色脚”， 意思是猪肉块块。“坨坨肉”顾名思义，其外观如“坨坨”，一块肉就有一个拳头大小。肥肉不腻，瘦肉脆嫩，肉质香鲜可口。彝族人以坨坨肉让人感到了他们的待客的热情和大方，也看到他们粗犷豪放的一面。猪、牛、羊、鸡都可制作坨坨肉，然以仔猪坨坨肉最有名气，一般习惯上“坨坨肉”也是指坨坨猪肉。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">彝族风味血大肠</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　彝族风味血大肠也是凉山彝族地区最为普遍的一种食品，凡宰杀过年猪后，都要加工制作血大肠。把猪血、酒米、猪杂油加上食盐、辣椒、花椒、木姜子面等调料佐料拌匀后灌进猪大肠，两头用细绳拴紧，放进开水锅里煮熟后捞起，待稍冷后切成节食用，味道鲜美，是招待客人和乡邻的佳品。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">
-烤乳猪</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　烤乳猪是彝族地区最有名菜肴。现烤的乳猪色泽金黄，皮酥肉嫩，爽口可心。热吃，亦可冷吃。
-　　烤乳猪的做法是：选一头10斤左右的健壮小猪，宰杀后用铁叉叉好横放在架上，不停地转动烘烤；当烧烤至猪身冒水汽时，再把猪从架上取下，用纱布将水汽擦干。在猪皮上均匀涂抹上稀释的面酱、蜂蜜、甜酒汁、花椒等佐料，重置铁架上勤翻烤，直至整个乳猪的皮呈板栗色，发出浓烈香气即可。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">
-羊汤宴</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　在彝族传统节日火把节到来时，都会举办羊汤宴。羊汤宴选用肥壮的黑山羊，宰杀后开膛洗净内脏，用火燎去羊头、羊脚皮毛，在炭火上烤黄后用锤锤碎内骨，最后连羊血、肚杂、羊肉全部切块一锅煮。彝族羊汤宴无膻味、汤白、味浓、肉香，而且营养丰富，深受喜爱。除此之外，骨头饭，坛子牛肉，洋芋鸡等风味菜肴，充满彝族特色，是到彝区不可不尝的佳品。
-</view></van-tab>
-  <van-tab title="素食文化">
-<text class="item2" style="margin:0rpx;border-radius: 25rpx;color:#fff	;font-size: 37rpx;" >
-　　彝族居住的地区，地理环境和自然条件复杂，农业发达。居住在山区和半山区的彝族以种植荞麦、大麦、小麦、玉米、燕麦、洋芋为主；在溪谷和湖盆山区、平坝则以种稻谷为主，玉米和其它作物为辅。凉山彝族自治州大部分地区、滇西北小凉山彝族聚居区及贵州的威宁县一带，最古老的农作物为荞麦，次为燕麦、水稻、小麦、大麦、洋芋等。蔬菜以圆根为主，其次才是萝卜、青菜、白菜等。
-</text>
-<swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
-<swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-1.jpg?sign=689239882f0472f3cfd3bf1cb86b5f35&t=1583032484'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-2.jpg?sign=12ad1158aa113bd06bd08b489b5e3427&t=1583032530'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-3.jpg?sign=379a0ada26e5d5cf1b36aa625ccf6650&t=1583032547'></image>
-    </swiper-item>
-     <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-4.jpg?sign=aa97835756581b40f64d554c3e2a89f8&t=1583032569'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-5.jpg?sign=9b2f9b04b593debb32cb3fbf482c36f1&t=1583032590'></image>
-    </swiper-item>
-  </swiper>
-  <view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">
-圆根</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　圆根适应秋冬生长，？彝人采用腌制干燥的办法，把绿黄色的圆根叶子煮熟后连汤盛入陶瓷坛子中发酵，过数日后取出晾干，变成圆根酸菜让它长期贮存。在单调的腊肉汤、洋芋汤、鸡汤、鱼汤中放进少许圆根酸菜，画龙点睛，让人赞不绝口，味道鲜美，帮助消化。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">
-荞麦</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　在凉山地区，彝族人民多以荞麦为主食。《荞麦的来源》诗中说：“人在社会上，母亲位至尊；各类庄稼中，荞麦位至上。苦荞位居首，甜荞位居后”。凉山地区的气候和土质适合栽种荞麦，苦荞的产量和营养价值都高于甜荞，所以彝族地区普遍栽种苦荞，也颇受彝族人民喜爱。苦荞具有不易虫蚀、食用方法多、可与多种食物配制、制成熟食后不易变质等特点。据有关专家暨机构研究，荞麦不仅营养丰富，而且对多种疾病具有防治功效。随着人们对荞麦认识的加深，荞馒头、荞面条、荞蛋糕等食制品也相继问世。
-</view>
-<view class="item3" style="margin:0rpx;border-radius: 30rpx;color:#fff	;font-size: 50rpx;">
-竹筒饭</view>
-<view class="item2" style="margin:10rpx;background: #;padding: 1rpx 1rpx;border-radius: 25rpx;color:#fff;">
-　　除傣族外，彝族也会制作竹筒饭。竹筒饭用新鲜的金竹、香竹、薄竹、甜竹的竹筒做容器，在每一节竹子中盛水盛米，一般用宽大树叶封口，米可用糯米或香米。将米装入竹筒，加入适量泉水，用叶子封口扎紧，将竹节朝下、口朝上，立于熊熊烈火中烧。待闻到米饭香味之时，即可剖竹吃饭。竹筒饭色泽新绿，味道馨香。
-</view>
-</van-tab>
-</van-tabs>
+<view style="margin-bottom:50rpx;">
+      <view class="content"><text space="emsp" > 彝族居住的地区，地理环境和自然条件复杂，植物和动物资源丰富。由于所处的特殊的地理位置，彝族人民形成了自己独特的饮食文化。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">转转酒</view>
+        <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-1-4.jpg?sign=c12f3aa64a0c61f440be8abfc6c0e0cf&t=1588258554'   class="swiper"></image>
+      <view class="content1"><text space="emsp" > 彝家历来好客，劝酒一片真诚。喝酒时不分生人熟人，席地而坐，递传酒杯，依次饮用，所以称作“转转酒”，相传转转酒是彝族最正统的酒文化。彝族人好酒，但讨厌酗酒之人，喝酒时绝没有“干杯”一说，不喝的酩酊大醉才是有教养之人，有人敬酒要接下，不能喝的尝一下就可以了。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">秆秆酒</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-2-2.jpg?sign=327c025b7ca50edffe6a8a41bf6eb02f&t=1588258647'  mode="widthFix" class="swiper"></image>
+      <view class="content1"><text space="emsp" >彝族秆秆酒，其酿造历史悠久，饮法别具风格。几人对饮时，杆杆酒共贮于一坛内，各执酒竿一支。饮用秆秆酒最为特别的部分是用秆秆饮用。秆秆一般用黄竹制成，黄竹节烙通，在一竹片上钻一个小眼，插入一根小竹条，喝酒时，将竹片横放在酒坛口，小竹条朝下，即成萨玛（相当于一杯酒）。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">圆根</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-5.jpg?sign=5e9aa00ebc7a5552c28f36c6cca0535e&t=1588258761'  mode="widthFix" class="swiper"></image>
+      <view class="content1"><text space="emsp" >彝族居住的地区，自然条件复杂，农业发达。凉山大部分地区、滇西北小凉山及贵州的威宁县一带，最古老的蔬菜为圆根。圆根适应秋冬生长，彝人采用腌制的办法，把圆根叶子煮熟后连汤盛入陶瓷坛子中发酵，变成酸菜长期贮存。在单调的腊肉汤、洋芋汤、鸡汤中放进少许酸菜，让人赞不绝口。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">彝族风味血大肠</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-3-3.jpg?sign=42124ed00cb0040c2f719967a4ed23af&t=1588258733'   class="swiper"></image>
+      <view class="content1"><text space="emsp" >彝族风味血大肠是彝族地区最为常见的一种食品，在彝族村寨冬季有宰年猪的习俗，凡宰杀过年猪后，都要加工制作血大肠。把刚宰杀的年猪的猪血、加上酒米、猪杂油，食盐、辣椒、花椒、木姜子等调料，拌匀后灌进猪大肠，两头用细绳拴紧，放进开水锅里煮熟，待冷后切成节食用。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">荞麦</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/diet/diet-4-3.jpg?sign=3d6d5c85574c909b8fa05eb082db0f76&t=1588258849'  class="swiper"></image>
+      <view class="content1"><text space="emsp" >在凉山地区，彝族人民多以荞麦为主食。凉山地区的气候和土质适合栽种荞麦，苦荞的产量和营养价值都高于甜荞，所以彝族地区普遍栽种苦荞。苦荞具有不易虫蚀、食用方法多、可与多种食物配制、制成熟食后不易变质等特点。据有关专家暨机构研究，荞麦还对多种疾病具有防治功效。</text></view>
+    </view>

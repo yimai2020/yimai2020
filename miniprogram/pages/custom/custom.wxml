@@ -6,135 +6,22 @@
   ></image>
 </view>
 
-<view class="teachers_banner">
- <view class="container clearfix teachers_b">
- <view class="slide" id="slide" bindtouchstart='moveStart' bindtouchend='moveItem'>
- 
-  <block wx:for="{{datas}}" wx:key="key">
-  <li animation="{{item.animation}}" style="z-index: {{item.zIndex}} ;opacity:{{item.opacity}};" bindtap="choose" data-id="{{item.id}}">
- 
-  <view class="item2" size="lager" style=" color: #000;font-size: 50rpx;padding:10px;">
-  <view style="font-size: 65rpx;border-radius: 25rpx;margin:10rpx;color:#fff;" class="title">{{item.title}}</view>
-   <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true'>
-    <swiper-item>
-      <image src="{{item.iamge}}" style="width:1000rpx;"></image>
-    </swiper-item>
-    </swiper>
-  {{item.mes}}
- </view>
-  </li>
-  </block>
- 
- </view>
- </view> 
-</view>
+<view style="margin-bottom:50rpx;">
+      <view class="title" style="top:30rpx;">礼仪</view>
+        <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-2.jpg?sign=60cbbdca66c2b273b71e421cc56cbe9f&t=1587195233'   class="swiper"></image>
+      <view class="content1"><text space="emsp" > 在长幼、男女、主客之间，彝族有严格的礼俗。途遇长辈，晚辈须待立一侧，让长者先行;长辈入室须让其上座，其余再依次而坐;吃饭时，长辈坐上方，下辈依次坐两旁和下方，并侍候长辈，为其添饭、夹菜。客人入室让上座，主人坐在客人左边，小辈坐在客人对面。禁穿草鞋上火炕床; 上楼要脱掉鞋子; 不能用脚踩门槛，或坐在门槛上。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">毕摩文化</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-5.jpg?sign=60cbbdca66c2b273b71e421cc56cbe9f&t=1587195233"'  mode="widthFix" class="swiper1"></image>
+      <view class="content1"><text space="emsp" >毕摩是彝族社会中智慧的集大成者，相传毕摩的祖先是人类始祖。在彝族人民的心目中，毕摩是整个彝族社会中的知识分子，是彝族文化的维护者和传播者。他们的职能也是丰富多彩、各种各样。在以祖先崇拜为核心的彝族文化发展史中，以家支和宗族为单位来进行的祭祀活动主要由毕摩来主持；除此外，毕摩还担任谱系传承，治疗疫病等责任。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">婚嫁禁忌</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-6.jpg?sign=60cbbdca66c2b273b71e421cc56cbe9f&t=1587195233' mode="widthFix" class="swiper2"></image>
+      <view class="content1"><text space="emsp" >忌单月提亲、定亲，犯之则预示不成或中途分手；忌嫁娶犯红沙日（农历三月，六月、九月，十二月四个季月之丑日)；忌发亲时父母目送；忌新娘未满月走亲串门；忌进亲时新娘面向太白星和天狗星，若犯之则预示子女夭折；忌新娘上马时，马拉屎或狂奔乱跳，预示夫妻不到头或家庭破败。忌雷雨嫁娶，嫁娶遇雷鸣电闪是大凶之兆。</text></view>
+      <van-divider />
+      <view class="title" style="top:30rpx;">丧葬禁忌</view>
+      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-7.jpg?sign=60cbbdca66c2b273b71e421cc56cbe9f&t=1587195233' mode="widthFix" class="swiper3"></image>
+      <view class="content1"><text space="emsp" >父母去世当年，忌办喜事。孝子在3年内遇事须忍让，忌招惹是非，打架斗殴。忌杀牲狩猎，因已故父母不定直接投生鸟兽动物转世为人，可能几经周折方成。忌犯重丧。忌孝子在吊丧期坐凳睡床、忌坟向过人房顶。忌安葬上土时有恶雷。忌安葬日犯执子、孙、客。忌孝子泪滴入棺内和坟墓里，更忌泪落在死者尸体上。忌抬丧途中跌在棺木之下。</text></view>
+    </view>
 
-
-
-<!--van-tabs active="{{ active }}" >
-  <van-tab title="日常习俗"> 
-  <view class="item1" style="margin:0rpx;border-radius: 25rpx;color:#fff;" >彝族有着大分散、小聚居的生活特点，所以不同地区的彝族生活习俗不尽相同，但总的来说，彝族人民在庆祝节日，招待客人长辈的礼仪等方面有统一的特点</view>
-  
-  <view class="item2" size="lager" style="background-image:url('https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-1.jpg?sign=60cbbdca66c2b273b71e421cc56cbe9f&t=1587195233');color: #fff;">
-  <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">节庆</view>
-  除了中秋，春节等传统节日，彝族还有火把节，彝族年，补年节等十分盛大的节日。
-  每当节日来临，清晨同姓家族聚于长者家祭祀祖宗，晚上共同在平坦的地方燃起篝火欢歌欢舞。火把节时，各户持火把燎烤庭院、房屋四周、田头地角、果木树旁，不断将炒过的枯松木香面撒在火把上，发出爆鸣声并散发清香味，以“灭灾驱鬼”。在除夕晚上要“吃黑饭”，初一至初三不做农活，三天所用之物必须在除夕前准备好，吃饭越晚，准备的东西越多，说明来年生活越幸福。春节期间，青年喜欢进行丢包、打陀螺、荡秋千、打磨担秋等娱乐活动。
-  </view>
-   <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">礼仪</view>
-   <view class="item2" size="lager" style="background-image:url('https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-2.jpg?sign=bf071171f1b83381ae7b212f0d110542&t=1587195254');color: #fff;">
-  在长幼、男女、主客之间，彝族有严格的礼俗。途遇长辈，晚辈须待立一侧，让长者先行;长辈入室须让其上座，余再依次而坐;吃饭时，长辈坐上方(习称“上席”)，下辈依次坐两旁和下方，并侍候长辈，为其添饭、夹菜、泡汤。不能摸成年人和老人的头。
-兄弟可与嫂嫂开玩笑，但兄长不能与弟媳开玩笑。客人入室让上座，主人坐在客人左边，小辈坐在客人对面。禁穿草鞋上火炕床;上楼要脱掉鞋子;禁裸体、半裸体成年人入家门;不能用脚踩门槛，或坐在门槛上;不能用筷子敲桌子和碗;禁在家中吹口哨、唱山歌、说粗话等。
-  </view>
-   <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">建筑</view>
-   <view class="item2" size="lager" style="background-image:url('https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-3.jpg?sign=62af56b1126a467e62bee64deb37724e&t=1587195272');color: #fff;">
-  彝族村寨多为彝族聚居的大村寨。解放前，房屋多为土木结构的茅草房或闪片房。有门无窗，习惯于“黑房亮灶”。忌讳向北开门，无论房门、灶门和厩门都不向北方。中华人民共和国成立以后，逐步建起有楼有厦的土木结构的瓦房，有部分建了砖木结构的瓦房。
-  </view>
-  <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">服饰</view>
-   <view class="item2" size="lager" style="background-image:url('https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-4.jpg?sign=1703a65fc7dd9b2c0f4b355645e7e741&t=1587195292');color: #fff;">
-  彝族男女喜用自织自染的土布做衣服。男子头缠青布包头，内衬白衣，外套青色对襟领褂，下着宽腰大裤脚裤。中青年妇女皆穿深蓝色土布包头，上衣为蓝色短面襟，背襟比面襟长，圆领上镶有五种颜色的条形花纹，手袖有三色花纹的镶边；青年妇女青布包头配有头箍，佩带有众多银泡的银制项链，上衣为各色姊妹装，圆领上镶不同颜色的花边，系围腰并镶蓝色花纹。中华人民共和国成立以后，传统服饰逐步减少，服装多与汉族相同，青年一代则穿流行服装。
-  </view>
-  </van-tab>
-  <van-tab title="礼仪禁忌">
-  <swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true' style="padding:20rpx;">
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-5.jpg?sign=3754e5b1b23438fb3e39363329ac36d8&t=1587195325'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-6.jpg?sign=8bec07d5cec4d81f341053b74c48b5ec&t=1587195341'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-1-7.jpg?sign=1a8b0231ba7980183f99a53af976f9cd&t=1587195394'></image>
-    </swiper-item>
-  </swiper>
-  <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">婚嫁禁忌</view>
-   <view view class="item3" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
-  忌单月提亲、定亲，犯之则不成或中途分手；忌嫁娶犯红沙日和执夫执妻；忌发亲时父母目送；忌新娘未满月走亲串门；忌进亲时新娘面向太白星和天狗星，若犯之则子女夭折；忌新娘上马时，马拉屎或狂奔乱跳，预示夫妻不到头或家庭破败。
-忌雷雨嫁娶，嫁娶遇雷鸣电闪是大凶之兆。发亲时雷电轰鸣预兆新娘不久于人世；进亲时有此凶兆，则将成为半路夫妻。故民间嫁娶一般在农历十月至第二年三月底基本无雷雨的时节举行。
-  </view>
-  <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">丧葬禁忌</view>
-   <view view class="item3" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
-  父母去世当年，忌办喜事。孝子在3年内遇事须忍让，忌招惹是非，打架斗殴。忌杀牲狩猎，因已故父母不定直接投生鸟兽动物转世为人，可能几经周折方成。
-忌犯重丧。忌孝子在吊丧期坐凳睡床、忌坟向过人房顶。忌安葬上土时有恶雷。忌安葬日犯执子、孙、客。忌孝子泪滴入棺内和坟墓里，更忌泪落在死者尸体上。忌抬丧途中跌在棺木之下。忌在坟地有“不发、不好”等不吉利语言。
-忌平整地基地挖出蛇、鼠、青蛙等动物，更忌将其打死。埋葬忌金属物人墓穴。
-忌砍伐灵堂树，烧灵房木，彝族民间认为灵房周围树林是保护族人安宁的神灵居所，随意砍伐会得罪神灵；修建灵房用料为祖先所用之物，尽管因腐朽而修缮时换下的朽木，亦不能用之取暖或作它用。
-  </view>
-  <view style="font-size: 60rpx;border-radius: 25rpx;margin:0rpx;color:#fff;" class="title">饮食禁忌</view>
-   <view view class="item3" style="margin:0rpx;border-radius: 25rpx;color:#fff;">
-  忌食猴、虎、熊、豹、灌肉。彝族各宗支中的长房子还禁食爪类动物，如虎、豹、狮、狐狸、猫、马肉及鹰又大雁，白鹅汀鸽子等，以免触怒阴间地府里的祖灵而遭到惩罚。如有时路遇虎、豹只能驱赶，遇猴不能射杀。反映了彝族古代原始崇拜信仰遗俗对狩猎的影响。
-忌食狗肉。认为狗是脏的动物，厌气大，吃了会做事不顺协称口。
-忌食猫食，猫虎共祖，食用猫食会招灾。忌用餐后把汤匙扣于碗盆的边沿上，这是给死人敬食的方式。忌做客猛吃不留肉。
-忌食病死或难产死的家畜肉；忌肉露天进屋，俗则鬼魂会附其上；伤筋骨者忌食糯食、公鸡肉。
-  </view>
-  </van-tab>
-  <van-tab title="毕摩文化">
-  <view class="item4" style="margin:0rpx;border-radius: 25rpx;color:#B8860B;" >
-    据彝文文献《勒俄特依》记载，苍天降下灵神果籽落于下界，经过三年九世后，终于长成了杉树巨人，可是一直似人非人，似树非树，不能成人类始祖。直到阿居阿丛时代，山神得知必请毕摩祛除白、花、黑三秽后举行祭祀猪胛卜才能成为人祖，于是先后派遣豪猪、白兔、野鸡和蜘蛛作为使者去上界敬请额比斯乌毕摩，经过多次请求后，额比毕摩才同意下界作毕，额比毕摩在屋后竹林中砍回三根神竹杆，做成神签、法笠、法扇，送给额阿孜三祖孙带着一部叫《斯穆安甘》的经书来到了地界，为杉树巨人祛除了三遍三色秽后举行了祭祀猪肿卜后，于是地界有了雪族十二支，其中一支成了人类的始祖。因此，毕摩在彝族社会中地位很高且神圣。
-</view>
-<swiper indicator-dots='true' indicator-color='white' indicator-active-color='black' autoplay='true' style="padding:20rpx;">
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-3-1.jpg?sign=de7c20ce5b2f32ecb6e4dab9042ba090&t=1587195421'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-3-2.jpg?sign=00493b72e1ad18ffb6891e6d2833bfca&t=1587195434'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/custom/custom-3-3.jpg?sign=ac89f9f130b4ba374949d3194ea531d0&t=1587195447'></image>
-    </swiper-item>
-  </swiper>
-  <view class="item5" style="margin:0rpx;border-radius: 25rpx;color:#8B0000;" >
-  毕摩是彝族社会中智慧的集大成者，在彝族人民的心目中，毕摩是整个彝族社会中的知识分子，是彝族文化的维护者和传播者。他们的职能也是丰富多彩、各种各样，按照内容大致可分为以下几种：</view>
-  <van-row>
-  <van-col offset="0" span="18" style="background:#8B0000; padding: 20rpx;"class="box">
-  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#B8860B;">
-  在以祖先崇拜为核心的彝族文化发展史中，毕摩的祭祀主要以家支和宗族为单位来进行。祭祀的对象包括图腾物、神圣自然物和各种神灵。毕摩所做祭祀仪式可分为送灵、作祭、节期、祭祀、喊魂、送魂等。
-鬼神信仰直接产生了各种以除灾祛祸为目的的仪式。凡彝族人遇到疫病或灾祸时，如：时运不顺、疾病缠身、庄家歉收、妻儿死亡、牲畜瘟疫、身体欠佳等，往往认为这是神灵不佑、鬼怪邪魔作祟，因此必先请毕摩算经占卜后并行各种禳袚仪式。
-  </view></van-col>
-</van-row>
-<view class="title1">主持祭祀</view>
-<van-row>
-  <van-col offset="6" span="18" style="background:#8B0000; padding: 20rpx;"class="box">
-  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#B8860B;">
-  在没有专门的医疗人员的彝族社会，毕摩不仅是宗教仪式的主持者，也是天然的医生。由于巫化的因素，毕摩的药方更多用在为祖先的亡灵献药治病。在现实的仪式中，毕摩的蒸疗、针刺、沸油洗身以及熏疗术、敷疗、吹伤口、喷酒等，都是以专门治疗疫病为目的的，只不过彝族把疾病归因为神灵不佑的观念，决定了其治疗方式充满浓浓的巫术色彩。
-  </view></van-col>
-</van-row>
-<view class="title2">治疗疾病</view>
-<van-row>
-  <van-col offset="0" span="18" style="background:#8B0000; padding: 20rpx;"class="box">
-  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#B8860B;">
-  历史上，彝族民间盛行盟誓之术，且重要的事项须由毕摩主持。彝族盟誓是在毕摩主持下，当事的双方或多方订立誓约的一种巫术形式。彝族生活中无论是分宗联姻、联合对敌、宗族合盟，还是个人间的重大事项，都必须由双方或多方订立誓约，以结同心。盟誓分为两种，一种是人与人之间的盟誓，另一种是人与祖先神灵之间的盟誓。
-  </view></van-col>
-</van-row>
-<view class="title3">主持盟誓</view>
-<van-row>
-  <van-col offset="6" span="18" style="background:#8B0000; padding: 20rpx;"class="box">
-  <view class="box" style="margin:0rpx;border-radius: 25rpx;color:#B8860B;">
-  毕摩有严格的传承惯制，它要与彝族社会的父系继承制度相适应，所以毕摩的传承奉行传男不传女的原则。在彝族人看来，毕摩是一个神圣的职业，必须限制在族体内部传承延续，使家支永远保持毕摩世家的殊荣和地位。而女性17岁以后无论结婚与否都不再视为是父亲家支的成员，因而没有继承毕摩神职身份和地位的权利和机会。
-  </view></van-col>
-</van-row>
-<view class="title4">传承谱系</view>
-  
-  
-  </van-tab>
-   </van-tabs>
- 
 

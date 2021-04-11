@@ -12,7 +12,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    active: 0,
+    currentTab: 0,
+    clientHeight: '',
+    active: 1,
+    scorll_1: ['https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-1-1.jpg?sign=562e0bcd07d172e5f344d67ee5ba9ca1&t=1618122069', 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-2-2.jpg?sign=875c5d5801a3ff5d4f88d188db4eb1b5&t=1618122346','https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-4-1.jpg?sign=8307fffe76b45e77a3da8642dabe2ea2&t=16181222522','https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/architecture/arc-2-3-2.jpg?sign=d793b283bd4eb483b73280364d786df6&t=1618122287'],
     animationData: {},
     cardInfoList: [{
       cardUrl: '../../images/bg.PNG',
