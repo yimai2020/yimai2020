@@ -1,3 +1,10 @@
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
 
 <view style="margin-bottom:50rpx;">
       <view class="content"><text space="emsp" >彝族民歌是彝族文化的一个重要载体，是传承彝族文化最重要的形式之一。它记录了彝民族的历史、科学、生产生活、传统习俗、哲理、等丰富多彩的彝族文化。2008年6月7日，彝族民歌经国务院批准列入第二批国家级非物质文化遗产名录。彝族民歌有各不相同的品种，而概括起来，则大体上可分为叙事歌、山歌、情歌、舞蹈歌和儿歌等几大类。</text></view>
