@@ -1,86 +1,31 @@
-/* pages/architecture/architecture.wxss */
 
-  
-.box{
-  background-color:#996633;
-  font-family:serif;
-  font-size:45rpx;
-  display: -webkit-flex;
+.title{
+  width: 300rpx;
+  border-radius: 10rpx;
+  background: #cccc66;
+  font-weight: 700;
+  color: white;
+  font-size: 35rpx;
+  line-height: 45rpx;
+  margin: 30rpx auto;
+  display: flex;
+  justify-content: center;
 }
 
-.item1{
-  width: 0px;
-  height: 0px; 
-  position: absolute;
-  left:30rpx;
-  top:560rpx;
-  margin: auto;
-  text-align: center;
-  font-size:125rpx;
-  font-family:cursive;
-  z-index: 4;
+
+.content1{
+  width: 650rpx;
+  margin: 10rpx auto;
+  background:#666699;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  color:white;
 }
-.item6{
-text-align: center;
-font-family:cursive;
-}
-.continue1{
+.swiper{
+  width: 710rpx;
+  border-radius: 10rpx;
   margin: 20rpx;
-  text-align: right;
-  padding-right: 80rpx;
-  font-family:cursive;
 }
-.continue2{
-  position: absolute;
-  right: 20rpx;
-  bottom: 20rpx;
-  text-align: right;
-  padding-right: 20rpx;
-  font-family:cursive;
-}
-.container {
-  height: 100%;
-}
-.card_wrap {
-  background: #f2f2f6;
-  position: relative;
-  width: 100%;
-  height: 100%
-}
-.card_wrap .card_item {
-  position: absolute;
-  width: 100%;
-}
-
-.card_wrap .card_item.card1 {
-  /*top: 62px;
-  left: 25px;*/
-  transform: translateY(0px) translateX(0px);
-  z-index:4
-}
-.card_wrap .card_item.card2 {
- /*top: 0px;
-  left: 41px;*/
-  z-index: 3;
-  transform: translateY(0px) translateX(0px);
-}
-
-.card_wrap .card_item.card3 {
-  /*top: 28px;
-  left: 51px;*/
-  transform: translateY(0px) translateX(0px);
-  z-index: 2;
-}
-.card_wrap .card_item.card4 {
-  /*top: 28px;
-  left: 51px;*/
-  transform: translateY(0px) translateX(0px);
-  z-index: 1;
-}
-
-
-
-
 
 
 
