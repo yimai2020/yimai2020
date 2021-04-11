@@ -4,7 +4,7 @@
     <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
     <view class='detail-mask'></view>
     <view class='detail-info'>
-        <image src="{{intro}}" class='detail-img'></image>
+        <image src="{{intro}}" class='detail-img' mode="widthFix" style="width:400rpx"></image>
         <view class='detail'>
             <view class='detail-nm'>赛玻嫫</view>
             <view class='detail-nm-eng'>作者：云南省民族民间文学楚雄调查队搜集 / 郭恩九 / 尚仲豪整理</view>

@@ -9,10 +9,122 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    zhankai1:false,
+    zhankai2:false,
+    zhankai3:false,
+    zhankai4:false,
+    zhankai5:false,
+    zhankai6:false,
+    shengmu:true,
+    yunmu:false,
+    shengtiao:false,
+    shengmuColor:'#663300',
+    shengmuSize:'35rpx',
+    yunmuColor:'#000',
+    yunmuSize:'30rpx',
+    shendiaoColor:'#000',
+    shendiaoSize:'30rpx',
   },
 
+  showShengmu(){
+    var that = this;
+    that.setData({
+      shengmu:true,
+      shengmuColor:'#663300',
+      shengmuSize:'35rpx',
+      yunmu:false,
+      yunmuColor:'#000',
+      yunmuSize:'30rpx',
+      shendiao:false,
+      shendiaoColor:'#000',
+      shendiaoSize:'30rpx',
+    })
+  },
+
+  showYungmu(){
+    var that = this;
+    that.setData({
+      shengmu:false,
+      shengmuColor:'#000',
+      shengmuSize:'30rpx',
+      yunmu:true,
+      yunmuColor:'#663300',
+      yunmuSize:'35rpx',
+      shendiao:false,
+      shendiaoColor:'#000',
+      shendiaoSize:'30rpx',
+    })
+  },
+
+  showShengdiao(){
+    var that = this;
+    that.setData({
+      shengmu:false,
+      shengmuColor:'#000',
+      shengmuSize:'30rpx',
+      yunmu:false,
+      yunmuColor:'#000',
+      yunmuSize:'30rpx',
+      shendiao:true,
+      shendiaoColor:'#663300',
+      shendiaoSize:'35rpx',
+    })
+  },
   
+  zhankai1(){
+    var that = this
+    that.setData({zhankai1:true})
+  },
+  shouqi1(){
+    var that = this
+    that.setData({zhankai1:false})
+  },
+
+  zhankai2(){
+    var that = this
+    that.setData({zhankai2:true})
+  },
+  shouqi2(){
+    var that = this
+    that.setData({zhankai2:false})
+  },
+
+  zhankai3(){
+    var that = this
+    that.setData({zhankai3:true})
+  },
+  shouqi3(){
+    var that = this
+    that.setData({zhankai3:false})
+  },
+
+  zhankai4(){
+    var that = this
+    that.setData({zhankai4:true})
+  },
+  shouqi4(){
+    var that = this
+    that.setData({zhankai4:false})
+  },
+
+  zhankai5(){
+    var that = this
+    that.setData({zhankai5:true})
+  },
+  shouqi5(){
+    var that = this
+    that.setData({zhankai5:false})
+  },
+
+  zhankai6(){
+    var that = this
+    that.setData({zhankai6:true})
+  },
+  shouqi6(){
+    var that = this
+    that.setData({zhankai6:false})
+  },
+
   navigateToVideo(){
     wx.redirectTo({
       url: '/pages/map/video/language/language',

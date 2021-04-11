@@ -48,6 +48,7 @@
   .keyWord{
     position: absolute;
     top:450rpx;
+    margin-top: 20rpx;
     margin: 30rpx;
     border-radius: 20rpx;
     background-color: #663300;

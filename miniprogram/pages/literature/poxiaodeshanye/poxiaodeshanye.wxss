@@ -48,10 +48,12 @@
   .keyWord{
     position: absolute;
     top:450rpx;
+    margin-top: 20rpx;
     margin: 30rpx;
     border-radius: 20rpx;
     background-color: #663300;
     padding: 30rpx;
+    padding-bottom: 100rpx;
     color: #ffffff;
     line-height: 50rpx;
     font-size: 30rpx;

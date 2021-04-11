@@ -16,8 +16,6 @@
   }
   
   .detail-img{
-    width:280rpx;
-    height:70%;
     margin-right: 24rpx;
   }
   
