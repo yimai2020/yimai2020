@@ -1,47 +1,37 @@
 
-<view class="page">
-    <view class="intro">
-        <view class="intro_picture" style="width:50%;height:90%">
-            <image src="{{intro}}" style="width:100%;height:100%"  />
-        </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:30px;">火把节</text>
-            </view>
-            <view class="row" style="font-size:small">
-            <text space="true" decode="true" >
-            时间：六月二十四     
-            </text>
-            </view>
-            <view class="row" style="font-size:small">
-            <text space="true" decode="true" >
-            习俗：\n祭天地、祭火、祭祖先、驱除邪恶，祈求六畜兴旺、五谷丰登   
-            </text>
-            </view>
-            <view class="row" style="font-size:small">
-            <text space="true" decode="true" >
-            节日分布：广泛分布
-            </text>
-            </view>
-        </view>
-        
+
+<view class="topCard">
+    <view class="pic">
+        <image src="{{intro}}" mode="widthFix" style="width:80%"></image>
     </view>
-    <view class="story">
-        <text class="story-title">简介：\n火把节的由来已久，传说在很久很久以前，天上的神仙嫉妒人间的幸福生活，向地上撒下数不胜数的蝗虫。它们啃咬着庄稼。但是，勇敢的彝家人并没有屈服于天神。他们在英雄阿提拉巴的率领下，想出了用火来消灭蝗虫的办法。人们点起了火把，日夜不停地到田间地头捕烧害虫。经过几天的艰苦奋战，人们终于消灭掉了“天虫”，为了纪念这次用火把消灭“天虫”的胜利，庆祝五谷丰收，每年的农历六月二十四日，人们就点起火把游行，并举行各种各样的纪念活动。
-火把节一共有三天。
-第一天：“都载”，意为迎火。这一天，村村寨寨都会宰牛杀羊，集体分享，并备酒肉祭祖。夜幕降临时，临近村寨的人们会在老人们选定的地点搭建祭台，以传统方式击石取火点燃圣火，由毕摩(彝族民间祭司)诵经祭火。然后，家家户户，大人小孩都会从毕摩手里接过用蒿草扎成的火把，游走于田边地角，效仿阿什嫫以火驱虫的传说。
-第二天：“都格”，意为颂火、赞火。这一天，家家户户都聚集在祭台圣火下，举行各式各样的传统节日活动。小伙们要效仿传说中的阿体拉巴，赛马、摔跤、唱歌、斗牛、斗羊、斗鸡。姑娘们则效仿传说中的阿什嫫，身着美丽的衣裳，撑起黄油伞，跳起“朵洛荷”、达体舞。在这一天，最重要的活动莫过于彝家的选美了。年长的老人们要按照传说中阿体拉巴勤劳勇敢、英武神骏和阿什嫫善良聪慧、美丽大方的标准从小伙姑娘中选出一年一度的美男和美女。夜幕降临，一对对有情男女，在山间，在溪畔，在黄色的油伞下，拔动月琴，弹响口弦，互诉相思。
-第三天：“朵哈”或“都沙”，意为送火。这是整个凉山彝族国际火把节的高潮。这一天夜幕降临时，人人都会手持火把，竞相奔走。最后人们将手中的火把聚在一起，形成一堆堆巨大的篝火，欢乐的人们会聚在篝火四周尽情地歌唱、舞蹈，场面极其壮观。</text>
-        <view class="story-detail">    </view>
+    <view class="info">
+        <view class="name">火把节</view>
+        <view class="time"><text>六月二十四</text></view>
+        <view class="costom">祭天地、祭火、祭祖先、驱除邪恶，祈求六畜兴旺、五谷丰登</view>
+        <view class="fenbu">广泛分布</view>
     </view>
+</view>
+
+<view class="jianjieCard">
     <view class="picture">
-        <text class="picture-title">康康照片:</text>
         <scroll-view scroll-left="0" scroll-x class="scroll">
             <block wx:for="{{picList}}" wx:key="fileID">
                 <view class="picture-detail">
-                    <image src="{{item.tempFileURL}}"  mode="widthFix"/>
+                    <image src="{{item.tempFileURL}}" mode="widthFix"/>
                 </view>
             </block>
         </scroll-view>
     </view>
+    <view class="content"><text space="emsp">  火把节的由来已久，传说在很久很久以前，天上的神仙嫉妒人间的幸福生活，向地上撒下数不胜数的蝗虫。它们啃咬着庄稼。但是，勇敢的彝家人并没有屈服于天神。他们在英雄阿提拉巴的率领下，想出了用火来消灭蝗虫的办法。人们点起了火把，日夜不停地到田间地头捕烧害虫。经过几天的艰苦奋战，人们终于消灭掉了“天虫”，为了纪念这次用火把消灭“天虫”的胜利，庆祝五谷丰收，每年的农历六月二十四日，人们就点起火把游行，并举行各种各样的纪念活动。
+  
+  火把节一共有三天。
+
+  第一天：“都载”，意为迎火。这一天，村村寨寨都会宰牛杀羊，集体分享，并备酒肉祭祖。夜幕降临时，临近村寨的人们会在老人们选定的地点搭建祭台，以传统方式击石取火点燃圣火，由毕摩(彝族民间祭司)诵经祭火。然后，家家户户，大人小孩都会从毕摩手里接过用蒿草扎成的火把，游走于田边地角，效仿阿什嫫以火驱虫的传说。
+  
+  第二天：“都格”，意为颂火、赞火。这一天，家家户户都聚集在祭台圣火下，举行各式各样的传统节日活动。小伙们要效仿传说中的阿体拉巴，赛马、摔跤、唱歌、斗牛、斗羊、斗鸡。姑娘们则效仿传说中的阿什嫫，身着美丽的衣裳，撑起黄油伞，跳起“朵洛荷”、达体舞。在这一天，最重要的活动莫过于彝家的选美了。年长的老人们要按照传说中阿体拉巴勤劳勇敢、英武神骏和阿什嫫善良聪慧、美丽大方的标准从小伙姑娘中选出一年一度的美男和美女。夜幕降临，一对对有情男女，在山间，在溪畔，在黄色的油伞下，拔动月琴，弹响口弦，互诉相思。
+  
+  第三天：“朵哈”或“都沙”，意为送火。这是整个凉山彝族国际火把节的高潮。这一天夜幕降临时，人人都会手持火把，竞相奔走。最后人们将手中的火把聚在一起，形成一堆堆巨大的篝火，欢乐的人们会聚在篝火四周尽情地歌唱、舞蹈，场面极其壮观。</text></view>
+    
 </view>
+
+<view class="bu" ></view>

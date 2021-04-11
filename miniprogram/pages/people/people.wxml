@@ -1,3 +1,11 @@
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
+
 
 <view class="search">
   <SearchInput></SearchInput>
@@ -130,7 +138,7 @@
 
 <view class="year_end_father" style="position: relative;  top:100rpx;">
     <view class="year_end_son" hover-class="button-hover" bindtap = "Gotomain">
-      (回到主菜单)
+      回到主菜单
     </view>
 </view>
 

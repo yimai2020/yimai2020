@@ -1,4 +1,12 @@
 <!--pages/architecture/architecture.wxml-->
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
+
 <view class="container">
   <view class="card_wrap">
    <view bindtouchend="slidethis" animation="{{id === 0 ? animationData : ''}}" class="card_item card{{ id + 1 }}" wx:for="{{ cardInfoList }}" wx:for-index="id" wx:for-item="item" wx:key="key" >

@@ -1,5 +1,13 @@
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
 
-<view>
+
+<!--view>
 
 
    <view class="infor" animation="{{slide_up1}}" style="position:relative;top:200px">
@@ -63,4 +71,136 @@
 
 
    
+</view-->
+
+
+<view class="card_gaiyao">
+   <view class="pic">
+      <image mode="widthFix" style="width:100%" src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/language/yiwen.JPG?sign=ea3b997a881ae91bfbcac2adaccf4106&t=1618056763"></image>
+   </view>
+   <view class="info">
+      <view class="content" wx:if="{{!zhankai1}}">
+         <text space="emsp"><text style="font-size: 40rpx;">彝文</text>（彝语：ꆈꌠꁱꂷ，nuosu bburma，[nɔ̄sū bū̠mā]），又称夷字、爨文、韪书、蝌蚪文、倮语、倮倮文、毕摩文等，是彝族用来记录彝语的文字。不同地区的传...</text>
+         <text class="shouqizhankai" bindtap="zhankai1">展开</text>
+      </view>
+      <view class="content" wx:if="{{zhankai1}}">
+         <text space="emsp"><text style="font-size: 40rpx;">彝文</text>（彝语：ꆈꌠꁱꂷ，nuosu bburma，[nɔ̄sū bū̠mā]），又称夷字、爨文、韪书、蝌蚪文、倮语、倮倮文、毕摩文等，是彝族用来记录彝语的文字。不同地区的传统彝文差异很大。目前已规范的现代彝文有“<text style="font-weight:bold">凉山规范彝文</text>”和“<text style="font-weight:bold">云南规范彝文</text>”，<text style="font-weight:bold">前者经中华人民共和国国务院批准，使用较广</text>。</text>
+         <text class="shouqizhankai" bindtap="shouqi1">收起</text>
+      </view>
+   </view>
+</view>
+
+<view class="top">
+   <view class="card" style="margin-right:10rpx">
+      <view class="title">文字类型</view>
+      <view class="content" wx:if="{{!zhankai2}}">
+         <text space="emsp"><text style="font-weight:bold">早期的彝文是表意文字</text>，随着时间的推移，大量的表音节符号被加入到彝文中，成为表意为主、表音为...</text>
+         <text class="shouqizhankai" bindtap="zhankai2">展开</text>
+      </view>
+      <view class="content" wx:if="{{zhankai2}}">
+         <text space="emsp"><text style="font-weight:bold">早期的彝文是表意文字</text>，随着时间的推移，大量的表音节符号被加入到彝文中，成为表意为主、表音为辅的意音结合的<text style="font-weight:bold">意音文字</text>。
+            
+目前通行的<text style="font-weight:bold">凉山规范彝文</text>是完完全全的<text style="font-weight:bold">音节文字</text>，而<text style="font-weight:bold">云南规范彝文</text>仍然是<text style="font-weight:bold">意音文字</text>。</text>
+         <text class="shouqizhankai" bindtap="shouqi2">收起</text>
+      </view>
+   </view>
+
+   <view class="card">
+      <view class="title">文字结构</view>
+      <view class="content" wx:if="{{!zhankai3}}">
+         <text space="emsp">老彝文分独体字和合体字，合体字又分十余种结构，常见的有：上下、左右、左中右、内外、上中下、左...</text>
+         <text class="shouqizhankai" bindtap="zhankai3">展开</text>
+      </view>
+      <view class="content" wx:if="{{zhankai3}}">
+         <text space="emsp">老彝文分独体字和合体字，合体字又分十余种结构，常见的有：上下、左右、左中右、内外、上中下、左半包围、右包半围、上包半围、下包半围、上下左右、交叉等等，还有很多不能分类的结构。
+
+老彝文在云南、贵州、广西地区一般是从左到右横写或纵写，四川地区则从右往左横写或纵写。新的规范彝文均为从左往右横写。
+
+老彝文没有标点符号，只有一些标题或书名号（带花边的方框）、句读符号（。或△）、篇章或段落号（△顶加波纹符），规范彝文通用汉字标点符号。</text>
+         <text class="shouqizhankai" bindtap="shouqi3">收起</text>
+      </view>
+   </view>
+</view>
+
+<view class="card_histiry">
+   <view class="title">彝文历史</view>
+   <view class="content" wx:if="{{!zhankai4}}">
+      <text space="emsp">传说中的彝文<text style="font-weight:bold">创造者</text>是一个叫伯博耿的人，根据鸟兽足迹和事物的形象创造了彝文。彝文是由彝族的毕摩...</text>
+      <text class="shouqizhankai" bindtap="zhankai4">展开</text>
+   </view>
+   <view class="content" wx:if="{{zhankai4}}">
+      <text space="emsp">传说中的彝文<text style="font-weight:bold">创造者</text>是一个叫伯博耿的人，根据鸟兽足迹和事物的形象创造了彝文。彝文是由彝族的毕摩（又称为贝耄，主持礼仪、祭司的人）代代相传的，通过著作和家谱传递。
+
+贵州省六枝特区的拦龙桥碑记约镌于南宋末年，<text style="font-weight:bold">是今存世最早的彝文文献</text>。云南彝族撒尼人叙事长诗《阿诗玛》，其原著就是用彝文写的。
+
+传承到现代的传统彝文分布于北部方言区、东部方言、南部方言区以及东南部方言的撒尼土语区和阿哲土语区。这些方言区的文字有一些相似之处，但又有大量不同。有一些彝字是借用或者改造汉字而得。《滇川黔桂彝文字集》分八卷收录了87,000多个彝字；而根据未来Unicode收录的古彝文，共有88,591个彝字。</text>
+      <text class="shouqizhankai" bindtap="shouqi4">收起</text>
+   </view>
+</view>
+
+<view class="top">
+   <view class="card" style="margin-right:10rpx">
+      <view class="title">凉山规范彝文</view>
+      <view class="content" wx:if="{{!zhankai5}}">
+         <text space="emsp">这种文字通行于<text style="font-weight:bold">北部方言区</text>，包括<text style="font-weight:bold">四川凉山彝族自治州</text>和<text style="font-weight:bold">云南小凉山</text>...</text>
+         <text class="shouqizhankai" bindtap="zhankai5">展开</text>
+      </view>
+      <view class="content" wx:if="{{zhankai5}}">
+         <text space="emsp">这种文字通行于<text style="font-weight:bold">北部方言区</text>，包括<text style="font-weight:bold">四川凉山彝族自治州</text>和<text style="font-weight:bold">云南小凉山</text>，是1970年代在当地传统彝文的基础上设计的<text style="font-weight:bold">音节文字</text>。</text>
+         <text class="shouqizhankai" bindtap="shouqi5">收起</text>
+      </view>
+   </view>
+
+   <view class="card">
+      <view class="title">云南规范彝文</view>
+      <view class="content" wx:if="{{!zhankai6}}">
+         <text space="emsp">云南规范彝文有字2608个，其中表意字2258个，借词表音字共350个。...</text>
+         <text class="shouqizhankai" bindtap="zhankai6">展开</text>
+      </view>
+      <view class="content" wx:if="{{zhankai6}}">
+         <text space="emsp">云南规范彝文有字2608个，其中表意字2258个，借词表音字共350个。云南民族出版社1994年出版了《云南规范彝文汉文字词对照》。<text style="font-weight:bold">这种文字目前没有广泛通行</text>。</text>
+         <text class="shouqizhankai" bindtap="shouqi6">收起</text>
+      </view>
+   </view>
+</view>
+
+<view class="card_pinyin">
+   <view class="title_pinyin">彝文拼音</view>
+   <view class="biaoti">
+      <text class="pinyin_title" style="color:{{shengmuColor}};font-size:{{shengmuSize}}" bindtap="showShengmu">声母</text>
+      <text class="pinyin_title" style="color:{{yunmuColor}};font-size:{{yunmuSize}}" bindtap="showYungmu">韵母</text>
+      <text class="pinyin_title" style="color:{{shendiaoColor}};font-size:{{shendiaoSize}}" bindtap="showShengdiao">声调</text>
+   </view>
+   <view class="info_pinyin">
+      <view class="content" wx:if="{{shengmu}}">
+         <text space="emsp">字母表中表示声母的拉丁字母对应的国际音标如下：
+
+<text style="font-size: 25rpx;font-weight:bold">塞音</text>
+唇音：b [p], p [pʰ], bb [b], nb [m͡b], hm [m̥], m [m], f [f], v [v]
+齿龈音：d [t], t [tʰ], dd [d], nd [n͡d], hn [n̥], n [n], hl [ɬ], l [l]
+软颚音：g [k], k [kʰ], gg [ɡ], mg [ŋ͡ɡ], hx [h], ng [ŋ], h [x], w [ɣ]
+
+<text style="font-size: 25rpx;font-weight:bold">塞擦音</text>
+齿龈音：z [t͡s], c [t͡sʰ], zz [d͡z], nz [nd͡z], s [s], ss [z]
+卷舌音：zh [t͡ʂ], ch [t͡ʂʰ], rr [d͡ʐ], nr [nd͡ʐ], sh [ʂ], r [ʐ]
+硬颚音：j [t͡ɕ], q [t͡ɕʰ], jj [d͡ʑ], nj [nd͡ʑ], ny [nʲ], x [ɕ], y [ʑ]</text>
+      </view>
+
+      <view class="content" wx:if="{{yunmu}}">
+         <text space="emsp">拉丁转写
+i  ie  a  uo  o  e  u  ur  y  yr
+国际音标
+i  ɛ  a  ɔ  o  ɯ  u  u̠  ɿ  ɿ̱̠
+</text>
+      </view>
+      
+      <view class="content" wx:if="{{shendiao}}">
+         <text space="emsp">字母表中，
+韵母无辅音字母结尾或以r结尾，表示读中调，调值33（ā, a˧˧）；
+韵母以t结尾，表示读高调，调值55（a̋, a˥˥）；
+韵母以p结尾，表示读低调，调值21（ǎ, a˨˩）；
+韵母以x结尾，表示读中升调，调值34（â, a˧˦）。
+</text>
+      </view>
+   </view>
 </view>

@@ -1,3 +1,11 @@
+<view class="change" bindtap="navigateToVideo">
+  <image 
+  src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/video/%E8%A7%86%E9%A2%91.png?sign=35f7f5937c602e122ba6a599b4df344d&t=1617960811"
+  mode='widthFix'  
+  style="width: 50rpx;"
+  ></image>
+</view>
+
 <view class="swiper-tab">
   <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
   历史沿革</view>
@@ -181,10 +189,11 @@
         </view>
 
       </view>
-      <view class="sketch" style="top:3370rpx;width:90%;margin:20rpx;background: #996633;padding: 30rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'" >
+      <view class="sketch" style="top:3370rpx;width:90%;margin:20rpx;background: #996633;padding: 50rpx 20rpx;border-radius: 20rpx;color:#fff;font-size:40rpx;font-family:'lishu'" >
            <text space="emsp" >  经历了千年跌宕沉浮，彝族人民及其文化没有消失在历史长河中，反而历久弥金。\n  彝族作为中国的第六大少数民族，其悠久的历史和极具特色的文化是中华文化的无形瑰宝，希望所有中华儿女能够珍惜这一文化瑰宝。</text>
       </view>
       <text>  \n \n \n</text>
+      <view style="height:100rpx"></view>
     </scroll-view>
   </swiper-item>
   

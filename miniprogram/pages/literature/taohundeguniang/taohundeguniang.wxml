@@ -1,35 +1,20 @@
-
-<view class="page">
-    <view class="intro" style="height:550rpx">
-        <view class="intro_picture" style="width:50%;height:420rpx">
-            <image src="{{intro}}" style="width:100%;height:480rpx" mode="wideFix" />
+<view class="top">
+    <view class='detail-container' style='background:url({{intro}}) no-repeat top/cover'></view>
+    <view class='detail-mask'></view>
+    <view class='detail-info'>
+        <image src="{{intro}}" class='detail-img'></image>
+        <view class='detail'>
+            <view class='detail-nm'>逃婚的姑娘</view>
+            <view class='detail-nm-eng'>作者：钟呜整理</view>
+            <view class='detail-sc'>副标题:彝族民间叙事长诗</view>
+            <view class='detail-cou'>出版年: 1980</view>
+            <view class='detail-act'>类别：叙事长诗</view>
         </view>
-        <view class="intro_content" style="width:60%;height:420rpx">
-            <view class="name">
-                <text style="font-size:28px;">逃婚的姑娘</text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" >
-            作者：钟呜整理
-            </text>
-            </view>
-            <view class="row">
-            <text space="true" decode="true" style="font-size:small" >
-            副标题: 彝族民间叙事长诗
-            
-            出版年: 1980
-            </text>
-            <text space="true" decode="true" style="font-size:small">
-            类别：叙事长诗
-            </text>
-            </view>
-        </view>
-        
-    </view>
-    <view class="story">
-        <text class="story-title">简介：
-        逃婚的姑娘与爱情生活有关，赞美青年男女反抗恶势力的斗争精神，揭露买卖婚姻制度的罪恶，诉说自身的不幸，表达对幸福生活的追求和向往。
-        记叙了彝族独特的婚姻习俗，表现了彝族人民的民族心理。</text>
     </view>
 </view>
 
+<view class="keyWord">
+    <text space="emsp">简介：
+  逃婚的姑娘与爱情生活有关，赞美青年男女反抗恶势力的斗争精神，揭露买卖婚姻制度的罪恶，诉说自身的不幸，表达对幸福生活的追求和向往。
+  记叙了彝族独特的婚姻习俗，表现了彝族人民的民族心理。</text>
+</view>

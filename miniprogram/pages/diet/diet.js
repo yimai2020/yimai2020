@@ -78,6 +78,13 @@ Page({
     order: []
   },
   
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/diet/diet',
+    })
+  },
+
   /**
    * 页面的初始数据
    */

@@ -1,26 +1,54 @@
-.top{
-  display: flex;
-  margin-top: 20rpx;
-  margin-bottom: 25rpx;
-}
-
-.column{
-  display:flex;
+.change{
+  position: fixed;
+  bottom: 30rpx;
+  right: 30rpx;
   background-color: #fff;
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 10px rgba(19, 19, 19, 0.678);
 }
 
-.title{
-  flex: 6;
-  padding: 5rpx 5rpx 5rpx 25rpx;
-  color: rgb(141, 139, 139);
-  font-size: 28rpx;
+.card{
+  background-color: #fff;
+  margin: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-radius: 20rpx;
+  box-shadow: 0 6px 10px rgba(19, 19, 19, 0.678);
 }
 
-.laiyuan{
-  flex: 5;
-  text-align: right;
-  padding: 0rpx 25rpx 5rpx 5rpx;
-  color: rgb(141, 139, 139);
-  font-size: 28rpx;
-  align-self: center;
+.video{
+  display: flex;
+  justify-self: center;
+  margin: auto;
 }
+
+  .column{
+    display:flex;
+    background-color: #fff;
+    margin-top: 10rpx;
+    margin: 20rpx;
+  }
+
+  .title{
+    flex: 7;
+    padding: 5rpx 5rpx 5rpx 25rpx;
+    color: #000;
+    font-size: 28rpx;
+  }
+
+  .laiyuan{
+    flex: 4;
+    text-align: right;
+    padding: 0rpx 25rpx 5rpx 5rpx;
+    color: rgb(141, 139, 139);
+    font-size: 28rpx;
+    align-self: center;
+  }

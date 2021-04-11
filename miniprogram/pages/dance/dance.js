@@ -8,6 +8,13 @@ Page({
 
   },
 
+  
+  navigateToVideo(){
+    wx.redirectTo({
+      url: '/pages/map/video/dance/dance',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
