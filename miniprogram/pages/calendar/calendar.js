@@ -71,44 +71,44 @@ Page({
     });
 },
 
- searchSigh: function (e) {
-  var that = this;
-
-  db.collection("sigh").where({  	
-    _openid: e.result.openid
-  }).get({
-    success(res) {
-      console.log(res.data),
-        that.setData({
-          sighArr : res.data
-        })   
-        for(let i = 0 ; i<that.data.sighArr.length ; i++){
-          for(let j = 0 ; j<that.data.arrLen ; j++){
-           
-            if(that.data.dateArr[j].isToday == that.data.sighArr[i].sighDays){
-              var wdnmd = "dateArr["+j+"].isSigh"
+searchSigh(e){
+  var that  = this
+  console.log(e.result.openid)
+  wx.cloud.callFunction({ 
+    name: 'searchSigh',
+    data:{
+      openid: e.result.openid
+    },
+    config:{env:"fxy-onc8b"}
+  })
+  .then(
+    res=>{
+      console.log(res),
+      that.setData({
+        sighArr : res.result.data
+      })   
+      for(let i = 0 ; i<that.data.sighArr.length ; i++){
+        for(let j = 0 ; j<that.data.arrLen ; j++){
+          if(that.data.dateArr[j].isToday == that.data.sighArr[i].sighDays){
+            var wdnmd = "dateArr["+j+"].isSigh"
+            that.setData({
+              [wdnmd] : true
+            })
+            if(that.data.sighArr[i].sighDays==that.data.isToday)
+            {
               that.setData({
-                [wdnmd] : true
+                isTodaySigh:true
               })
-              if(that.data.sighArr[i].sighDays==that.data.isToday)
-              {
-                that.setData({
-                  isTodaySigh:true
-                })
-              }
-              // console.log([wdnmd])
             }
-            // else{
-            //   console.log(j+"no")
-            // }
           }
         }
-        
-    }  
-  })
-  
-
- },
+      }
+      wx.hideLoading({
+        success: (res) => {},
+      })
+    }
+  )
+},
 
 
  addsighdate:function(e){

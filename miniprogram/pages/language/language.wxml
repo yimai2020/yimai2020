@@ -16,8 +16,8 @@
 <view class="background"></view>
 <view class="allButton">
   <view bindtap="gotoWord" hover-class="view_hover" class="button">
-    <view class="zhongwen">每日打卡</view>
-    <view class="yiwen">ꃅꑍꌬꈧ</view>
+    <view class="zhongwen">单词列表</view>
+    <view class="yiwen">ꁱꂷꅑꀜ</view>
   </view>
   <view bindtap="gotoDialogue" hover-class="view_hover" class="button">
     <view class="zhongwen">日常对话</view>

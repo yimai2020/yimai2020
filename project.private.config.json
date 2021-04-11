@@ -222,6 +222,12 @@
         {
           "name": "pages/shengmin/shengmin",
           "pathName": "pages/shengmin/shengmin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/calendar/calendar",
+          "pathName": "pages/calendar/calendar",
           "scene": null
         }
       ]

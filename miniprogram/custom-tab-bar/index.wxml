@@ -9,7 +9,7 @@
   </cover-view>
 </cover-view-->
 
-<cover-view class="tab-bar-white" hidden="{{!(selected === 0 ? 1 : (selected === 2 ? 1 : (selected === 3 ? 1 : 0)))}}">
+<cover-view class="tab-bar-white" style="padding-bottom:{{bottom}}rpx" hidden="{{!(selected === 0 ? 1 : (selected === 2 ? 1 : (selected === 3 ? 1 : 0)))}}">
   <cover-view class="tab-bar-border-white"></cover-view>
   <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
     <cover-image src="{{selected === index ? item.selectedIconPath : item.iconPath_black}}"></cover-image>

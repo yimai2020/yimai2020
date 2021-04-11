@@ -47,6 +47,14 @@ Component({
       this.setData({
         selected: data.index
       })
+    },
+    getSystemInfo(){
+      let isIphoneX = getApp().globalData.isIphoneX
+      if(isIphoneX){
+        this.setData({
+          bottom:0  //为啥是零，chb不清楚，
+        })
+      }
     }
   }
 })

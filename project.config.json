@@ -19,8 +19,9 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -31,6 +32,7 @@
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
@@ -88,6 +90,53 @@
           "name": "pages/music/music",
           "pathName": "pages/music/music",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/life/life",
+          "pathName": "pages/map/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/bunianjie/bunianjie",
+          "pathName": "pages/festivals/bunianjie/bunianjie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/huobajie/huobajie",
+          "pathName": "pages/festivals/huobajie/huobajie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/people/shexiangfuren/shexiangfuren",
+          "pathName": "pages/people/shexiangfuren/shexiangfuren",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "pathName": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/literature",
+          "pathName": "pages/literature/literature",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/language_introduction/language_introduction",
+          "pathName": "pages/language_introduction/language_introduction",
           "scene": null
         },
         {

@@ -1,6 +1,7 @@
 //app.js
 App({
-  
+  globalData : {
+  },
   //渐入，渐出实现 
  show : function(that,param,opacity){
   var animation = wx.createAnimation({
@@ -49,7 +50,24 @@ App({
  },
  
   onLaunch: function () {
-    
+    var that = this
+    wx.getSystemInfo({
+      success: res => {
+        console.log(res.model)
+        let modelmes = res.model;
+        let iphoneArr = ['iPhone X','iPhone 11','iPhone 11 Pro Max']
+        iphoneArr.forEach(function(item){
+          if(modelmes.search(item)!=-1)
+          {
+            that.globalData.isIphoneX = true
+          }
+        })
+        // 得到安全区域高度
+        
+      }, fail(err) {
+        console.log(err);
+      }
+    })
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
