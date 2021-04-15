@@ -61,191 +61,80 @@
         },
         {
           "id": -1,
-          "name": "pages/history/history",
-          "pathName": "pages/history/history",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/clothes/clothes",
-          "pathName": "pages/clothes/clothes",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distribution/distribution",
-          "pathName": "pages/distribution/distribution",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/language/language",
-          "pathName": "pages/language/language",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distribution/distribution",
-          "pathName": "pages/distribution/distribution",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/open/open",
-          "pathName": "pages/open/open",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/open/open",
-          "pathName": "pages/open/open",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distribution/Zhixi/Zhixi",
-          "pathName": "pages/distribution/Zhixi/Zhixi",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/language/language",
-          "pathName": "pages/language/language",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/culture/culture",
-          "pathName": "pages/culture/culture",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/map/bookshelf/bookshelf",
-          "pathName": "pages/map/bookshelf/bookshelf",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/map/map",
-          "pathName": "pages/map/map",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distribution/Zhixi/Zhixi",
-          "pathName": "pages/distribution/Zhixi/Zhixi",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distribution/population/population",
-          "pathName": "pages/distribution/population/population",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
           "name": "pages/diet/diet",
           "pathName": "pages/diet/diet",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/map/indoor/indoor",
-          "pathName": "pages/map/indoor/indoor",
+          "name": "pages/custom/custom",
+          "pathName": "pages/custom/custom",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
+          "name": "pages/diet/diet",
+          "pathName": "pages/diet/diet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/architecture/architecture",
+          "pathName": "pages/architecture/architecture",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/music/music",
+          "pathName": "pages/music/music",
+          "query": "",
+          "scene": null
+        },
+        {
           "name": "pages/map/life/life",
           "pathName": "pages/map/life/life",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/calendar/calendar",
-          "pathName": "pages/calendar/calendar",
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/map/video/architecture/architecture_video",
-          "pathName": "pages/map/video/architecture/architecture_video",
+          "name": "pages/festivals/bunianjie/bunianjie",
+          "pathName": "pages/festivals/bunianjie/bunianjie",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/map/video/literature/literature_video",
-          "pathName": "pages/map/video/literature/literature_video",
+          "name": "pages/festivals/huobajie/huobajie",
+          "pathName": "pages/festivals/huobajie/huobajie",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/map/video/architecture/architecture",
-          "pathName": "pages/map/video/architecture/architecture",
+          "name": "pages/people/shexiangfuren/shexiangfuren",
+          "pathName": "pages/people/shexiangfuren/shexiangfuren",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/festivals/saizhuangjie/saizhuangjie",
-          "pathName": "pages/festivals/saizhuangjie/saizhuangjie",
+          "name": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "pathName": "pages/literature/zaolaidechuntian/zaolaidechuntian",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/festivals/jishanjie/jishanjie",
-          "pathName": "pages/festivals/jishanjie/jishanjie",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
           "name": "pages/literature/literature",
           "pathName": "pages/literature/literature",
           "query": "",
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/festivals/festivals",
-          "pathName": "pages/festivals/festivals",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distinguish/distinguish",
-          "pathName": "pages/distinguish/distinguish",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/distinguish/result/result",
-          "pathName": "pages/distinguish/result/result",
-          "query": "",
+          "name": "pages/language_introduction/language_introduction",
+          "pathName": "pages/language_introduction/language_introduction",
           "scene": null
         },
         {
@@ -255,33 +144,91 @@
           "scene": null
         },
         {
-          "name": "pages/festivals/jilongjie/jilongjie",
-          "pathName": "pages/festivals/jilongjie/jilongjie",
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/festivals/hulinjie/hulinjie",
-          "pathName": "pages/festivals/hulinjie/hulinjie",
+          "name": "pages/festivals/bunianjie/bunianjie",
+          "pathName": "pages/festivals/bunianjie/bunianjie",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/festivals/yizunian/yizunian",
-          "pathName": "pages/festivals/yizunian/yizunian",
+          "name": "pages/festivals/huobajie/huobajie",
+          "pathName": "pages/festivals/huobajie/huobajie",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/people/people",
-          "pathName": "pages/people/people",
+          "name": "pages/people/shexiangfuren/shexiangfuren",
+          "pathName": "pages/people/shexiangfuren/shexiangfuren",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/calendar/calendar",
-          "pathName": "pages/calendar/calendar",
+          "name": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "pathName": "pages/literature/zaolaidechuntian/zaolaidechuntian",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/literature",
+          "pathName": "pages/literature/literature",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/language_introduction/language_introduction",
+          "pathName": "pages/language_introduction/language_introduction",
+          "scene": null
+        },
+        {
+          "name": "pages/map/life/life",
+          "pathName": "pages/map/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/bunianjie/bunianjie",
+          "pathName": "pages/festivals/bunianjie/bunianjie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/festivals/huobajie/huobajie",
+          "pathName": "pages/festivals/huobajie/huobajie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/people/shexiangfuren/shexiangfuren",
+          "pathName": "pages/people/shexiangfuren/shexiangfuren",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "pathName": "pages/literature/zaolaidechuntian/zaolaidechuntian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/literature/literature",
+          "pathName": "pages/literature/literature",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/language_introduction/language_introduction",
+          "pathName": "pages/language_introduction/language_introduction",
           "scene": null
         },
         {
