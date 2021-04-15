@@ -25,7 +25,8 @@ Page({
       apiKey: "FjzunDxNUxBo2PRtTSFXFyhi",
       secretKey: "pWESSUi5aTYG5WBOKsAcTuKlqZQ801OP",
       url: "https://aip.baidubce.com/oauth/2.0/token"
-    }
+    },
+    searchJiheSuccess:false
 
    
   },
@@ -33,11 +34,15 @@ Page({
   gotoResult:function(){//点击列表中的栏目，跳转到相应的详情页
     wx.hideLoading();
     var that = this;
+    console.log(that.data.result)
     db.collection('distinguish').where({
       name:that.data.result
     })
       .get({
-        success(res) {
+        success: function (res) {
+          that.setData({
+            searchJiheSuccess:true
+          })
           console.log(res.data[0].description),
           that.setData({ 
             description: res.data[0].description
@@ -48,14 +53,13 @@ Page({
             url: "result/result?pic=" + that.data.pic + "&description=" + that.data.description + "&keyword="  + that.data.result
           })
         },
-        fail(res) {
-          console.log(res);
-          wx.showToast({
-            title: '识别失败',
-          })
-        }
+        fail: console.error
       })
-
+      if(!that.data.searchJiheSuccess){
+        wx.navigateTo({ //带参数页面跳转
+          url: "result/result?pic=" + that.data.pic + "&description=" + '' + "&keyword="  + '无法识别(≥﹏≤)请用我拍彝族物件哦~'
+        })
+      }
     
     
   },  
@@ -122,6 +126,7 @@ Page({
      
     },
 
+    //调用百度AI接口
     reqBaiduAi: function (image) {
       var that = this;
       var baiduBccessToken = wx.getStorageSync("baidu_ai_access_token");
@@ -200,6 +205,9 @@ Page({
         console.log(res);
         wx.setStorageSync("baidu_ai_access_token", res.data.access_token);
         wx.setStorageSync("baidu_ai_time", new Date().getTime());
+      },
+      fail(err){
+        console.log(err);
       }
     })
   },
