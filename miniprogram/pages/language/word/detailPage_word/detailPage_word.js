@@ -109,7 +109,7 @@ Page({
 
       //获取wordlist_unstudied中本词的id
       db.collection('wordlist_unstudied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -132,7 +132,7 @@ Page({
 
       //获取wordlist_studied中本词的id
       db.collection('wordlist_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -156,7 +156,7 @@ Page({
 
       //获取wordlist_knew中本词的id
       db.collection('wordlist_knew').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -182,7 +182,7 @@ Page({
     if (!isCollected) {//取消收藏
 
       db.collection('wordlist_collected').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({//获取本词的id,以便进行删除操作
@@ -203,7 +203,7 @@ Page({
 
       //获取wordlist_unstudied中本词的id
       db.collection('wordlist_unstudied').where({
-        pronunciation: that.data.pronunciation
+        explain: that.data.explain
       })
         .get({
           success(res) {
@@ -225,7 +225,7 @@ Page({
 
       //获取wordlist_studied中本词的id
       db.collection('wordlist_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -249,7 +249,7 @@ Page({
 
       //获取wordlist_knew中本词的id
       db.collection('wordlist_knew').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -285,7 +285,7 @@ Page({
 
       //在wordlist_unstudied寻找本词的_id
       db.collection('wordlist_unstudied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -305,7 +305,7 @@ Page({
 
       //在wordlist_studied寻找本词的_id
       db.collection('wordlist_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -325,7 +325,7 @@ Page({
 
       //在wordlist_collected寻找本词的_id
       db.collection('wordlist_collected').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
