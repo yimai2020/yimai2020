@@ -2147,18 +2147,21 @@ Page({
   },
 
   gotoWord: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/word/word',
     })
   },
 
   gotoDialogue: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/dialogue/dialogue',
     })
   },
 
   gotoArticle: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/article/article',
     })
@@ -2313,6 +2316,7 @@ Page({
     })
   },
   gotoCalender: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/calendar/calendar',
     })
