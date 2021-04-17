@@ -135,6 +135,7 @@
         {
           "name": "pages/language_introduction/language_introduction",
           "pathName": "pages/language_introduction/language_introduction",
+          "query": "",
           "scene": null
         },
         {
@@ -182,6 +183,7 @@
         {
           "name": "pages/language_introduction/language_introduction",
           "pathName": "pages/language_introduction/language_introduction",
+          "query": "",
           "scene": null
         },
         {
@@ -229,6 +231,7 @@
         {
           "name": "pages/language_introduction/language_introduction",
           "pathName": "pages/language_introduction/language_introduction",
+          "query": "",
           "scene": null
         },
         {
@@ -276,6 +279,12 @@
         {
           "name": "pages/language_introduction/language_introduction",
           "pathName": "pages/language_introduction/language_introduction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/language/language",
+          "pathName": "pages/language/language",
           "scene": null
         }
       ]

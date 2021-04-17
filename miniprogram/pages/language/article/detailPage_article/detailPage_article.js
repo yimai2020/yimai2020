@@ -1,6 +1,7 @@
 const db = wx.cloud.database({
   env: 'fxy-onc8b'
 }); 
+const audio = wx.createInnerAudioContext();
 Page({
 
   /**
@@ -17,10 +18,28 @@ Page({
     isCollected: null,
     isKnew: null
   },
-  playAudio: function () {
-    const audio = wx.createInnerAudioContext();
-    audio.src = this.data.pronunciation;
+
+  playAudio:function(){
+    let that = this;
+    audio.autoplay = true;
+    audio.src = that.data.pronunciation;
+    console.log(audio.src);
     audio.play();
+    audio.onPlay(() => {
+      console.log('开始播放');
+      that.setData({
+        onplay:true
+      })
+    })
+    audio.onEnded(() => {
+      console.log('自动播放完毕');
+      that.setData({
+        onplay: false
+      })
+    })
+    audio.onError((err) => {
+      console.log(err);
+    })
   },
   
   collectionIcon: function () {//收藏&取消收藏

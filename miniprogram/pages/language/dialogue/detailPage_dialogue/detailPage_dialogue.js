@@ -27,7 +27,7 @@ Page({
   playAudio:function(){
     let that = this;
     audio.autoplay = true;
-    audio.src = that.data.audio_word;
+    audio.src = that.data.audio_sentence;
     console.log(audio.src);
     audio.play();
     audio.onPlay(() => {

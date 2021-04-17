@@ -1,25 +1,23 @@
 /* pages/language/article/detailPage_article/detailPage_article.wxss */
+page{
+  background-color: #fff;
+}
 
 .letter_collection{
   display: flex;
-  justify-content: space-between;
-  margin-left: 30rpx;
-  margin-right: 40rpx;
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  flex-direction: column;
+  margin: 30rpx;
   
 }
 
 .letter{
   font-size: 50rpx;
-  width:400rpx;
   font-weight: 700;
 }
 
 .collection{
-  width:50rpx;
-  height:50rpx;
-  align-self: center;
+  width:45rpx;
+  display: flex;
 }
 
 
@@ -46,4 +44,17 @@
   background-color: rgb(200, 225, 248);
   margin:20rpx;
   color: rgb(27, 38, 202);
+}
+
+.audio_collection{
+  display: flex;
+  margin: 30rpx;
+  margin-top: 0;
+  justify-content: flex-end;
+}
+
+.audio{
+  width:45rpx;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
 }
