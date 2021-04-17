@@ -25,7 +25,7 @@ Page({
   
   navigateToVideo(){
     wx.redirectTo({
-      url: '/pages/map/video/destivals/destivals',
+      url: '/pages/map/video/festivals/festivals',
     })
   },
 
