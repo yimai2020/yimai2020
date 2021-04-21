@@ -14,6 +14,7 @@ Page({
     clientHeight: '',
     users_num:0,
     user:[],
+    openid:'',
     word: [{
       letter: 'ꀀꀨ',
       explain: '被子',
@@ -619,7 +620,7 @@ Page({
       illustration: '主语是谓语动作、行为的发出者，是“施事”',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%AE%A2%E4%BA%BA%E6%9D%A5%E4%BA%86.m4a?sign=51708d509e26d1c1ccf0d10eef1efb99&t=1611827563',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%AE%A2%E4%BA%BA%E6%9D%A5%E4%BA%86.m4a?sign=51708d509e26d1c1ccf0d10eef1efb99&t=1611827563',
       image: ''
     },
     {
@@ -630,7 +631,7 @@ Page({
       illustration: '主语是谓语动作、行为的发出者，是“施事”',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E8%B5%B0%E4%BA%86.m4a?sign=09068a21c16f4e942e4b1c5325ac9f9f&t=1611827574',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E8%B5%B0%E4%BA%86.m4a?sign=09068a21c16f4e942e4b1c5325ac9f9f&t=1611827574',
       image: ''
     },
     {
@@ -641,7 +642,7 @@ Page({
       illustration: '主语是谓语动作、行为的涉及者，是“受事”',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%B8%8B%E9%9B%A8%E4%BA%86.m4a?sign=5f44c33232259de1bfbc9679d35b01fb&t=1611827583',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%B8%8B%E9%9B%A8%E4%BA%86.m4a?sign=5f44c33232259de1bfbc9679d35b01fb&t=1611827583',
       image: ''
     },
     {
@@ -652,7 +653,7 @@ Page({
       illustration: '宾语在前，谓语动词在后',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E5%9C%A8%E5%86%99%E5%AD%97.m4a?sign=107b0ffc3b20eb00581d9c1af89442e0&t=1611827591',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E5%9C%A8%E5%86%99%E5%AD%97.m4a?sign=107b0ffc3b20eb00581d9c1af89442e0&t=1611827591',
       image: ''
     },
     {
@@ -663,7 +664,7 @@ Page({
       illustration: 'ꆈꌠꁱꂷ“彝文”为直接宾语，在前；ꆏ“你”为间接宾语，在后',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%B0%81%E6%95%99%E4%BD%A0%E5%BD%9D%E8%AF%AD.m4a?sign=2874ade1d26c068acdbdc1bcd0111011&t=1611827614',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%B0%81%E6%95%99%E4%BD%A0%E5%BD%9D%E8%AF%AD.m4a?sign=2874ade1d26c068acdbdc1bcd0111011&t=1611827614',
       image: ''
     },
     {
@@ -674,7 +675,7 @@ Page({
       illustration: '谓语动词前面加状语，组成偏正结构。动词为中心语，副词往往作为状语，起修饰、描写中心语功能',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E5%B8%B8%E5%B8%B8%E6%9D%A5.m4a?sign=e256dd6623808ea91367dc1d9d947c43&t=1611827629',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E5%B8%B8%E5%B8%B8%E6%9D%A5.m4a?sign=e256dd6623808ea91367dc1d9d947c43&t=1611827629',
       image: ''
     },
     {
@@ -685,7 +686,7 @@ Page({
       illustration: '谓语动词后可以有动词、形容词或副词作补语，对前面动作行为的结果、趋向加以 说明、补充',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BD%A0%E8%B5%B0%E7%9A%84%E5%A4%AA%E8%BF%9F%E4%BA%86.m4a?sign=a00a0f2c501f9d026b0c0d4e7a82a63b&t=1611827638',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BD%A0%E8%B5%B0%E7%9A%84%E5%A4%AA%E8%BF%9F%E4%BA%86.m4a?sign=a00a0f2c501f9d026b0c0d4e7a82a63b&t=1611827638',
       image: ''
     },
     {
@@ -696,7 +697,7 @@ Page({
       illustration: '谓语由两个以上动词组成并列关系',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E4%BB%AC%E4%BB%8A%E5%A4%A9%E5%94%B1%E6%AD%8C%E5%8F%88%E8%B7%B3%E8%88%9E.m4a?sign=e400444348ccf3d30c19e571f931f95a&t=1611827652',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E4%BB%AC%E4%BB%8A%E5%A4%A9%E5%94%B1%E6%AD%8C%E5%8F%88%E8%B7%B3%E8%88%9E.m4a?sign=e400444348ccf3d30c19e571f931f95a&t=1611827652',
       image: ''
     },
     {
@@ -707,7 +708,7 @@ Page({
       illustration: '谓语两个以上动词表示先后或连续发生的动作、行为等',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E5%90%AC%E5%88%B0%E8%BF%99%E5%8F%A5%E8%AF%9D%E5%B0%B1%E7%AC%91%E4%BA%86.m4a?sign=06b98540d95768391cfe8905c39ca33f&t=1611827661',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E4%BB%96%E5%90%AC%E5%88%B0%E8%BF%99%E5%8F%A5%E8%AF%9D%E5%B0%B1%E7%AC%91%E4%BA%86.m4a?sign=06b98540d95768391cfe8905c39ca33f&t=1611827661',
       image: ''
     },
     {
@@ -718,7 +719,7 @@ Page({
       illustration: '谓语两个以上动词，后面的动词为前面动词动作、行为的补充',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E5%8E%BB%E5%80%92%E6%9D%AF%E8%8C%B6%E5%96%9D.m4a?sign=bcd038ce0dd6347d592a137b7a421909&t=1611827671',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E5%8E%BB%E5%80%92%E6%9D%AF%E8%8C%B6%E5%96%9D.m4a?sign=bcd038ce0dd6347d592a137b7a421909&t=1611827671',
       image: ''
     },
     {
@@ -729,7 +730,7 @@ Page({
       illustration: '主语是谓语陈述、描述的对象，并且以形容词作谓语',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E6%9C%B5%E8%8A%B1%E5%BE%88%E7%BE%8E%E4%B8%BD.m4a?sign=078e5968006cf1d7d7c6133cdd34f059&t=1611827684',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E6%9C%B5%E8%8A%B1%E5%BE%88%E7%BE%8E%E4%B8%BD.m4a?sign=078e5968006cf1d7d7c6133cdd34f059&t=1611827684',
       image: ''
     },
     {
@@ -740,7 +741,7 @@ Page({
       illustration: '名词、代词、数量词总称为体词，以体词为谓语的句子称体词谓语句，谓语体词与句首的主语一起构成主谓结构',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E6%98%AF%E5%BD%9D%E6%97%8F%EF%BC%8C%E4%BD%A0%E6%98%AF%E6%B1%89%E6%97%8F.m4a?sign=ad238f300f9f0cf8406daf1affba1d7a&t=1611827692',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E6%98%AF%E5%BD%9D%E6%97%8F%EF%BC%8C%E4%BD%A0%E6%98%AF%E6%B1%89%E6%97%8F.m4a?sign=ad238f300f9f0cf8406daf1affba1d7a&t=1611827692',
       image: ''
     },
     {
@@ -751,7 +752,7 @@ Page({
       illustration: '以主谓结构作谓语的句子称主谓谓语句',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E4%B8%AA%E5%B0%8F%E5%AD%A9%E8%BA%AB%E4%BD%93%E5%BE%88%E5%A5%BD.m4a?sign=15a3f11757e621f2dfd10251ed2fbe5c&t=1611827714',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E4%B8%AA%E5%B0%8F%E5%AD%A9%E8%BA%AB%E4%BD%93%E5%BE%88%E5%A5%BD.m4a?sign=15a3f11757e621f2dfd10251ed2fbe5c&t=1611827714',
       image: ''
     },
     {
@@ -762,7 +763,7 @@ Page({
       illustration: '以主谓结构作谓语的句子称主谓谓语句,此句具体为主 定 谓（由主谓构成）',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E6%9C%AC%E4%B9%A6%E6%88%91%E8%AF%BB%E8%BF%87.m4a?sign=2579c21d74eab05a1534c2a1afb39674&t=1611827726',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E6%9C%AC%E4%B9%A6%E6%88%91%E8%AF%BB%E8%BF%87.m4a?sign=2579c21d74eab05a1534c2a1afb39674&t=1611827726',
       image: ''
     },
     {
@@ -773,7 +774,7 @@ Page({
       illustration: '主语是受事，是被动者，受谓语动词所表现行为动作的影响。此时谓语东此次更或有声母辅音浊变清，，或有声调变化等屈折形式；或加ꇰ ꎻ ꁳ ꄻ ꎼ 等助词',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E4%BA%9B%E9%A5%AD%E7%BB%99%E5%AD%A9%E5%AD%90%E5%90%83.m4a?sign=8f8d43200921568b206e098d01da0f75&t=1611827736',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E8%BF%99%E4%BA%9B%E9%A5%AD%E7%BB%99%E5%AD%A9%E5%AD%90%E5%90%83.m4a?sign=8f8d43200921568b206e098d01da0f75&t=1611827736',
       image: ''
     },
     {
@@ -784,7 +785,7 @@ Page({
       illustration: '主语是受事，是被动者，受谓语动词所表现行为动作的影响。此时谓语东此次更或有声母辅音浊变清，，或有声调变化等屈折形式；或加ꇰ ꎻ ꁳ ꄻ ꎼ 等助词',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%B7%B2%E7%BB%8F%E6%89%BE%E4%BB%96%E5%8E%BB%E4%BA%86.m4a?sign=acee645c155b0dd3c54d6c41bc551896&t=1611827756',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%B7%B2%E7%BB%8F%E6%89%BE%E4%BB%96%E5%8E%BB%E4%BA%86.m4a?sign=acee645c155b0dd3c54d6c41bc551896&t=1611827756',
       image: ''
     },
     {
@@ -795,7 +796,7 @@ Page({
       illustration: '加入因果',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%9B%A0%E4%B8%BA%E6%88%91%E4%BB%AC%E6%98%AF%E5%B7%A5%E4%BD%9C%E8%80%85.m4a?sign=688f790586af5a988856776ee741ecf0&t=1611827767',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%9B%A0%E4%B8%BA%E6%88%91%E4%BB%AC%E6%98%AF%E5%B7%A5%E4%BD%9C%E8%80%85.m4a?sign=688f790586af5a988856776ee741ecf0&t=1611827767',
       image: ''
     },
     {
@@ -806,7 +807,7 @@ Page({
       illustration: '加入因果',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%A6%82%E6%9E%9C%E6%9C%89%E4%BA%8B%E6%83%85.m4a?sign=baa798240682983818f63be4957a2772&t=1611827779',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E5%A6%82%E6%9E%9C%E6%9C%89%E4%BA%8B%E6%83%85.m4a?sign=baa798240682983818f63be4957a2772&t=1611827779',
       image: ''
     },
     {
@@ -817,7 +818,7 @@ Page({
       illustration: '对一件事情进行陈述',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E4%BB%AC%E5%B0%B1%E8%A6%81%E5%81%9A.m4a?sign=9145e70a7bea8bbdfdff2cf76f4139cf&t=1611827788',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E4%BB%AC%E5%B0%B1%E8%A6%81%E5%81%9A.m4a?sign=9145e70a7bea8bbdfdff2cf76f4139cf&t=1611827788',
       image: ''
     },
     {
@@ -839,7 +840,7 @@ Page({
       illustration: '前后递进，后一句是对前一句的更深层次的描述',
       isCollected: false,
       isKnew: false,
-      audio_sentence: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E8%99%BD%E7%84%B6%E6%B2%A1%E4%BA%8B%EF%BC%8C%E6%88%91%E4%B9%9F%E4%B8%8D%E4%BC%9A%E6%9D%A5.m4a?sign=43a5921dc5f58043e73cbfdff136d868&t=1611827805',
+      audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/dialogue_audio/%E6%88%91%E8%99%BD%E7%84%B6%E6%B2%A1%E4%BA%8B%EF%BC%8C%E6%88%91%E4%B9%9F%E4%B8%8D%E4%BC%9A%E6%9D%A5.m4a?sign=43a5921dc5f58043e73cbfdff136d868&t=1611827805',
       image: ''
     },
     {
@@ -2146,18 +2147,21 @@ Page({
   },
 
   gotoWord: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/word/word',
     })
   },
 
   gotoDialogue: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/dialogue/dialogue',
     })
   },
 
   gotoArticle: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/language/article/article',
     })
@@ -2244,28 +2248,21 @@ Page({
 
   judgeUser:function(e){ //判断用户集合中是否存在当前用户
     var that = this;
-    let flag = false;
-    //let x = this.data.user + 20
-    db.collection('user') // 限制返回数量为 20 条
-    .where({
-      openid: e.result.openid
-    }).get({
-      success: (res) => {
-        let user_get = res.data; //获取到的对象数组数据
-        this.setData({
-          user_get: this.data.user.concat(res.data),
-          //users_num: x
-        });
-         
-        console.log(user_get);
-        console.log(e.result.openid);
-        for (let i = 0; i < user_get.length; i++) { //遍历数据库对象集合
-          if (e.result.openid === user_get[i].openid) { //Openid存在
-            flag = true
-          }
+    wx.cloud.callFunction({ 
+      name: 'getUserList',
+      data:{
+        openid:that.data.openid
+      },
+      config:{env:"fxy-onc8b"}
+    })
+      .then(res => { 
+        //用户存在，获取用户早中晚摄入的卡路里
+        console.log(res)
+        if(res.result.data.nv_length != 0){
+          console.log("用户存在")
         }
-        console.log(flag);
-        if (flag === false) { //用户不存在
+        else if(res.result.data.nv_length == 0){
+          //用户不存在，添加用户
           console.log("用户不存在")
           db.collection('user').add({ //将该用户加入用户集合
             data: { openid: e.result.openid },
@@ -2280,12 +2277,10 @@ Page({
           that.addNewDialogue(e.result.openid);//添加未学对话
           that.addNewArticle(e.result.openid);//添加未学经典选段
         }
-        else console.log("用户存在")
-      },
-      fail: err =>{
-        console.log("错误")
-      }
-    })
+      })
+      .catch(err => { 
+        console.log(err);
+      });
     
     },
 
@@ -2298,6 +2293,10 @@ Page({
     })
       .then(res => { //调用getOpenid成功进行以下操作
       console.log(res);
+      console.log(res.result.event.userInfo.openId);
+      that.setData({
+        openid:res.result.event.userInfo.openId
+      })
       that.judgeUser(res) //判断用户是否存在
     })
       .catch(err => { //调用getOpenid失败打印错误信息
@@ -2317,6 +2316,7 @@ Page({
     })
   },
   gotoCalender: function () {
+    wx.vibrateShort({})
     wx.navigateTo({
       url: '/pages/calendar/calendar',
     })
@@ -2356,6 +2356,19 @@ Page({
    */
   onLoad: function (options) {
     var that = this
+    //测试删数据用！！！！！！！
+    /*wx.cloud.callFunction({ //调用getOpenid云函数
+      name: 'delet',
+      data:{},
+      config:{env:"fxy-onc8b"}
+    })
+      .then(res => { //调用getOpenid成功进行以下操作
+      console.log(res);
+    })
+      .catch(err => { //调用getOpenid失败打印错误信息
+      console.log(err);
+    });*/
+
     this.getOpenid()//获取用户的openid
     getApp().loadFont();
     wx.getSystemInfo({//获取设备的宽高，用于轮播页面功能
@@ -2365,6 +2378,7 @@ Page({
         });
       }
     })
+    
   },
 
   /**

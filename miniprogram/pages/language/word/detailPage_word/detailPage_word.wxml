@@ -22,6 +22,6 @@
 </view>
 
 <view style="margin:10rpx auto 30rpx 30rpx;color: rgba(143, 143, 143, 0.993);">{{sentence_zhong}}</view>
-<image src="{{image}}" mode='widthFix' style="width:300rpx; margin:20rpx;"></image>
+<image src="{{image}}" mode='widthFix' style="width:300rpx; margin:30rpx;"></image>
 <van-divider />
 <button class='knew' catchtap='knewButtom' wx:if='{{!isKnew}}'>已认识</button>

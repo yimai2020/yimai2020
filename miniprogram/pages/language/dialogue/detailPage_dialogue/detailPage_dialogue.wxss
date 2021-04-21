@@ -5,33 +5,26 @@ page{
   .letter_collection{
     display: flex;
     justify-content: space-between;
-    margin-left: 30rpx;
-    margin-right: 40rpx;
-    margin-top: 20rpx;
-    margin-bottom: 20rpx;
-    
+    margin: 30rpx;
   }
   
 
   .structure{
     margin-left: 40rpx;
+    margin-right: 30rpx;
+    line-height: 50rpx;
   }
 
   .letter_audio{
-    width:450rpx;
     display: flex;
+    align-items: center;
   }
   
   .letter{
     font-size: 70rpx;
-    width:450rpx;
     font-weight: 700;
   }
   
-  .audio{
-    width:50rpx;
-    align-self: center;
-  }
   
   .collection{
     width:50rpx;
@@ -56,4 +49,19 @@ page{
     background-color: rgb(200, 225, 248);
     margin:20rpx;
     color: rgb(27, 38, 202);
+  }
+
+
+  .audio_collection{
+    display: flex;
+    margin: 30rpx;
+    margin-top: 0;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .audio{
+    width:45rpx;
+    margin-left: 20rpx;
+    margin-right: 30rpx;
   }

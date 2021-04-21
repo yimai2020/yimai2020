@@ -1,23 +1,28 @@
+
 <view  class="letter_collection" >
   <view class="letter">{{letter}}</view>
-  <view class="collection">
-  <van-icon name="volume-o" size="35px" bindtap="playAudio" />
-    
-  </view>
+  <view style="text-align:right;margin-bottom:20rpx;">--{{title}},{{num}}</view>
 </view>
-<view style="text-align:right;margin-bottom:20rpx;">--{{title}},{{num}}</view>
-<van-divider />
-<view style="margin:20rpx auto 30rpx 30rpx;font-weight:700;">翻译</view>
-<view  class="letter_collection" >
-  <view style="margin:10rpx auto 30rpx 30rpx;color: rgba(143, 143, 143, 0.993);">{{explain}}</view>
+
+<view class="audio_collection">
+  <image wx:if='{{!onplay}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/guangbo.png?sign=8eb9c9e1be77cd9e095b229c1a5e1a9a&t=1584865651" bindtap="playAudio" class="audio" mode='widthFix'></image>
+  <image wx:if='{{onplay}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/guangbo_play.png?sign=b54fd68fd229c88b66b104c975f48010&t=1584865670" bindtap="playAudio" class="audio" mode='widthFix'></image>
   <view class="collection">
     <image catchtap='collectionIcon' wx:if='{{!isCollected}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/uncollected.png?sign=2b61e41ae0b739296585deaaeb25f2b2&t=1583640849"  mode='widthFix'  style="width: 100%;"></image>
     <image catchtap='collectionIcon' wx:if='{{isCollected}}' src="https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/collected.png?sign=1d7d35b697518ec283e196ab9b5e5444&t=1583640875"  mode='widthFix'  style="width: 100%;"></image>
   </view>
 </view>
+
+
+<van-divider />
+<view style="margin:20rpx auto 30rpx 30rpx;font-weight:700;">翻译</view>
+<view >
+  <view style="margin:30rpx;color: rgba(143, 143, 143, 0.993);">{{explain}}</view>
+  
+</view>
 <van-divider />
 <view style="margin:20rpx auto 30rpx 30rpx;font-weight:700;">寓意</view>
 
-  <view style="margin:10rpx auto 30rpx 30rpx;color: rgba(143, 143, 143, 0.993);">{{meaning}}</view>
+  <view style="margin:30rpx;color: rgba(143, 143, 143, 0.993);">{{meaning}}</view>
 
 <button catchtap='knewButtom' wx:if='{{!isKnew}}' class="knew">已认识</button>

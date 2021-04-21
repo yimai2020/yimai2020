@@ -30,6 +30,7 @@ Page({
       that.setData({
         currentTab: e.target.dataset.current,
       })
+      
     }
   },
   //页面轮播功能函数

@@ -1,6 +1,7 @@
 const db = wx.cloud.database({
   env: 'fxy-onc8b'
 }); 
+const audio = wx.createInnerAudioContext();
 Page({
 
   /**
@@ -17,10 +18,28 @@ Page({
     isCollected: null,
     isKnew: null
   },
-  playAudio: function () {
-    const audio = wx.createInnerAudioContext();
-    audio.src = this.data.pronunciation;
+
+  playAudio:function(){
+    let that = this;
+    audio.autoplay = true;
+    audio.src = that.data.pronunciation;
+    console.log(audio.src);
     audio.play();
+    audio.onPlay(() => {
+      console.log('开始播放');
+      that.setData({
+        onplay:true
+      })
+    })
+    audio.onEnded(() => {
+      console.log('自动播放完毕');
+      that.setData({
+        onplay: false
+      })
+    })
+    audio.onError((err) => {
+      console.log(err);
+    })
   },
   
   collectionIcon: function () {//收藏&取消收藏
@@ -61,7 +80,7 @@ Page({
 
       //获取article_unstudied中本词的id
       db.collection('article_unstudied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -84,7 +103,7 @@ Page({
 
       //获取article_studied中本词的id
       db.collection('article_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -108,7 +127,7 @@ Page({
 
       //获取article_knew中本词的id
       db.collection('article_knew').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -134,7 +153,7 @@ Page({
     if (!isCollected) {//取消收藏
 
       db.collection('article_collected').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({//获取本词的id,以便进行删除操作
@@ -155,7 +174,7 @@ Page({
 
       //获取article_unstudied中本词的id
       db.collection('article_unstudied').where({
-        pronunciation: that.data.pronunciation
+        explain: that.data.explain
       })
         .get({
           success(res) {
@@ -177,7 +196,7 @@ Page({
 
       //获取article_studied中本词的id
       db.collection('article_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -201,7 +220,7 @@ Page({
 
       //获取article_knew中本词的id
       db.collection('article_knew').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -237,7 +256,7 @@ Page({
 
       //在article_unstudied寻找本词的_id
       db.collection('article_unstudied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -257,7 +276,7 @@ Page({
 
       //在article_studied寻找本词的_id
       db.collection('article_studied').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({
@@ -277,7 +296,7 @@ Page({
 
       //在article_collected寻找本词的_id
       db.collection('article_collected').where({
-        pronunciation: that.data.pronunciation,
+        explain: that.data.explain,
         openid: that.data.openid
       })
         .get({

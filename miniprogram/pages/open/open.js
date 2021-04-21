@@ -394,16 +394,19 @@ Page({
     onUnload: function () {},
     onPullDownRefresh: function () {},
     Gotoculture:function(){
+      wx.vibrateShort({})
         wx.switchTab({
             url: '../culture/culture'
           })
     },
     Gotodistinguish:function(){
+      wx.vibrateShort({})
       wx.switchTab({
           url: '../distinguish/distinguish'
         })
   },
     Gotostudy:function(){
+      wx.vibrateShort({})
       wx.switchTab({
           url: '../language/language'
         })
