@@ -82,126 +82,16 @@ Page({
         audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/duizi.jpg?sign=205ed586f49f07fbd05f2a5d76ff8159&t=1584869920'
       }, {
-        letter: 'ꍮꉘ',
-        explain: '米糊糊',
-        pronunciation: 'chex hxo',
-        sentence_yi: 'ꍮꉘ꒔ꉽꐯ',
-        sentence_zhong: '一锅米糊糊',
+        letter: 'ꂷꋐ',
+        explain: '砍竹',
+        pronunciation: 'ma zzit',
+        sentence_yi: 'ꀉꄉꂷꋐꁧꀐ',
+        sentence_zhong: '爸爸去砍竹了',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/mihuhu.png?sign=f6313d197c571824127b7fa37f6fe44e&t=1589541205'
-      }, {
-        letter: 'ꍮꒉ',
-        explain: '米汤',
-        pronunciation: 'chex yy',
-        sentence_yi: 'ꍮꒉꅝ',
-        sentence_zhong: '喝米汤',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E7%B1%B3%E6%B1%A4.jpg?sign=09f0a2645368f53e64900f95cf4deb41&t=1589541216'
-      }, {
-        letter: 'ꍯꐎ',
-        explain: '白米',
-        pronunciation: 'che qu',
-        sentence_yi: 'ꍯꐎ꒔ꁀꎼ',
-        sentence_zhong: '一袋白米',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/baimi.png?sign=7d6b429a73f154462e96d4c9feb8fad6&t=1589541228'
-      }, {
-        letter: 'ꍯꃅ',
-        explain: '稻田',
-        pronunciation: 'che mu',
-        sentence_yi: 'ꍯꃅꇬ꒧ꁨ',
-        sentence_zhong: '在田间劳作',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/daotian.png?sign=32bfde1ed73a4efad365e2d67786b5c3&t=1589541241'
-      }, {
-        letter: 'ꐕꍯ',
-        explain: '汽车',
-        pronunciation: 'qyp che',
-        sentence_yi: 'ꉪꏤꐕꍯꇷꌊꇁꀐ',
-        sentence_zhong: '我家买了一辆汽车',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/qiche.jpg?sign=120368b5c56b34a696d349f74ef73727&t=1589541252'
-      }, {
-        letter: 'ꍯꄁ',
-        explain: '舂米',
-        pronunciation: 'che dix',
-        sentence_yi: 'ꍯꄁꍮꐯꅐ',
-        sentence_zhong: '舂米出碎米',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/chongmi.png?sign=b40c5aabb9b0830a0bba19b16c049a48&t=1589541262'
-      }, {
-        letter: 'ꁉꍰ',
-        explain: '灰尘',
-        pronunciation: 'pop chep',
-        sentence_yi: 'ꑓꋪꁉꍰꊐ',
-        sentence_zhong: '眼睛进了灰尘',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/huicheng.jpg?sign=21f3f5107c8fdd827296f9094d9047f7&t=1589541282'
-      }, {
-        letter: 'ꍰꆗ',
-        explain: '调查',
-        pronunciation: 'chep hlit',
-        sentence_yi: 'ꍰꆗꅐꇁ',
-        sentence_zhong: '调查出来',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/diaocha.jpg?sign=8d1c7b5e688c33c11e0474b1bb82524d&t=1589541293'
-      }, {
-        letter: 'ꑓꍰꀕ',
-        explain: '目瞪口呆',
-        pronunciation: 'nyuo chep w',
-        sentence_yi: 'ꋌꇷꑓꍰꀕ',
-        sentence_zhong: '被吓的目瞪口呆',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/mudengkoudai.jpg?sign=956be1d618275e5a879f63baf91ed280&t=1589541305'
-      }, {
-        letter: 'ꂶꁿ',
-        explain: '竹捆',
-        pronunciation: 'max nba',
-        sentence_yi: 'ꂶꁿꌕꂷ',
-        sentence_zhong: '三个竹捆',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhukun.jpg?sign=e8b93c1054f8d20229e4d1c42b94512a&t=1589541316'
-      }, {
-        letter: 'ꑅꍓꎸꁿ',
-        explain: '切肤割肉',
-        pronunciation: 'njyx zhe she nba',
-        sentence_yi: 'ꊿꌌꑅꍓꎸꁿ',
-        sentence_zhong: '受尽折磨',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/shoujinzhemo.jpg?sign=84c4a219247d6eb2149ce03b3c9d7b34&t=1589541337'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%A0%8D%E7%AB%B9.m4a?sign=b80ef948a91891cb67e029c0436dc080&t=1618977606',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%88%B8%E7%88%B8%E5%8E%BB%E7%A0%8D%E7%AB%B9%E4%BA%86.m4a?sign=d7b2883de93bb01ef5710b52ebadc198&t=1618977622',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kanzhu.png?sign=05e91de871bf3d6701e4f5afa284bbce&t=1589541511'
       }, {
         letter: 'ꂁꄉꁿꄉ',
         explain: '秘密',
@@ -210,53 +100,31 @@ Page({
         sentence_zhong: '不是秘密',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: ''
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%A7%98%E5%AF%86.m4a?sign=847f0b4c95a796e42612311f2b503336&t=1618977694',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%8D%E6%98%AF%E7%A7%98%E5%AF%86.m4a?sign=544f701d7e8b4928bcd302b17c39aeb3&t=1618977708',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E7%A7%98%E5%AF%86.png?sign=16bc0364cc860f4b19985c55df72f419&t=1618987787'
       }, {
-        letter: 'ꂘꑳ',
-        explain: '教室',
-        pronunciation: 'hmat yi',
-        sentence_yi: 'ꂘꑳꈐꏭ',
-        sentence_zhong: '教室里面',
+        letter: 'ꋚꇢ',
+        explain: '馋嘴',
+        pronunciation: 'zza gat',
+        sentence_yi: 'ꀉꑳꋚꇢꂷ',
+        sentence_zhong: '一个馋嘴孩',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/jiaoshi.png?sign=c1cd57d34f631e2dc191791d51a80caa&t=1589541352'
-      }, {
-        letter: 'ꂀꑑꅉ',
-        explain: '可怜',
-        pronunciation: 'nbap njiep dde',
-        sentence_yi: 'ꀉꑳꂀꑑꅉꍈ',
-        sentence_zhong: '一个可怜的孩子',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E9%A6%8B%E5%98%B4.m4a?sign=57d148f46a0dd7725d567797e01b8930&t=1618977746',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E4%B8%AA%E9%A6%8B%E5%98%B4%E5%AD%A9.m4a?sign=512b53d823ba73708b1e456bc870db41&t=1618977763',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/chanzui.png?sign=8beb01221443731d29e4fcf22dde946a&t=1589541849'
+      },{
+        letter: 'ꅰꌋ',
+        explain: '太阳穴',
+        pronunciation: 'hnat si',
+        sentence_yi: 'ꅥꅰꌋꇬꄀ',
+        sentence_zhong: '打在太阳穴上',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kelian.jpg?sign=36d6d04d03735a3152362d6fc1d82f58&t=1589541361'
-      }, {
-        letter: 'ꄯꒉꂘ',
-        explain: '教书',
-        pronunciation: 'tep yy hmat',
-        sentence_yi: 'ꂘꃀꇬꊏꄯꒉꂘꇰ',
-        sentence_zhong: '老师正在教书',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/jiaoshu.png?sign=936f0b7bf81383f52cb757cf6f31da90&t=1589541372'
-      }, {
-        letter: 'ꂙꃨ',
-        explain: '杜鹃花',
-        pronunciation: 'hmax vie',
-        sentence_yi: 'ꂙꃨꀕꈍꀕ',
-        sentence_zhong: '杜鹃花开了',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/dujuanhua.png?sign=ef310456f806033074d050835b37c5fb&t=1589541386'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%A4%AA%E9%98%B3%E7%A9%B4.m4a?sign=a535a8ecd1032f839c3d4485fb9fe1fc&t=1618977799',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%89%93%E5%9C%A8%E5%A4%AA%E9%98%B3%E7%A9%B4%E4%B8%8A.m4a?sign=dd8c6779244732c9494a5e661b0222b9&t=1618977809',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/taiyangxue.png?sign=1c03c24a0be71ffcf062c67bd9918892&t=1589541588'
       }, {
         letter: 'ꂚꈢꉘꁌ',
         explain: '玛果梁子(地名)',
@@ -265,10 +133,32 @@ Page({
         sentence_zhong: '到玛果梁子去玩',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%8E%9B%E6%9E%9C%E6%A2%81%E5%AD%90.m4a?sign=42de6cdaa152e21315529e85b6524751&t=1618977848',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%88%B0%E7%8E%9B%E6%9E%9C%E6%A2%81%E5%AD%90%E5%8E%BB%E7%8E%A9.m4a?sign=9cc528d76c74e6d2726a181f27a2ddae&t=1618977859',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/maguoniangzi.jpg?sign=3a00ee3bc245f5b9189ce7262cec5f3b&t=1589541396'
       }, {
+        letter: 'ꂙꃨ',
+        explain: '杜鹃花',
+        pronunciation: 'hmax vie',
+        sentence_yi: 'ꂙꃨꀕꈍꀕ',
+        sentence_zhong: '杜鹃花开了',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%9D%9C%E9%B9%83%E8%8A%B1.m4a?sign=5ef629579a0a969873acbe2a7ba9b250&t=1618977892',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%9D%9C%E9%B9%83%E8%8A%B1%E5%BC%80%E4%BA%86.m4a?sign=5462a6c7bb1a39fcaf92c0d1fab22e23&t=1618977900',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/dujuanhua.png?sign=ef310456f806033074d050835b37c5fb&t=1589541386'
+      },{
+        letter: 'ꅥꋒꅰꋒꊪ',
+        explain: '软硬兼施',
+        pronunciation: 'ndup zzi hnat zzi zy',
+        sentence_yi: 'ꇬꏭꅥꋒꅰꋒꊪ',
+        sentence_zhong: '对其软硬兼施',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%BD%AF%E7%A1%AC%E5%85%BC%E6%96%BD.m4a?sign=58e32e56f45359ff7aa59e7007e67b17&t=1618977951',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%AF%B9%E5%85%B6%E8%BD%AF%E7%A1%AC%E5%85%BC%E6%96%BD.m4a?sign=8020fae0f580284b33c11a982bdafde2&t=1618977981',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/ruanyinjianshi.png?sign=0057dd57eb07b47344f50b3d9bf65341&t=1589541566'
+      },  {
         letter: 'ꂛꊨ',
         explain: '父系兄弟',
         pronunciation: 'hmap zyt',
@@ -276,10 +166,54 @@ Page({
         sentence_zhong: '我有个兄弟是教师',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%88%B6%E7%B3%BB%E5%85%84%E5%BC%9F.m4a?sign=3d7a19859c654786f74f872571a53ac5&t=1618978016',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E6%9C%89%E4%B8%AA%E5%85%84%E5%BC%9F%E6%98%AF%E6%95%99%E5%B8%88.m4a?sign=afaea2fb0f06c1564cb91c950b48af9c&t=1618978026',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/xiongdi.jpg?sign=e48d1a11a8e28b9933bc7ca8b4b6b4d5&t=1589541420'
       }, {
+        letter: 'ꇥꀯ',
+        explain: '干部',
+        pronunciation: 'gap bup',
+        sentence_yi: 'ꇩꏤꇥꀯ',
+        sentence_zhong: '国家干部',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%B9%B2%E9%83%A8.m4a?sign=19c8920d6c7f2e92d7d2d77c51b60d74&t=1618978061',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%9B%BD%E5%AE%B6%E5%B9%B2%E9%83%A8.m4a?sign=85666fd94fda73ccb7fd7daf5f5c9e20&t=1618978072',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/guojiaganbu.png?sign=48004d1dc420decb58f541846bf713ed&t=1589541923'
+      }, {
+        letter: 'ꇢꇑ',
+        explain: '锅庄',
+        pronunciation: 'gat lup',
+        sentence_yi: 'ꇢꇑꌕꂷ',
+        sentence_zhong: '三个锅庄',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E9%94%85%E5%BA%84.m4a?sign=be9171f88fecc3f70e58b4fdbc050c67&t=1618978109',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%89%E4%B8%AA%E9%94%85%E5%BA%84.m4a?sign=7bd2c6c715db1cc1ee13f9d1206d9144&t=1618978119',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/guozhuang.png?sign=546731ef90d3a0b746b7e8d416597559&t=1589541822'
+      }, {
+        letter: 'ꇣꑐ',
+        explain: '火钳',
+        pronunciation: 'gax nyie',
+        sentence_yi: 'ꇣꑐꊏ',
+        sentence_zhong: '一把火钳',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%81%AB%E9%92%B3.m4a?sign=9daa39746e47912d3d6fbc1eba426e7a&t=1618978162',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E6%8A%8A%E7%81%AB%E9%92%B3.m4a?sign=569679172d3238c11bfa543983b46d59&t=1618978174',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/huoqian.png?sign=133c1d7d8ea9afe49a509ce3a3edae05&t=1589541875'
+      },{
+        letter: 'ꇤꁦꇉ',
+        explain: '火塘边',
+        pronunciation: 'ga bbox lo',
+        sentence_yi: 'ꇤꁦꇉꑌ',
+        sentence_zhong: '坐在火塘边',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%81%AB%E5%A1%98%E8%BE%B9.m4a?sign=4658b4d102c041b6c30a8307c39bd2a6&t=1618978209',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%9D%90%E5%9C%A8%E7%81%AB%E5%A1%98%E8%BE%B9.m4a?sign=944fc370384ddfea0dd82beda5396461&t=1618978223',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/huotang.png?sign=4a71f8c42e48e0de952f0cbbaaf1594a&t=1589541899'
+      },{
         letter: 'ꂛꊨꋊꃤ',
         explain: '家族成员',
         pronunciation: 'hmap zyt cyt vi',
@@ -287,75 +221,64 @@ Page({
         sentence_zhong: '家族成员互相帮忙',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%AE%B6%E6%97%8F%E6%88%90%E5%91%98.m4a?sign=ceef0f32127e9358afbabe2ebe0534a0&t=1618985714',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%AE%B6%E6%97%8F%E6%88%90%E5%91%98%E4%BA%92%E7%9B%B8%E5%B8%AE%E5%BF%99.m4a?sign=f0840bfbe0acd5a45abb2b31719cba44&t=1618985721',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/jiazuchengyuan.jpg?sign=d231baeb9d0e432be92e875a9da93659&t=1589541432'
       }, {
-        letter: 'ꀊꂵ',
-        explain: '奶奶',
-        pronunciation: 'a mat',
-        sentence_yi: 'ꐴꀊꂵꀑꐎꀐ',
-        sentence_zhong: '我的奶奶头发白了',
+        letter: 'ꂘꑳ',
+        explain: '教室',
+        pronunciation: 'hmat yi',
+        sentence_yi: 'ꂘꑳꈐꏭ',
+        sentence_zhong: '教室里面',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/nainai.jpg?sign=c63d5e9fa81eadf27bee4aaeba4e2f8b&t=1589541443'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%95%99%E5%AE%A4.m4a?sign=b3d1b43c6bffdf657bd23052619a7e49&t=1618985768',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%95%99%E5%AE%A4%E9%87%8C%E9%9D%A2.m4a?sign=688369f46c8f585fd441f108e3982bf7&t=1618985775',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/jiaoshi.png?sign=c1cd57d34f631e2dc191791d51a80caa&t=1589541352'
       }, {
-        letter: 'ꇓꂵ',
-        explain: '石头',
-        pronunciation: 'lur mat',
-        sentence_yi: 'ꇓꂵꀉꒉꂷ',
-        sentence_zhong: '一个大石头',
+        letter: 'ꄯꒉꂘ',
+        explain: '教书',
+        pronunciation: 'tep yy hmat',
+        sentence_yi: 'ꂘꃀꇬꊏꄯꒉꂘꇰ',
+        sentence_zhong: '老师正在教书',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/dashitou.png?sign=c652e944d6ec553f2b6bf4887ce78622&t=1589541482'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%95%99%E4%B9%A6.m4a?sign=0965efa457b71ff8cbb1c80b29b8ce34&t=1618985806',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%80%81%E5%B8%88%E6%AD%A3%E5%9C%A8%E6%95%99%E4%B9%A6.m4a?sign=730b20bb39987914670029b97cd9a778&t=1618985816',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/jiaoshu.png?sign=936f0b7bf81383f52cb757cf6f31da90&t=1589541372'
       }, {
-        letter: 'ꂶꏪ',
-        explain: '竹林',
-        pronunciation: 'max juo',
-        sentence_yi: 'ꂶꏪꈬꇬ',
-        sentence_zhong: '竹林深处',
+        letter: 'ꇥꁠ',
+        explain: '开朗',
+        pronunciation: 'gap bba',
+        sentence_yi: 'ꀉꐔꇥꁠꂷ',
+        sentence_zhong: '一位开朗的姑娘',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhulin.jpg?sign=73a9e7355f6a70ec607611e961cdf24c&t=1589541495'
-      }, {
-        letter: 'ꂷꋐ',
-        explain: '砍竹',
-        pronunciation: 'ma zzit',
-        sentence_yi: 'ꀉꄉꂷꋐꁧꀐ',
-        sentence_zhong: '爸爸去砍竹了',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%BC%80%E6%9C%97.m4a?sign=de26c6b2d9c13aaa7b16cae7d392f90f&t=1618985854',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E4%BD%8D%E5%BC%80%E6%9C%97%E7%9A%84%E5%A7%91%E5%A8%98.m4a?sign=d7d8f2a8be731b23230934d3c4554ed5&t=1618985867',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E5%BC%80%E6%9C%97.png?sign=58f5ffcc6bdf925f83e1edc071f38303&t=1589541951'
+      },{
+        letter: 'ꂀꑑꅉ',
+        explain: '可怜',
+        pronunciation: 'nbap njiep dde',
+        sentence_yi: 'ꀉꑳꂀꑑꅉꍈ',
+        sentence_zhong: '一个可怜的孩子',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kanzhu.png?sign=05e91de871bf3d6701e4f5afa284bbce&t=1589541511'
-      }, {
-        letter: 'ꂷꃅ',
-        explain: '竹艺',
-        pronunciation: 'ma mu',
-        sentence_yi: 'ꋋꆹꂷꃅCꂷꉬ',
-        sentence_zhong: '他的竹编手艺好',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%8F%AF%E6%80%9C.m4a?sign=1b3bdb4c854c2b70aba7dff3cf96f085&t=1618985941',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E4%B8%AA%E5%8F%AF%E6%80%9C%E7%9A%84%E5%AD%A9%E5%AD%90.m4a?sign=0c0b9396d93295311aaf57a9abd60efd&t=1618985952',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kelian.jpg?sign=36d6d04d03735a3152362d6fc1d82f58&t=1589541361'
+      },{
+        letter: 'ꇤꐳ',
+        explain: '快速',
+        pronunciation: 'ga nji',
+        sentence_yi: 'ꇤꐳꃅꁧ',
+        sentence_zhong: '快速地走',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhubian.jpg?sign=783e501ef3fccb499fc285d68bd3a20d&t=1589541520'
-      }, {
-        letter: 'ꂷꊂ',
-        explain: '伤疤',
-        pronunciation: 'ma wa',
-        sentence_yi: 'ꇇꇬꂷꊂ',
-        sentence_zhong: '手上的伤疤',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/shangba.jpg?sign=6b89eab07e740b6069638ccfc3436db4&t=1589541533'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%BF%AB%E9%80%9F.m4a?sign=c518908fe478ec16ecbccb96d34d44bb&t=1618985976',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%BF%AB%E9%80%9F%E7%9A%84%E8%B5%B0.m4a?sign=1423ac29a8c58ba316b4ed1536eeb49c&t=1618985983',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kuaisu.jpg?sign=284a27e9069e8fcf7b24e7486ae15490&t=1589541909'
       },{
         letter: 'ꂸꀮ',
         explain: '麻卜(草药名)',
@@ -364,75 +287,53 @@ Page({
         sentence_zhong: '麻卜是一种创伤药',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E9%BA%BB%E5%8D%9C.m4a?sign=6cf17ecd5e6e6e8ffa413613fc7c3f80&t=1618986064',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E9%BA%BB%E5%8D%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E5%88%9B%E4%BC%A4%E8%8D%AF.m4a?sign=44972be1c125d8d2666c5e833d92dc14&t=1618986284',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/mabu.png?sign=11e98df4c071ab6e0838cbbfd68109e5&t=1589541541'
-      }, {
-        letter: 'ꂸꆸꀮ',
-        explain: '圆润',
-        pronunciation: 'map lix bu',
-        sentence_yi: 'ꇓꂵꂸꆸꀮꅍꑠꂷ',
-        sentence_zhong: '一个圆润的石头',
+      },  {
+        letter: 'ꀊꂵ',
+        explain: '奶奶',
+        pronunciation: 'a mat',
+        sentence_yi: 'ꐴꀊꂵꀑꐎꀐ',
+        sentence_zhong: '我的奶奶头发白了',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/yuanrun.jpg?sign=46ddfa8ae4ebcb3922227319506c3974&t=1589541555'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%A5%B6%E5%A5%B6.m4a?sign=7960f985e1eceec5177a40f4e13885b0&t=1618986371',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E7%9A%84%E5%A5%B6%E5%A5%B6%E5%A4%B4%E5%8F%91%E7%99%BD%E4%BA%86.m4a?sign=4009c30a18ea80c890eccfe9b4003699&t=1618986382',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/nainai.jpg?sign=c63d5e9fa81eadf27bee4aaeba4e2f8b&t=1589541443'
       }, {
-        letter: 'ꅥꋒꅰꋒꊪ',
-        explain: '软硬兼施',
-        pronunciation: 'ndup zzi hnat zzi zy',
-        sentence_yi: 'ꇬꏭꅥꋒꅰꋒꊪ',
-        sentence_zhong: '对其软硬兼施',
+        letter: 'ꇣꋲ',
+        explain: '奇特',
+        pronunciation: 'gax nzie',
+        sentence_yi: 'ꁬꇣꋲꁧ',
+        sentence_zhong: '一棵奇特的草',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/ruanyinjianshi.png?sign=0057dd57eb07b47344f50b3d9bf65341&t=1589541566'
-      }, {
-        letter: 'ꑻꅰ',
-        explain: '阉羊',
-        pronunciation: 'yuo hnat',
-        sentence_yi: 'ꑻꅰꀊꐎꂷ',
-        sentence_zhong: '一只白阉羊',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%A5%87%E7%89%B9.m4a?sign=43c574f6e6e63fbb6d8e81ec943b847a&t=1618986406',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E9%A2%97%E5%A5%87%E7%89%B9%E7%9A%84%E8%8D%89.m4a?sign=a6bb00fa8f7bf207845f1ec826bb021d&t=1618986446',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/qite.jpg?sign=cfd24daf5ce840040130f69e132cab39&t=1589541863'
+      },{
+        letter: 'ꅳꍩ',
+        explain: '枪',
+        pronunciation: 'hnap chot',
+        sentence_yi: 'ꅳꍩꋬ',
+        sentence_zhong: '一支枪',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/yanyang.jpg?sign=718601eb35452967c4eb1fcd65c7542b&t=1589541576'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%9E%AA.m4a?sign=07b66fc9800accb6f2c5e0a44b82b87f&t=1618986483',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E6%94%AF%E6%9E%AA.m4a?sign=2e89aef38cfdcf04a3d414202a44c083&t=1618986499',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/qiang.png?sign=993962c83fc54a1b2adc186c460a9dcf&t=1589541804'
       }, {
-        letter: 'ꅰꌋ',
-        explain: '太阳穴',
-        pronunciation: 'hnat si',
-        sentence_yi: 'ꅥꅰꌋꇬꄀ',
-        sentence_zhong: '打在太阳穴上',
+        letter: 'ꑅꍓꎸꁿ',
+        explain: '切肤割肉',
+        pronunciation: 'njyx zhe she nba',
+        sentence_yi: 'ꊿꌌꑅꍓꎸꁿ',
+        sentence_zhong: '受尽折磨',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/taiyangxue.png?sign=1c03c24a0be71ffcf062c67bd9918892&t=1589541588'
-      }, {
-        letter: 'ꅱꈻꅲꊨ',
-        explain: '再三追问',
-        pronunciation: 'hnax mgo hna zyt',
-        sentence_yi: 'ꅱꈻꅲꊨꅍ',
-        sentence_zhong: '追问不休',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zaisanzhuiwen.jpg?sign=9968eee455bbd13bd7230ffa58d90e9d&t=1589541603'
-      }, {
-        letter: 'ꅲꇢ',
-        explain: '印堂',
-        pronunciation: 'hna gat',
-        sentence_yi: 'ꅲꇢꁨꐥꀕ',
-        sentence_zhong: '印堂发亮',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E5%8D%B0%E5%A0%82.jpg?sign=65de691b15ddd22f8fb5936fd347597b&t=1589541709'
+        audio_word: ' https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%88%87%E8%82%A4%E5%89%B2%E8%82%89.m4a?sign=8ac56cf91d045f35fdc1b0ab26627792&t=1618987387',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%8F%97%E5%B0%BD%E6%8A%98%E7%A3%A8.m4a?sign=13ee5e857cfa850f651b072c643e94e0&t=1618986544',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/shoujinzhemo.jpg?sign=84c4a219247d6eb2149ce03b3c9d7b34&t=1589541337'
       }, {
         letter: 'ꅲꄉ',
         explain: '听着',
@@ -441,8 +342,8 @@ Page({
         sentence_zhong: '请你听着',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%90%AC%E7%9D%80.m4a?sign=49ce2237bab5ca0ec6b97685f08c626b&t=1618986581',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%AF%B7%E4%BD%A0%E5%90%AC%E7%9D%80.m4a?sign=c769a279d161f1f89931d16efb970fea&t=1618986594',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/tingzhe.png?sign=69325ecb421bf4a91bf374b481bc5136&t=1589541739'
       }, {
         letter: 'ꅲꐡ',
@@ -452,31 +353,108 @@ Page({
         sentence_zhong: '有缺口的一个筛子',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: ''
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%BC%BA%E5%8F%A3.m4a?sign=69ae651532ad96e47f3c9334458f2fc9&t=1618986622',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%9C%89%E7%BC%BA%E5%8F%A3%E7%9A%84%E4%B8%80%E4%B8%AA%E7%AD%9B%E5%AD%90.m4a?sign=1508bbf5de1c0e745b90b4cf1d74a707&t=1618986635',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E7%AD%9B%E5%AD%90.jpg?sign=169aa3db71a71a76e296dbc1ee072808&t=1618987766'
       }, {
-        letter: 'ꅳꍩ',
-        explain: '枪',
-        pronunciation: 'hnap chot',
-        sentence_yi: 'ꅳꍩꋬ',
-        sentence_zhong: '一支枪',
+        letter: 'ꅥꋒꅰꋒꊪ',
+        explain: '软硬兼施',
+        pronunciation: 'ndup zzi hnat zzi zy',
+        sentence_yi: 'ꇬꏭꅥꋒꅰꋒꊪ',
+        sentence_zhong: '对其软硬兼施',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/qiang.png?sign=993962c83fc54a1b2adc186c460a9dcf&t=1589541804'
-      }, {
-        letter: 'ꇢꇑ',
-        explain: '锅庄',
-        pronunciation: 'gat lup',
-        sentence_yi: 'ꇢꇑꌕꂷ',
-        sentence_zhong: '三个锅庄',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%BD%AF%E7%A1%AC%E5%85%BC%E6%96%BD.m4a?sign=76c238e3ea074bff303fc1e5e5216d42&t=1618986667',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%AF%B9%E5%85%B6%E8%BD%AF%E7%A1%AC%E5%85%BC%E6%96%BD.m4a?sign=f4d804100da45a2d9ebf5d29a49798b4&t=1618986675',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/ruanyinjianshi.png?sign=0057dd57eb07b47344f50b3d9bf65341&t=1589541566'
+      },{
+        letter: 'ꂶꁿ',
+        explain: '竹捆',
+        pronunciation: 'max nba',
+        sentence_yi: 'ꂶꁿꌕꂷ',
+        sentence_zhong: '三个竹捆',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/guozhuang.png?sign=546731ef90d3a0b746b7e8d416597559&t=1589541822'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%AB%B9%E6%A2%B1.m4a?sign=a0c9cbda38b042a81c8fe0d5a1b866e3&t=1618986763',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%89%E4%B8%AA%E7%AB%B9%E6%A2%B1.m4a?sign=ef4c89c42a991173246eff047f3952d3&t=1618986750',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhukun.jpg?sign=e8b93c1054f8d20229e4d1c42b94512a&t=1589541316'
+      }, {
+        letter: 'ꂷꊂ',
+        explain: '伤疤',
+        pronunciation: 'ma wa',
+        sentence_yi: 'ꇇꇬꂷꊂ',
+        sentence_zhong: '手上的伤疤',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%BC%A4%E7%96%A4.m4a?sign=6d36df24e63d1a4e241b69c34c673f8e&t=1618986796',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BC%A4%E7%96%A4.m4a?sign=91d2f0a7366b7a598edc61363c83cec5&t=1618986810',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/shangba.jpg?sign=6b89eab07e740b6069638ccfc3436db4&t=1589541533'
+      },{
+        letter: 'ꇓꂵ',
+        explain: '石头',
+        pronunciation: 'lur mat',
+        sentence_yi: 'ꇓꂵꀉꒉꂷ',
+        sentence_zhong: '一个大石头',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%9F%B3%E5%A4%B4.m4a?sign=ef60e25da9b3e052389839a5addbd137&t=1618986841',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E4%B8%AA%E5%A4%A7%E7%9F%B3%E5%A4%B4.m4a?sign=ed18a8318ddd43af0012ce2b0d7c268c&t=1618986851',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/dashitou.png?sign=c652e944d6ec553f2b6bf4887ce78622&t=1589541482'
+      }, {
+        letter: 'ꂷꃅ',
+        explain: '竹艺',
+        pronunciation: 'ma mu',
+        sentence_yi: 'ꋋꆹꂷꃅCꂷꉬ',
+        sentence_zhong: '他的竹编手艺好',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%AB%B9%E8%89%BA.m4a?sign=276766715e5ddfa24f9068b90164fdb1&t=1618986923',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%BB%96%E7%9A%84%E7%AB%B9%E7%BC%96%E6%89%8B%E8%89%BA%E5%A5%BD.m4a?sign=4585f9c1932739f6c5a0e8219f02fb06&t=1618986935',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhubian.jpg?sign=783e501ef3fccb499fc285d68bd3a20d&t=1589541520'
+      }, {
+        letter: 'ꑻꅰ',
+        explain: '阉羊',
+        pronunciation: 'yuo hnat',
+        sentence_yi: 'ꑻꅰꀊꐎꂷ',
+        sentence_zhong: '一只白阉羊',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E9%98%89%E7%BE%8A.m4a?sign=771193e4df79072eb4747b9792a78c1f&t=1618986993',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E5%8F%AA%E7%99%BD%E9%98%89%E7%BE%8A.m4a?sign=d0f29e50789b6782b92e062c00bd991c&t=1618987007',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/yanyang.jpg?sign=718601eb35452967c4eb1fcd65c7542b&t=1589541576'
+      }, {
+        letter: 'ꅲꇢ',
+        explain: '印堂',
+        pronunciation: 'hna gat',
+        sentence_yi: 'ꅲꇢꁨꐥꀕ',
+        sentence_zhong: '印堂发亮',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%8D%B0%E5%A0%82.m4a?sign=a702ad5a64f8727a343bacd293d11341&t=1618987043',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%8D%B0%E5%A0%82%E5%8F%91%E4%BA%AE.m4a?sign=f222a8a0214859c3465b706e8cbfb767&t=1618987056',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E5%8D%B0%E5%A0%82.jpg?sign=65de691b15ddd22f8fb5936fd347597b&t=1589541709'
+      }, {
+        letter: 'ꂸꆸꀮ',
+        explain: '圆润',
+        pronunciation: 'map lix bu',
+        sentence_yi: 'ꇓꂵꂸꆸꀮꅍꑠꂷ',
+        sentence_zhong: '一个圆润的石头',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%9C%86%E6%B6%A6.m4a?sign=22cfd3ce105b8ece722f519ce4bd6d10&t=1618987089',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%80%E4%B8%AA%E5%9C%86%E6%B6%A6%E7%9A%84%E7%9F%B3%E5%A4%B4.m4a?sign=d3759d25505f4ecbb19ac033129eebf2&t=1618987100',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/yuanrun.jpg?sign=46ddfa8ae4ebcb3922227319506c3974&t=1589541555'
+      },{
+        letter: 'ꅱꈻꅲꊨ',
+        explain: '再三追问',
+        pronunciation: 'hnax mgo hna zyt',
+        sentence_yi: 'ꅱꈻꅲꊨꅍ',
+        sentence_zhong: '追问不休',
+        isCollected: false,
+        isKnew: false,
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%86%8D%E4%B8%89%E8%BF%BD%E9%97%AE.m4a?sign=4188856dbe7f62f746c5bf280897f38c&t=1618987130',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%BF%BD%E9%97%AE%E4%B8%8D%E4%BC%91.m4a?sign=32902c737bd1cbda2c945d2d8fb99512&t=1618987138',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zaisanzhuiwen.jpg?sign=9968eee455bbd13bd7230ffa58d90e9d&t=1589541603'
       }, {
         letter: 'ꇢꊭ',
         explain: '中间',
@@ -485,42 +463,31 @@ Page({
         sentence_zhong: '在中间',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%B8%AD%E9%97%B4.m4a?sign=44d80f458d6736000cd2192e88c3556e&t=1618987161',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%9C%A8%E4%B8%AD%E9%97%B4.m4a?sign=f6ac656d588103d40503501e2258c973&t=1618987173',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhongjian.jpg?sign=ad2a9a22737717973b21e27527a24bfa&t=1589541836'
       }, {
-        letter: 'ꋚꇢ',
-        explain: '馋嘴',
-        pronunciation: 'zza gat',
-        sentence_yi: 'ꀉꑳꋚꇢꂷ',
-        sentence_zhong: '一个馋嘴孩',
+        letter: 'ꇥꀥꈿ',
+        explain: '争先',
+        pronunciation: 'gap bot mgep',
+        sentence_yi: 'ꇥꀥꈿꄉꃅ',
+        sentence_zhong: '争着做',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/chanzui.png?sign=8beb01221443731d29e4fcf22dde946a&t=1589541849'
-      },{
-        letter: 'ꇣꋲ',
-        explain: '奇特',
-        pronunciation: 'gax nzie',
-        sentence_yi: 'ꁬꇣꋲꁧ',
-        sentence_zhong: '一棵奇特的草',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%BA%89%E5%85%88.m4a?sign=840e5813d3cf2052d3757ad48039ef5e&t=1618987201',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E4%BA%89%E7%9D%80%E5%81%9A.m4a?sign=224c49b7a69e0e91700bf3b6c5790039&t=1618987210',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhenzhezuo.jpg?sign=8dce047c602fccbf5f633b73fbec9005&t=1589541934'
+      }, {
+        letter: 'ꂶꏪ',
+        explain: '竹林',
+        pronunciation: 'max juo',
+        sentence_yi: 'ꂶꏪꈬꇬ',
+        sentence_zhong: '竹林深处',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/qite.jpg?sign=cfd24daf5ce840040130f69e132cab39&t=1589541863'
-      },{
-        letter: 'ꇣꑐ',
-        explain: '火钳',
-        pronunciation: 'gax nyie',
-        sentence_yi: 'ꇣꑐꊏ',
-        sentence_zhong: '一把火钳',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/huoqian.png?sign=133c1d7d8ea9afe49a509ce3a3edae05&t=1589541875'
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%AB%B9%E6%9E%97.m4a?sign=ce96518dae16819be47ec1f5bf82f2ba&t=1618987239',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E7%AB%B9%E6%9E%97%E6%B7%B1%E5%A4%84.m4a?sign=e648c461e59037bb0ca89294c7dad7aa&t=1618987246',
+        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhulin.jpg?sign=73a9e7355f6a70ec607611e961cdf24c&t=1589541495'
       },{
         letter: 'ꇣꋦ',
         explain: '庄稼',
@@ -529,86 +496,9 @@ Page({
         sentence_zhong: '庄稼长势好',
         isCollected: false,
         isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
+        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%BA%84%E7%A8%BC.m4a?sign=40296ba5689c06e889a9a7747c555011&t=1618987273',
+        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E5%BA%84%E7%A8%BC%E9%95%BF%E5%8A%BF%E5%A5%BD.m4a?sign=6cd911ea620bc9c7ad6ce8dd04001253&t=1618987279',
         image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhuangjia.png?sign=58113d39c84711eeb68ddc1bb3c7cb22&t=1589541887'
-      },{
-        letter: 'ꇤꁦꇉ',
-        explain: '火塘边',
-        pronunciation: 'ga bbox lo',
-        sentence_yi: 'ꇤꁦꇉꑌ',
-        sentence_zhong: '坐在火塘边',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/huotang.png?sign=4a71f8c42e48e0de952f0cbbaaf1594a&t=1589541899'
-      },{
-        letter: 'ꇤꐳ',
-        explain: '快速',
-        pronunciation: 'ga nji',
-        sentence_yi: 'ꇤꐳꃅꁧ',
-        sentence_zhong: '快速地走',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/kuaisu.jpg?sign=284a27e9069e8fcf7b24e7486ae15490&t=1589541909'
-      },{
-        letter: 'ꇥꀯ',
-        explain: '干部',
-        pronunciation: 'gap bup',
-        sentence_yi: 'ꇩꏤꇥꀯ',
-        sentence_zhong: '国家干部',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/guojiaganbu.png?sign=48004d1dc420decb58f541846bf713ed&t=1589541923'
-      },{
-        letter: 'ꇥꀥꈿ',
-        explain: '争先',
-        pronunciation: 'gap bot mgep',
-        sentence_yi: 'ꇥꀥꈿꄉꃅ',
-        sentence_zhong: '争着做',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/zhenzhezuo.jpg?sign=8dce047c602fccbf5f633b73fbec9005&t=1589541934'
-      },{
-        letter: 'ꇥꁠ',
-        explain: '开朗',
-        pronunciation: 'gap bba',
-        sentence_yi: 'ꀉꐔꇥꁠꂷ',
-        sentence_zhong: '一位开朗的姑娘',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/%E5%BC%80%E6%9C%97.png?sign=58f5ffcc6bdf925f83e1edc071f38303&t=1589541951'
-      },{
-        letter: 'ꈳꏦ',
-        explain: '规矩',
-        pronunciation: 'mgax jie',
-        sentence_yi: 'ꈳꏦꍬ',
-        sentence_zhong: '遵守规矩',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/guiju.png?sign=54052fa324e26b3797bde04beffae3e0&t=1589541966'
-      },{
-        letter: 'ꈳꐥ',
-        explain: '通达',
-        pronunciation: 'zza',
-        sentence_yi: 'mgax jjo',
-        sentence_zhong: '事情顺利',
-        isCollected: false,
-        isKnew: false,
-        audio_word: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E8%82%9A%E5%AD%90.mp3?sign=b000065a6a576b9ea9db375ca054a651&t=1584865067',
-        audio_sentence: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word_audio/%E6%88%91%E8%82%9A%E5%AD%90%E9%A5%BF%E4%BA%86.mp3?sign=01fdd1107e85d8bd0f1696ddbb95a0e1&t=1584865073',
-        image: 'https://6678-fxy-onc8b-1300849435.tcb.qcloud.la/word/tongda.jpg?sign=9dacae5f25ffa93f93272e0af23c0e2c&t=1589541984'
       },
       ],
 
@@ -2369,6 +2259,7 @@ Page({
       console.log(err);
     });*/
 
+    
     this.getOpenid()//获取用户的openid
     getApp().loadFont();
     wx.getSystemInfo({//获取设备的宽高，用于轮播页面功能

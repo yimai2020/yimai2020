@@ -1,67 +1,72 @@
 page{
-    background-color: #fff;
-  }
-  
-  .letter_collection{
-    display: flex;
-    justify-content: space-between;
-    margin: 30rpx;
-  }
-  
+  background-color: #fff;
+}
 
-  .structure{
-    margin-left: 40rpx;
-    margin-right: 30rpx;
-    line-height: 50rpx;
-  }
-
-  .letter_audio{
-    display: flex;
-    align-items: center;
-  }
-  
-  .letter{
-    font-size: 70rpx;
-    font-weight: 700;
-  }
-  
-  
-  .collection{
-    width:50rpx;
-    height:50rpx;
-    align-self: center;
-  }
-  
-  .sentence_yi{
-    display: flex;
-    justify-content: space-between;
-    width: 700rpx;
-  }
-  
-  .knew {
-    font-size: 39rpx;
-    background: #fff;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    background-color: rgb(200, 225, 248);
-    margin:20rpx;
-    color: rgb(27, 38, 202);
-  }
+.letter_collection{
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx;
+}
 
 
-  .audio_collection{
-    display: flex;
-    margin: 30rpx;
-    margin-top: 0;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .audio{
-    width:45rpx;
-    margin-left: 20rpx;
-    margin-right: 30rpx;
-  }
+.structure{
+  margin-left: 40rpx;
+  margin-right: 30rpx;
+  line-height: 50rpx;
+}
+
+.letter_audio{
+  display: flex;
+  align-items: center;
+}
+
+.letter{
+  font-size: 70rpx;
+  font-weight: 700;
+}
+
+
+.collection{
+  width:50rpx;
+  height:50rpx;
+  align-self: center;
+}
+
+.sentence_yi{
+  display: flex;
+  justify-content: space-between;
+  width: 700rpx;
+}
+
+.knew {
+  font-size: 39rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  background-color: rgb(200, 225, 248);
+  margin:20rpx;
+  color: rgb(27, 38, 202);
+}
+
+
+.audio_collection{
+  display: flex;
+  margin: 30rpx;
+  margin-top: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.audio{
+  width:45rpx;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}
+
+.audio_all{
+  display: flex;
+  align-items: center;
+}

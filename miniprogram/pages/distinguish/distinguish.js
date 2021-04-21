@@ -148,7 +148,7 @@ Page({
           console.log(res.data.results);
           var list = res.data.results;
           var result = '';
-          if(list[0].score > 0.9){
+          if(list[0].score > 0.95){
             result = list[0].name,
             console.log(result);
             that.setData({
